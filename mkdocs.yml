@@ -30,11 +30,14 @@ nav:
 - Schemes:
   - Periodic Table: schemes.md
   - Elements:
-    - Zr:
-      - Overview: zr/index.md
-      - Zr-1: zr/zr-1.md
     - Ba:
       - Overview: ba/index.md
       - Ba-1: ba/ba-1.md
       - Ba-2: ba/ba-2.md
+    - Fe:
+      - Overview: fe/index.md
+      - Fe-1: fe/fe-1.md
+    - Zr:
+      - Overview: zr/index.md
+      - Zr-1: zr/zr-1.md
 - Contribute: contribute.md
