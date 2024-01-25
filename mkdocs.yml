@@ -40,4 +40,5 @@ nav:
     - Zr:
       - Overview: zr/index.md
       - Zr-1: zr/zr-1.md
+- Crystal calculator: crystal-calculator.md
 - Contribute: contribute.md
