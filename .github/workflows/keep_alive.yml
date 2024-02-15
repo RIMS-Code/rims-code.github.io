@@ -1,0 +1,27 @@
+# GitHub Action to run every 5 days and ping apps to check their status.
+
+name: Keep Alive
+on:
+  schedule:
+    - cron: '0 0 */5 * *'
+
+jobs:
+  build:
+    name: Request status of apps
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout main
+        uses: actions/checkout@v4
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+      - name: Install dependencies
+        run: |
+          cd maintenance/streamlit_apps
+          pip install -U pip
+            pip install -r requirements.txt
+      - name: Ping apps
+        run: |
+          cd maintenance/streamlit_apps
+          python keep_alive.py
