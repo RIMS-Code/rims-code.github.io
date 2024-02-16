@@ -33,6 +33,7 @@ dev-dependencies = [
 ]
 
 [tool.rye.scripts]
+build = "python -m rimscode_website.create_website"
 serve = "mkdocs serve"
 
 [tool.hatch.metadata]
