@@ -22,7 +22,7 @@ jobs:
     - name: Build website with rye
       run: |
         rye sync
-        rye run website
+        rye run build
     - name: Commit files
       run: |
         git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
