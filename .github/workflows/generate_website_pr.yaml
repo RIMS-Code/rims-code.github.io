@@ -21,7 +21,7 @@ jobs:
       uses: eifinger/setup-rye@v1
     - name: Build website with rye
       run: |
-        rye sync
+        rye sync --all-features
         rye run build
     - name: Commit files
       run: |
