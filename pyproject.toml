@@ -10,6 +10,8 @@ dependencies = [
     "mkdocs-material>=9.5.4",
     "numpy>=1.26.3",
     "pyyaml>=6.0.1",
+    "pytablewriter>=1.2.0",
+    "rimsschemedrawer @ git+https://github.com/RIMS-Code/RIMSSchemeDrawer.git",
 ]
 readme = "README.md"
 requires-python = ">= 3.11"
@@ -33,6 +35,7 @@ dev-dependencies = [
 ]
 
 [tool.rye.scripts]
+build = "python -m rimscode_website.create_website"
 serve = "mkdocs serve"
 
 [tool.hatch.metadata]

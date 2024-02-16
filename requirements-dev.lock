@@ -8,32 +8,38 @@
 #   with-sources: false
 
 -e file:.
-attrs==23.2.0
-    # via outcome
-    # via trio
 babel==2.14.0
     # via mkdocs-material
 certifi==2023.11.17
     # via requests
-    # via selenium
+chardet==5.2.0
+    # via mbstrdecoder
 charset-normalizer==3.3.2
     # via requests
 click==8.1.7
     # via mkdocs
 colorama==0.4.6
     # via mkdocs-material
+contourpy==1.2.0
+    # via matplotlib
+cycler==0.12.1
+    # via matplotlib
+dataproperty==1.0.1
+    # via pytablewriter
+    # via tabledata
+fonttools==4.49.0
+    # via matplotlib
 ghp-import==2.1.0
     # via mkdocs
-h11==0.14.0
-    # via wsproto
 idna==3.6
     # via requests
-    # via trio
 iniconfig==2.0.0
     # via pytest
 jinja2==3.1.3
     # via mkdocs
     # via mkdocs-material
+kiwisolver==1.4.5
+    # via matplotlib
 markdown==3.5.2
     # via mkdocs
     # via mkdocs-material
@@ -41,6 +47,12 @@ markdown==3.5.2
 markupsafe==2.1.4
     # via jinja2
     # via mkdocs
+matplotlib==3.8.3
+    # via rimsschemedrawer
+mbstrdecoder==1.1.3
+    # via dataproperty
+    # via pytablewriter
+    # via typepy
 mergedeep==1.3.4
     # via mkdocs
 mkdocs==1.5.3
@@ -51,16 +63,23 @@ mkdocs-material==9.5.4
 mkdocs-material-extensions==1.3.1
     # via mkdocs-material
 numpy==1.26.3
+    # via contourpy
+    # via matplotlib
     # via rimscode-website
-outcome==1.3.0.post0
-    # via trio
+    # via rimsschemedrawer
 packaging==23.2
+    # via matplotlib
     # via mkdocs
     # via pytest
+    # via typepy
 paginate==0.5.6
     # via mkdocs-material
 pathspec==0.12.1
     # via mkdocs
+pathvalidate==3.2.0
+    # via pytablewriter
+pillow==10.2.0
+    # via matplotlib
 platformdirs==4.1.0
     # via mkdocs
 pluggy==1.3.0
@@ -69,13 +88,19 @@ pygments==2.17.2
     # via mkdocs-material
 pymdown-extensions==10.7
     # via mkdocs-material
-pysocks==1.7.1
-    # via urllib3
+pyparsing==3.1.1
+    # via matplotlib
+pytablewriter==1.2.0
+    # via rimscode-website
 pytest==7.4.4
     # via pytest-mock
 pytest-mock==3.12.0
 python-dateutil==2.8.2
     # via ghp-import
+    # via matplotlib
+    # via typepy
+pytz==2024.1
+    # via typepy
 pyyaml==6.0.1
     # via mkdocs
     # via pymdown-extensions
@@ -87,27 +112,22 @@ regex==2023.12.25
     # via mkdocs-material
 requests==2.31.0
     # via mkdocs-material
-ruff==0.1.14
-selenium==4.17.2
+rimsschemedrawer @ git+https://github.com/RIMS-Code/RIMSSchemeDrawer.git@c90e86501740c405f22cc72c5cbcdbad9db0f8b9
     # via rimscode-website
+ruff==0.1.14
+setuptools==69.1.0
+    # via pytablewriter
 six==1.16.0
     # via python-dateutil
-sniffio==1.3.0
-    # via trio
-sortedcontainers==2.4.0
-    # via trio
-trio==0.24.0
-    # via selenium
-    # via trio-websocket
-trio-websocket==0.11.1
-    # via selenium
-typing-extensions==4.9.0
-    # via selenium
+tabledata==1.3.3
+    # via pytablewriter
+tcolorpy==0.1.4
+    # via pytablewriter
+typepy==1.3.2
+    # via dataproperty
+    # via pytablewriter
+    # via tabledata
 urllib3==2.1.0
     # via requests
-    # via selenium
-    # via urllib3
 watchdog==3.0.0
     # via mkdocs
-wsproto==1.2.0
-    # via trio-websocket

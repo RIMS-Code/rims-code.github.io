@@ -3,7 +3,6 @@
 import yaml
 
 from rimscode_website import REPO_PATH
-from rimscode_website.utils import ELEMENTS_BY_NAME
 
 
 def navigation(all_schemes: dict) -> None:
@@ -19,11 +18,6 @@ def navigation(all_schemes: dict) -> None:
     :param all_schemes: Dictionary with available elements and all schemes.
         {"ele": ["ele/scheme-1", "ele/scheme-2", ...]}
     """
-    # list of all elements sorted by position in periodic table (x, y)
-    eles_sorted = sorted(
-        all_schemes.keys(), key=lambda x: ELEMENTS_BY_NAME[x.capitalize()][:2]
-    )
-
     # create the new scheme section
     scheme_dict = {"Schemes": [{"Periodic Table": "schemes.md"}, {"Elements": []}]}
 
