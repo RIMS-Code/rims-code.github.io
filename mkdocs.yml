@@ -38,7 +38,7 @@ nav:
   - Periodic Table: schemes.md
   - Elements:
     - W:
-      - Overview: w/index.md
-      - W-001: w/w-001.md
+      - Overview: schemes/w/index.md
+      - W-1: schemes/w/w-001.md
 - Crystal calculator: crystal-calculator.md
 - Contribute: contribute.md

@@ -11,7 +11,10 @@ def navigation(all_schemes: dict) -> None:
     First, the existing scheme section is deleted, then a new one is created.
 
     Example dictionary for entry:
-        {'he': ['he/he-1', 'he/he-2'], 'as': ['as/as-1', 'as/as-2']}
+        {
+            'he': ['schemes/he/he-1', 'schemes/he/he-2'],
+            'as': ['schemes/as/as-1', 'schemes/as/as-2']
+        }
 
     Note that the lists in the dictionary are not sorted here!
 
@@ -24,12 +27,13 @@ def navigation(all_schemes: dict) -> None:
     for ele, schemes in all_schemes.items():
         ele_dict = {}
         # add the element to the ele dictionary
-        ele_dict[ele.capitalize()] = [{"Overview": f"{ele}/index.md"}]
+        ele_dict[ele.capitalize()] = [{"Overview": f"schemes/{ele}/index.md"}]
 
         # add the schemes to the element
         for scheme in all_schemes[ele]:
             scheme_key = scheme.split("/")[1].capitalize()
-            ele_dict[ele.capitalize()].append({scheme_key: f"{scheme}.md"})
+            scheme_key = f"{scheme_key.split("-")[0]}-{int(scheme_key.split('-')[1])}"
+            ele_dict[ele.capitalize()].append({scheme_key: f"schemes/{scheme}.md"})
 
         # add the element to the scheme dictionary
         scheme_dict["Schemes"][1]["Elements"].append(ele_dict)
