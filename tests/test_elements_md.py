@@ -3,7 +3,8 @@
 
 from pathlib import Path
 import pytest
-from rimscode_website import elements_md as emd
+
+import rimscode_website.utils
 
 
 @pytest.mark.parametrize(
@@ -19,4 +20,4 @@ from rimscode_website import elements_md as emd
 )
 def test_parse_fname(fname):
     """Parse the file name and return ele, pos or None."""
-    assert emd._parse_fname(fname[0]) == fname[1]
+    assert rimscode_website.utils.parse_db_filename(fname[0]) == fname[1]

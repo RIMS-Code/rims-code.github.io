@@ -23,8 +23,15 @@ markdown_extensions:
     anchor_linenums: true
     line_spans: __span
     pygments_lang_class: true
+- pymdownx.superfences
 - pymdownx.inlinehilite
 - pymdownx.snippets
+- pymdownx.arithmatex:
+    generic: true
+extra_javascript:
+- javascripts/mathjax.js
+- https://polyfill.io/v3/polyfill.min.js?features=es6
+- https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
 nav:
 - Home: index.md
 - Schemes:
@@ -32,6 +39,6 @@ nav:
   - Elements:
     - W:
       - Overview: w/index.md
-      - W-1: w/w-1.md
+      - W-001: w/w-001.md
 - Crystal calculator: crystal-calculator.md
 - Contribute: contribute.md

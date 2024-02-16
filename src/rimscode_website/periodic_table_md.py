@@ -5,10 +5,10 @@ from typing import Dict, List, Set, Tuple, Union
 import numpy as np
 
 from rimscode_website import DOCS_PATH
-from rimscode_website.utils import ELEMENTS_BY_NAME, SPECIAL_POSITIONS
+from rimscode_website.constants import ELEMENTS_BY_NAME, SPECIAL_POSITIONS
 
 
-class SchemeMD:
+class PeriodicTableMD:
     """Class to write the scheme overview page."""
 
     def __init__(self, urls: Dict[str, str]) -> None:
