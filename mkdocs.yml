@@ -23,22 +23,22 @@ markdown_extensions:
     anchor_linenums: true
     line_spans: __span
     pygments_lang_class: true
+- pymdownx.superfences
 - pymdownx.inlinehilite
 - pymdownx.snippets
+- pymdownx.arithmatex:
+    generic: true
+extra_javascript:
+- javascripts/mathjax.js
+- https://polyfill.io/v3/polyfill.min.js?features=es6
+- https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
 nav:
 - Home: index.md
 - Schemes:
   - Periodic Table: schemes.md
   - Elements:
-    - Ba:
-      - Overview: ba/index.md
-      - Ba-1: ba/ba-1.md
-      - Ba-2: ba/ba-2.md
-    - Fe:
-      - Overview: fe/index.md
-      - Fe-1: fe/fe-1.md
-    - Zr:
-      - Overview: zr/index.md
-      - Zr-1: zr/zr-1.md
+    - W:
+      - Overview: w/index.md
+      - W-001: w/w-001.md
 - Crystal calculator: crystal-calculator.md
 - Contribute: contribute.md

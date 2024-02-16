@@ -1,11 +1,10 @@
 # Create all pages for elements available in the database
 
 from pathlib import Path
-from typing import Tuple, Union
-import warnings
 
-from rimscode_website import DB_PATH, DOCS_PATH
-from rimscode_website.utils import ELEMENTS_BY_NAME
+from rimscode_website import DB_PATH, SCHEMES_PATH
+from rimscode_website.scheme_md import SchemeContentMD
+from rimscode_website.utils import parse_db_filename
 
 
 class ElementMD:
@@ -17,6 +16,12 @@ class ElementMD:
 
         self._all_schemes = {}  # dictionary with all scheme: {ele: [ele-1, ele-2, ...]}
         self._ele_index_urls = {}  # dictionary with element name: url for adding to periodic table
+
+        # create scheme docs path
+        self._scheme_docs_path = SCHEMES_PATH
+
+        # formatting decisions
+        self._file_name_zero_filling = 3  # all files are named ele-00X.md
 
         self._create_db_dict()
 
@@ -62,7 +67,7 @@ class ElementMD:
         db_dict = {"files": [], "elements": [], "positions": []}
         for f in db_files_in:
             # parse the file name
-            ele_pos = _parse_fname(f)
+            ele_pos = parse_db_filename(f)
             if ele_pos is not None:
                 db_dict["files"].append(f)
                 db_dict["elements"].append(ele_pos[0])
@@ -77,12 +82,8 @@ class ElementMD:
         """
         eles = self.db_dict["elements"]
         for ele in set(eles):
-            folder = Path(DOCS_PATH.joinpath(ele))
-            folder.mkdir(exist_ok=True)
-
-            # empty the folders of all files
-            for f in folder.glob("*"):
-                f.unlink()
+            folder = Path(self._scheme_docs_path.joinpath(ele))
+            folder.mkdir(exist_ok=True, parents=True)
 
     def _create_ele_files(self) -> None:
         """Create all the markdown pages for the elements in the database."""
@@ -91,12 +92,16 @@ class ElementMD:
         for fl, ele, pos in zip(
             db_dict["files"], db_dict["elements"], db_dict["positions"]
         ):
-            folder = Path(DOCS_PATH.joinpath(ele))
+            folder = Path(self._scheme_docs_path.joinpath(ele))
+
+            # scheme content creator
+            content_creator = SchemeContentMD(fl)
+            ele_file_content = content_creator.content_md
 
             # scheme files
-            fname = folder.joinpath(f"{ele}-{pos}.md")
+            fname = folder.joinpath(f"{ele}-{pos:0{self._file_name_zero_filling}d}.md")
             with open(fname, "w") as f:
-                f.write(self._create_ele_file_content(fl))
+                f.write(ele_file_content)
 
             # add element and scheme to the all_schemes dictionary
             dict_entry = f"{ele}/{fname.stem}"
@@ -107,26 +112,13 @@ class ElementMD:
 
         # index file
         for ele in set(db_dict["elements"]):
-            folder = Path(DOCS_PATH.joinpath(ele))
+            folder = Path(self._scheme_docs_path.joinpath(ele))
             fname = folder.joinpath("index.md")
             with open(fname, "w") as f:
                 f.write(self._create_ele_index_content(ele))
 
             # add url to self to the url dictionary
-            self._ele_index_urls[ele] = f"{ele}/"
-
-    @staticmethod
-    def _create_ele_file_content(fl: Path) -> str:
-        """Create the content of the element markdown file.
-
-        :param fl: Path to the json file.
-
-        :return: String with the content of the markdown file.
-        """
-        # todo: parse the json file and create the content
-        ele, pos = _parse_fname(fl)
-        ret = f"# {ele.capitalize()} scheme {pos}"
-        return ret
+            self._ele_index_urls[ele] = f"{self._scheme_docs_path.stem}/{ele}/"
 
     def _create_ele_index_content(self, ele) -> str:
         """Create the index file for all the elements in the database.
@@ -135,6 +127,7 @@ class ElementMD:
 
         :return: String with the content of the index markdown file.
         """
+        # todo: table or something to give additional scheme information - later!
         db_dict = self.db_dict
 
         ret = f"# Schemes for {ele.capitalize()}\n\n"
@@ -149,7 +142,10 @@ class ElementMD:
         )
 
         # create a relative URL for each file
-        urls = [f"../{ele}/{ele}-{pos}.md" for pos in positions]
+        urls = [
+            f"../{ele}/{ele}-{pos:0{self._file_name_zero_filling}d}.md"
+            for pos in positions
+        ]
 
         # create a bullet point list of links to the schemes
         ret += "\n".join(
@@ -160,36 +156,6 @@ class ElementMD:
         )
 
         return ret
-
-
-def _parse_fname(fname: Path) -> Union[Tuple[str, int], None]:
-    """Parse the filename and return the element name and the position.
-
-    :param fname: Path to the file to parse.
-
-    :return: Tuple with element name (all lowercase) and position or
-        None if the file name is invalid.
-    """
-    try:
-        ele, pos = fname.stem.split("-")
-        pos = int(pos)
-    except ValueError:  # file name cannot be unpacked
-        warnings.warn(
-            f"Invalid database file name {fname.stem}.", UserWarning, stacklevel=2
-        )
-        return None
-
-    # check if element name is valid
-    valid_elements = set(k.casefold() for k in ELEMENTS_BY_NAME.keys())
-    if ele.casefold() not in valid_elements:
-        warnings.warn(
-            f"Invalid element name in database file {fname.stem}.",
-            UserWarning,
-            stacklevel=2,
-        )
-        return None
-
-    return ele.lower(), pos
 
 
 if __name__ == "__main__":
