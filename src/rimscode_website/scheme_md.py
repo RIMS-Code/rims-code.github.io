@@ -3,8 +3,10 @@
 import json
 from pathlib import Path
 
+import numpy as np
 import pytablewriter as ptw
 import rimsschemedrawer
+import rttools.rims.saturation_curve as sc
 
 from rimscode_website import SCHEMES_PATH
 from rimscode_website.utils import parse_db_filename
@@ -97,18 +99,86 @@ class SchemeContentMD:
 
             fname = f"sat-{sit}"
 
-            xdat = self.db_content[key][sat_key]["data"].get("x", None)
+            xdat = self.db_content[key][sat_key]["data"]["x"]
             xdat_err = self.db_content[key][sat_key]["data"].get("x_err", None)
-            ydat = self.db_content[key][sat_key]["data"].get("y", None)
+            ydat = self.db_content[key][sat_key]["data"]["y"]
             ydat_err = self.db_content[key][sat_key]["data"].get("y_err", None)
+            unit = self.db_content[key][sat_key].get("unit", None)
 
+            # create figures
+            if xdat_err:
+                xdata = np.stack([np.array(xdat), np.array(xdat_err)])
+            else:
+                xdata = np.array(xdat)
+            if ydat_err:
+                ydata = np.stack([np.array(ydat), np.array(ydat_err)])
+            else:
+                ydata = np.array(ydat)
+            fig_light = sc.saturation_curve(
+                xdata, ydata, xunit=unit, darkmode=False, title=sat_key
+            )
+            [
+                fig_light.savefig(self.fig_path.joinpath(f"{fname}-light.{fmt}"))
+                for fmt in self.fig_formats
+            ]
+            fig_dark = sc.saturation_curve(
+                xdata, ydata, xunit=unit, darkmode=True, title=sat_key
+            )
+            [
+                fig_dark.savefig(self.fig_path.joinpath(f"{fname}-dark.{fmt}"))
+                for fmt in self.fig_formats
+            ]
+
+            # create and save data table as csv file
             data_table_fname = self.fig_path.joinpath(f"{fname}-data-table.csv")
-            # todo: create data table
-            # todo: save data table
-            # todo: create figures in light and dark mode
-            # todo: save figure in various formats
-            # todo: display figure
-            # todo: add download link for data table and figures
+            data_table_hdr = [fig_dark.axes[0].get_xlabel()]
+            if xdat_err is not None:
+                data_table_hdr.append("+-")
+            data_table_hdr.append(fig_dark.axes[0].get_ylabel())
+            if ydat_err is not None:
+                data_table_hdr.append("+-")
+            data_table_arr = np.vstack([xdata, ydata]).T
+            np.savetxt(
+                data_table_fname,
+                data_table_arr,
+                delimiter=",",
+                header=",".join(data_table_hdr),
+            )
+
+            # add the figures to the content for dark and light mode
+            self._content_md += (
+                f"![{sat_key}, light mode]({self.fig_path.relative_to(self.ele_path).joinpath(f'{fname}-light.png')}#only-light)\n"
+                f"![{sat_key}, dark mode]({self.fig_path.relative_to(self.ele_path).joinpath(f'{fname}-dark.png')}#only-dark)\n"
+            )
+
+            # download table for saturation curve: data file and figures
+            download_table_header = ["Data table", "Light color", "Dark color"]
+            download_table = [
+                [
+                    f"[CSV]({data_table_fname.relative_to(self.ele_path)})",
+                    ", ".join(
+                        [
+                            f"[{fmt.upper()}]({self.fig_path.relative_to(self.ele_path).joinpath(f'{fname}-light.{fmt}')})"
+                            for fmt in self.fig_formats
+                        ]
+                    ),
+                    ", ".join(
+                        [
+                            f"[{fmt.upper()}]({self.fig_path.relative_to(self.ele_path).joinpath(f'{fname}-dark.{fmt}')})"
+                            for fmt in self.fig_formats
+                        ]
+                    ),
+                ],
+            ]
+            md_table = ptw.MarkdownTableWriter(
+                headers=download_table_header, value_matrix=download_table, margin=1
+            )
+            for col in range(len(download_table_header)):
+                md_table.set_style(col, ptw.style.Style(align="left"))
+
+            self._content_md += "\n\n#### Download saturation curve\n\n"
+            self._content_md += str(md_table)
+            self._content_md += "\n\n"
 
     def _scheme(self):
         """Add the scheme table to the content.
@@ -170,7 +240,7 @@ class SchemeContentMD:
                 ),
             ],
         ]
-        self._content_md += "### Download scheme drawing\n\n"
+        self._content_md += "#### Download scheme drawing\n\n"
         md_table = ptw.MarkdownTableWriter(
             headers=download_table_header, value_matrix=download_table, margin=1
         )

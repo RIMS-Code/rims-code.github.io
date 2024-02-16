@@ -128,7 +128,7 @@ regex==2023.12.25
 requests==2.31.0
     # via mkdocs-material
 rimsschemedrawer @ git+https://github.com/RIMS-Code/RIMSSchemeDrawer.git@c90e86501740c405f22cc72c5cbcdbad9db0f8b9
-rttools @ git+https://github.com/trappitsch/rttools@1dcdf346a72667b2c2d7f3dee8635d7a19d00b77
+rttools @ git+https://github.com/trappitsch/rttools@b17503a9d1a57fe36b15147c264928f1b948569c
 ruff==0.1.14
 scipy==1.12.0
     # via rttools
