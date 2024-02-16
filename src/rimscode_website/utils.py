@@ -1,134 +1,36 @@
-# Utilities and fixed data for the RIMScode website.
+# Utility functions, used across the site
+import warnings
+from pathlib import Path
+from typing import Union, Tuple
 
-# A dictionary of the elements that we want to display
-# includes table position (x,y) and background color
-ELEMENTS_BY_NAME = {
-    "H": (0, 0, "#ffffc7"),
-    "He": (0, 17, "#ffe4bb"),
-    "Li": (1, 0, "#ffc9c9"),
-    "Be": (1, 1, "#d7d7ff"),
-    "B": (1, 12, "#e1eebd"),
-    "C": (1, 13, "#ffffc7"),
-    "N": (1, 14, "#ffffc7"),
-    "O": (1, 15, "#ffffc7"),
-    "F": (1, 16, "#ffffc7"),
-    "Ne": (1, 17, "#ffe4bb"),
-    "Na": (2, 0, "#ffc9c9"),
-    "Mg": (2, 1, "#d7d7ff"),
-    "Al": (2, 12, "#c8ffc8"),
-    "Si": (2, 13, "#e1eebd"),
-    "P": (2, 14, "#ffffc7"),
-    "S": (2, 15, "#ffffc7"),
-    "Cl": (2, 16, "#ffffc7"),
-    "Ar": (2, 17, "#ffe4bb"),
-    "K": (3, 0, "#ffc9c9"),
-    "Ca": (3, 1, "#d7d7ff"),
-    "Sc": (3, 2, "#bbddff"),
-    "Ti": (3, 3, "#bbddff"),
-    "V": (3, 4, "#bbddff"),
-    "Cr": (3, 5, "#bbddff"),
-    "Mn": (3, 6, "#bbddff"),
-    "Fe": (3, 7, "#bbddff"),
-    "Co": (3, 8, "#bbddff"),
-    "Ni": (3, 9, "#bbddff"),
-    "Cu": (3, 10, "#bbddff"),
-    "Zn": (3, 11, "#bbddff"),
-    "Ga": (3, 12, "#c8ffc8"),
-    "Ge": (3, 13, "#e1eebd"),
-    "As": (3, 14, "#e1eebd"),
-    "Se": (3, 15, "#ffffc7"),
-    "Br": (3, 16, "#ffffc7"),
-    "Kr": (3, 17, "#ffe4bb"),
-    "Rb": (4, 0, "#ffc9c9"),
-    "Sr": (4, 1, "#d7d7ff"),
-    "Y": (4, 2, "#bbddff"),
-    "Zr": (4, 3, "#bbddff"),
-    "Nb": (4, 4, "#bbddff"),
-    "Mo": (4, 5, "#bbddff"),
-    "Tc": (4, 6, "#bbddff"),
-    "Ru": (4, 7, "#bbddff"),
-    "Rh": (4, 8, "#bbddff"),
-    "Pd": (4, 9, "#bbddff"),
-    "Ag": (4, 10, "#bbddff"),
-    "Cd": (4, 11, "#bbddff"),
-    "In": (4, 12, "#c8ffc8"),
-    "Sn": (4, 13, "#c8ffc8"),
-    "Sb": (4, 14, "#e1eebd"),
-    "Te": (4, 15, "#e1eebd"),
-    "I": (4, 16, "#ffffc7"),
-    "Xe": (4, 17, "#ffe4bb"),
-    "Cs": (5, 0, "#ffc9c9"),
-    "Ba": (5, 1, "#d7d7ff"),
-    "Hf": (5, 3, "#bbddff"),
-    "Ta": (5, 4, "#bbddff"),
-    "W": (5, 5, "#bbddff"),
-    "Re": (5, 6, "#bbddff"),
-    "Os": (5, 7, "#bbddff"),
-    "Ir": (5, 8, "#bbddff"),
-    "Pt": (5, 9, "#bbddff"),
-    "Au": (5, 10, "#bbddff"),
-    "Hg": (5, 11, "#bbddff"),
-    "Tl": (5, 12, "#c8ffc8"),
-    "Pb": (5, 13, "#c8ffc8"),
-    "Bi": (5, 14, "#c8ffc8"),
-    "Po": (5, 15, "#e1eebd"),
-    "At": (5, 16, "#ffffc7"),
-    "Rn": (5, 17, "#ffe4bb"),
-    "Fr": (6, 0, "#ffc9c9"),
-    "Ra": (6, 1, "#d7d7ff"),
-    "Rf": (6, 3, "#bbddff"),
-    "Db": (6, 4, "#bbddff"),
-    "Sg": (6, 5, "#bbddff"),
-    "Bh": (6, 6, "#bbddff"),
-    "Hs": (6, 7, "#bbddff"),
-    "Mt": (6, 8, "#bbddff"),
-    "Ds": (6, 9, "#bbddff"),
-    "Rg": (6, 10, "#bbddff"),
-    "Cn": (6, 11, "#bbddff"),
-    "Nh": (6, 12, "#c8ffc8"),
-    "Fl": (6, 13, "#c8ffc8"),
-    "Mc": (6, 14, "#c8ffc8"),
-    "Lv": (6, 15, "#c8ffc8"),
-    "Ts": (6, 16, "#ffffc7"),
-    "Og": (6, 17, "#ffe4bb"),
-    "La": (7, 3, "#b9ffff"),
-    "Ce": (7, 4, "#b9ffff"),
-    "Pr": (7, 5, "#b9ffff"),
-    "Nd": (7, 6, "#b9ffff"),
-    "Pm": (7, 7, "#b9ffff"),
-    "Sm": (7, 8, "#b9ffff"),
-    "Eu": (7, 9, "#b9ffff"),
-    "Gd": (7, 10, "#b9ffff"),
-    "Tb": (7, 11, "#b9ffff"),
-    "Dy": (7, 12, "#b9ffff"),
-    "Ho": (7, 13, "#b9ffff"),
-    "Er": (7, 14, "#b9ffff"),
-    "Tm": (7, 15, "#b9ffff"),
-    "Yb": (7, 16, "#b9ffff"),
-    "Lu": (7, 17, "#b9ffff"),
-    "Ac": (8, 3, "#cdffee"),
-    "Th": (8, 4, "#cdffee"),
-    "Pa": (8, 5, "#cdffee"),
-    "U": (8, 6, "#cdffee"),
-    "Np": (8, 7, "#cdffee"),
-    "Pu": (8, 8, "#cdffee"),
-    "Am": (8, 9, "#cdffee"),
-    "Cm": (8, 10, "#cdffee"),
-    "Bk": (8, 11, "#cdffee"),
-    "Cf": (8, 12, "#cdffee"),
-    "Es": (8, 13, "#cdffee"),
-    "Fm": (8, 14, "#cdffee"),
-    "Md": (8, 15, "#cdffee"),
-    "No": (8, 16, "#cdffee"),
-    "Lr": (8, 17, "#cdffee"),
-}
+from rimscode_website.constants import ELEMENTS_BY_NAME
 
-# special positions in table.
-# key: (row, col)
-# value: string to display
-SPECIAL_POSITIONS = {
-    (5, 2): "*",  # Lanthanides
-    (6, 2): "**",  # Actinides
-    (7, 2): "*",  # Lanthanides
-    (8, 2): "**",  # Actinides
-}
+
+def parse_db_filename(fname: Path) -> Union[Tuple[str, int], None]:
+    """Parse the filename and return the element name and the position.
+
+    :param fname: Path to the file to parse.
+
+    :return: Tuple with element name (all lowercase) and position or
+        None if the file name is invalid.
+    """
+    try:
+        ele, pos = fname.stem.split("-")
+        pos = int(pos)
+    except ValueError:  # file name cannot be unpacked
+        warnings.warn(
+            f"Invalid database file name {fname.stem}.", UserWarning, stacklevel=2
+        )
+        return None
+
+    # check if element name is valid
+    valid_elements = set(k.casefold() for k in ELEMENTS_BY_NAME.keys())
+    if ele.casefold() not in valid_elements:
+        warnings.warn(
+            f"Invalid element name in database file {fname.stem}.",
+            UserWarning,
+            stacklevel=2,
+        )
+        return None
+
+    return ele.lower(), pos
