@@ -3,7 +3,6 @@
 import yaml
 
 from rimscode_website import REPO_PATH
-from rimscode_website.utils import ELEMENTS_BY_NAME
 
 
 def navigation(all_schemes: dict) -> None:
@@ -12,30 +11,29 @@ def navigation(all_schemes: dict) -> None:
     First, the existing scheme section is deleted, then a new one is created.
 
     Example dictionary for entry:
-        {'he': ['he/he-1', 'he/he-2'], 'as': ['as/as-1', 'as/as-2']}
+        {
+            'he': ['schemes/he/he-1', 'schemes/he/he-2'],
+            'as': ['schemes/as/as-1', 'schemes/as/as-2']
+        }
 
     Note that the lists in the dictionary are not sorted here!
 
     :param all_schemes: Dictionary with available elements and all schemes.
         {"ele": ["ele/scheme-1", "ele/scheme-2", ...]}
     """
-    # list of all elements sorted by position in periodic table (x, y)
-    eles_sorted = sorted(
-        all_schemes.keys(), key=lambda x: ELEMENTS_BY_NAME[x.capitalize()][:2]
-    )
-
     # create the new scheme section
     scheme_dict = {"Schemes": [{"Periodic Table": "schemes.md"}, {"Elements": []}]}
 
     for ele, schemes in all_schemes.items():
         ele_dict = {}
         # add the element to the ele dictionary
-        ele_dict[ele.capitalize()] = [{"Overview": f"{ele}/index.md"}]
+        ele_dict[ele.capitalize()] = [{"Overview": f"schemes/{ele}/index.md"}]
 
         # add the schemes to the element
         for scheme in all_schemes[ele]:
             scheme_key = scheme.split("/")[1].capitalize()
-            ele_dict[ele.capitalize()].append({scheme_key: f"{scheme}.md"})
+            scheme_key = f"{scheme_key.split("-")[0]}-{int(scheme_key.split('-')[1])}"
+            ele_dict[ele.capitalize()].append({scheme_key: f"schemes/{scheme}.md"})
 
         # add the element to the scheme dictionary
         scheme_dict["Schemes"][1]["Elements"].append(ele_dict)

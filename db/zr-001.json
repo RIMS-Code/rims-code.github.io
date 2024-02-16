@@ -1,0 +1,164 @@
+{
+  "rims_scheme": {
+    "scheme": {
+      "gs_level": "0",
+      "gs_term": "3F2",
+      "ip_level": "53507.832",
+      "ip_term": "",
+      "step_forbidden0": false,
+      "step_forbidden1": false,
+      "step_forbidden2": false,
+      "step_forbidden3": false,
+      "step_forbidden4": false,
+      "step_forbidden5": false,
+      "step_forbidden6": false,
+      "step_level0": "31326.81",
+      "step_level1": "57034.5439",
+      "step_level2": "",
+      "step_level3": "",
+      "step_level4": "",
+      "step_level5": "",
+      "step_level6": "",
+      "step_lowlying0": false,
+      "step_lowlying1": false,
+      "step_lowlying2": false,
+      "step_lowlying3": false,
+      "step_lowlying4": false,
+      "step_lowlying5": false,
+      "step_lowlying6": false,
+      "step_term0": "3G3",
+      "step_term1": "$\\Delta$J=0",
+      "step_term2": "",
+      "step_term3": "",
+      "step_term4": "",
+      "step_term5": "",
+      "step_term6": "",
+      "trans_strength0": "",
+      "trans_strength1": "",
+      "trans_strength2": "",
+      "trans_strength3": "",
+      "trans_strength4": "",
+      "trans_strength5": "",
+      "trans_strength6": "",
+      "unit": "cm<sup>-1</sup>"
+    },
+    "settings": {
+      "arrow_head_width": "0.6",
+      "arrow_width": "0.2",
+      "fig_height": "8",
+      "fig_width": "5",
+      "fs_axes": "12",
+      "fs_axes_labels": "12",
+      "fs_labels": "12",
+      "fs_title": "14",
+      "headspace": "6000",
+      "ip_label_pos": "Bottom",
+      "line_breaks": true,
+      "plot_darkmode": false,
+      "plot_title": "",
+      "prec_level": "0",
+      "prec_wavelength": "3",
+      "show_cm-1_axis": true,
+      "show_eV_axis": true,
+      "show_forbidden_transitions": "x-out",
+      "show_transition_strength": true
+    }
+  },
+  "saturation_curves": {
+    "First Transition, 319.215 nm": {
+      "unit": "W * cm^-2",
+      "data": {
+        "x": [
+          27821,
+          22257,
+          13911,
+          6955,
+          2782,
+          31994,
+          25039,
+          18084,
+          0
+        ],
+        "y": [
+          1.0000,
+          0.8535,
+          0.5161,
+          0.4816,
+          0.3486,
+          1.0358,
+          0.9622,
+          0.7882,
+          0.0001
+        ],
+        "y_err": [
+          0.0070,
+          0.0066,
+          0.0054,
+          0.0054,
+          0.0047,
+          0.0083,
+          0.0082,
+          0.0076,
+          0.0003
+        ]
+      }
+    },
+    "Second Transition, 388.988 nm": {
+      "unit": "W * cm^-2",
+      "data": {
+        "x": [
+          3870333,
+          3176342,
+          26692,
+          2048607,
+          887507,
+          1654901,
+          2609138,
+          360341,
+          3630106,
+          3276437,
+          2722579,
+          3036210,
+          3850314,
+          3850314
+        ],
+        "y": [
+          1.0000,
+          0.8389,
+          0.0516,
+          0.8373,
+          0.5886,
+          0.7733,
+          0.9369,
+          0.3277,
+          1.1001,
+          1.1522,
+          1.0316,
+          1.0201,
+          0.8918,
+          1.1171
+        ],
+        "y_err": [
+          0.0072,
+          0.0066,
+          0.0017,
+          0.0068,
+          0.0057,
+          0.0066,
+          0.0073,
+          0.0044,
+          0.0081,
+          0.0085,
+          0.0082,
+          0.0082,
+          0.0078,
+          0.0090
+        ]
+      }
+    }
+  },
+  "notes": "Developed by Trappitsch et al. at Lawrence Livermore National Laboratory using the LION instrument.",
+  "references": [
+    "10.1007/s10967-022-08581-x"
+  ]
+}
