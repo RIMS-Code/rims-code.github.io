@@ -37,6 +37,9 @@ nav:
 - Schemes:
   - Periodic Table: schemes.md
   - Elements:
+    - Zr:
+      - Overview: schemes/zr/index.md
+      - Zr-1: schemes/zr/zr-001.md
     - W:
       - Overview: schemes/w/index.md
       - W-1: schemes/w/w-001.md

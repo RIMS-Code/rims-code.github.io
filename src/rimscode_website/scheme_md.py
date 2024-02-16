@@ -49,6 +49,9 @@ class SchemeContentMD:
         # Add the scheme section
         self._scheme()
 
+        # Add the saturation curves section
+        self._saturation_curves()
+
         # Add the references section
         self._reference()
 
@@ -79,6 +82,33 @@ class SchemeContentMD:
             dois = self.db_content[key]
             for doi in dois:
                 self._content_md += f"[DOI: {doi}](https://doi.org/{doi})\n\n"
+
+    def _saturation_curves(self):
+        """Add the saturation curves to the content if available."""
+        key = "saturation_curves"
+        if key not in self.db_content.keys():
+            return
+
+        self._content_md += "\n\n## Saturation curves\n\n"
+
+        # loop through available saturation curves
+        for sit, sat_key in enumerate(self.db_content[key].keys()):
+            self._content_md += f"### {sat_key}\n\n"
+
+            fname = f"sat-{sit}"
+
+            xdat = self.db_content[key][sat_key]["data"].get("x", None)
+            xdat_err = self.db_content[key][sat_key]["data"].get("x_err", None)
+            ydat = self.db_content[key][sat_key]["data"].get("y", None)
+            ydat_err = self.db_content[key][sat_key]["data"].get("y_err", None)
+
+            data_table_fname = self.fig_path.joinpath(f"{fname}-data-table.csv")
+            # todo: create data table
+            # todo: save data table
+            # todo: create figures in light and dark mode
+            # todo: save figure in various formats
+            # todo: display figure
+            # todo: add download link for data table and figures
 
     def _scheme(self):
         """Add the scheme table to the content.
@@ -123,19 +153,15 @@ class SchemeContentMD:
         )
 
         # download table for scheme drawing
-        download_table_header = ["Color mode", "Link to download"]
+        download_table_header = ["Light color", "Dark color"]
         download_table = [
             [
-                "Light",
                 ", ".join(
                     [
                         f"[{fmt.upper()}]({self.fig_name_light.relative_to(self.ele_path).with_suffix(f'.{fmt}')})\n"
                         for fmt in self.fig_formats
                     ]
                 ),
-            ],
-            [
-                "Dark",
                 ", ".join(
                     [
                         f"[{fmt.upper()}]({self.fig_name_dark.relative_to(self.ele_path).with_suffix(f'.{fmt}')})\n"
