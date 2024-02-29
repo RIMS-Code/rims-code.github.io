@@ -11,12 +11,14 @@ theme:
   palette:
   - scheme: slate
     toggle:
-      icon: material/brightness-4
+      icon: material/brightness-2
       name: Switch to light mode
+    primary: indigo
   - scheme: default
     toggle:
       icon: material/brightness-7
       name: Switch to dark mode
+    primary: indigo
 markdown_extensions:
 - admonition
 - pymdownx.highlight:
@@ -37,11 +39,11 @@ nav:
 - Schemes:
   - Periodic Table: schemes.md
   - Elements:
-    - W:
-      - Overview: schemes/w/index.md
-      - W-1: schemes/w/w-001.md
     - Zr:
       - Overview: schemes/zr/index.md
       - Zr-1: schemes/zr/zr-001.md
+    - W:
+      - Overview: schemes/w/index.md
+      - W-1: schemes/w/w-001.md
 - Crystal calculator: crystal-calculator.md
 - Contribute: contribute.md

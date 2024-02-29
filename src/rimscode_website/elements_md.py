@@ -1,8 +1,12 @@
 # Create all pages for elements available in the database
 
+from collections import OrderedDict
 from pathlib import Path
+import pytablewriter as ptw
 
 from rimscode_website import DB_PATH, SCHEMES_PATH
+from rimscode_website.db_reader import DataFileReader
+from rimscode_website.element import Element
 from rimscode_website.scheme_md import SchemeContentMD
 from rimscode_website.utils import parse_db_filename
 
@@ -64,14 +68,19 @@ class ElementMD:
         """
         db_files_in = DB_PATH.glob("*.json")
 
-        db_dict = {"files": [], "elements": [], "positions": []}
+        db_dict = OrderedDict()
+
         for f in db_files_in:
             # parse the file name
+            db_file = DataFileReader(f)
             ele_pos = parse_db_filename(f)
-            if ele_pos is not None:
-                db_dict["files"].append(f)
-                db_dict["elements"].append(ele_pos[0])
-                db_dict["positions"].append(ele_pos[1])
+            db_dict[ele_pos[0]] = {
+                f: {
+                    "position": ele_pos[1],
+                    "lasers": db_file.lasers,
+                    "references": db_file.references_md_link_list,
+                }
+            }
 
         self.db_dict = db_dict
 
@@ -80,7 +89,7 @@ class ElementMD:
 
         :param eles: List of elements in the database. Can contain duplicates.
         """
-        eles = self.db_dict["elements"]
+        eles = list(self.db_dict.keys())
         for ele in set(eles):
             folder = Path(self._scheme_docs_path.joinpath(ele))
             folder.mkdir(exist_ok=True, parents=True)
@@ -89,29 +98,31 @@ class ElementMD:
         """Create all the markdown pages for the elements in the database."""
         db_dict = self.db_dict
 
-        for fl, ele, pos in zip(
-            db_dict["files"], db_dict["elements"], db_dict["positions"]
-        ):
-            folder = Path(self._scheme_docs_path.joinpath(ele))
+        for ele, entry_ele_dict in db_dict.items():
+            for fl, entry_fl_dict in entry_ele_dict.items():
+                pos = entry_fl_dict["position"]
+                folder = Path(self._scheme_docs_path.joinpath(ele))
 
-            # scheme content creator
-            content_creator = SchemeContentMD(fl)
-            ele_file_content = content_creator.content_md
+                # scheme content creator
+                content_creator = SchemeContentMD(fl)
+                ele_file_content = content_creator.content_md
 
-            # scheme files
-            fname = folder.joinpath(f"{ele}-{pos:0{self._file_name_zero_filling}d}.md")
-            with open(fname, "w") as f:
-                f.write(ele_file_content)
+                # scheme files
+                fname = folder.joinpath(
+                    f"{ele}-{pos:0{self._file_name_zero_filling}d}.md"
+                )
+                with open(fname, "w") as f:
+                    f.write(ele_file_content)
 
-            # add element and scheme to the all_schemes dictionary
-            dict_entry = f"{ele}/{fname.stem}"
-            if ele not in self._all_schemes.keys():
-                self._all_schemes[ele] = [dict_entry]
-            else:
-                self._all_schemes[ele].append(dict_entry)
+                # add element and scheme to the all_schemes dictionary
+                dict_entry = f"{ele}/{fname.stem}"
+                if ele not in self._all_schemes.keys():
+                    self._all_schemes[ele] = [dict_entry]
+                else:
+                    self._all_schemes[ele].append(dict_entry)
 
         # index file
-        for ele in set(db_dict["elements"]):
+        for ele in db_dict.keys():
             folder = Path(self._scheme_docs_path.joinpath(ele))
             fname = folder.joinpath("index.md")
             with open(fname, "w") as f:
@@ -127,33 +138,51 @@ class ElementMD:
 
         :return: String with the content of the index markdown file.
         """
-        # todo: table or something to give additional scheme information - later!
-        db_dict = self.db_dict
+        db_dict = self.db_dict[ele]
 
-        ret = f"# Schemes for {ele.capitalize()}\n\n"
+        element = Element(ele)
 
-        # get sorted positions list for this element from dictionary
-        positions = sorted(
-            [
-                pos
-                for pos, e in zip(db_dict["positions"], db_dict["elements"])
-                if e == ele
-            ]
-        )
+        ret = f"# Schemes for {element.name}\n\n"
 
-        # create a relative URL for each file
-        urls = [
-            f"../{ele}/{ele}-{pos:0{self._file_name_zero_filling}d}.md"
-            for pos in positions
-        ]
+        # add some element information:
+        ret += "## Element information\n\n"
+        ret += f"- **Symbol:** {element.symbol}\n"
+        ret += f"- **Series:** {element.type}\n"
+        ret += f"- **Atomic number:** {element.atomic_number}\n"
+        ret += f"- **Atomic weight:** {element.atomic_weight: .3f~P}\n"
+        ret += f"- **Ionization potential:** {element.ionization_potential: .3f~P}\n"
+        if element.melting_point is not None:
+            ret += f"- **Melting point:** {element.melting_point: .1f~P}\n"
+        if element.boiling_point is not None:
+            ret += f"- **Boiling point:** {element.boiling_point: .1f~P}\n"
+        ret += f"- [**Wikipedia**](https://en.wikipedia.org/wiki/{element.name})\n\n"
+
+        # add the schemes
 
         # create a bullet point list of links to the schemes
-        ret += "\n".join(
-            [
-                f"* [{ele.capitalize()} scheme {pos}]({url})"
-                for pos, url in zip(positions, urls)
-            ]
+        table_header = ["Scheme link", "Lasers", "Reference(s)"]
+        table = []
+        for fl, entry in db_dict.items():
+            # URL for each scheme
+            pos = entry["position"]
+            url = f"../{ele}/{ele}-{pos:0{self._file_name_zero_filling}d}.md"
+
+            table.append(
+                [
+                    f"[{ele.capitalize()} {pos}]({url})",
+                    entry["lasers"],
+                    entry["references"],
+                ]
+            )
+
+        md_table = ptw.MarkdownTableWriter(
+            headers=table_header, value_matrix=table, margin=1
         )
+        for col in range(len(table_header)):
+            md_table.set_style(col, ptw.style.Style(align="left"))  # left aligned
+
+        ret += "##Available Schemes\n\n"
+        ret += str(md_table)
 
         return ret
 
