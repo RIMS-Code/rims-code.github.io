@@ -10,7 +10,7 @@
 -e file:.
 babel==2.14.0
     # via mkdocs-material
-certifi==2023.11.17
+certifi==2024.2.2
     # via requests
 chardet==5.2.0
     # via mbstrdecoder
@@ -46,7 +46,7 @@ markdown==3.5.2
     # via mkdocs
     # via mkdocs-material
     # via pymdown-extensions
-markupsafe==2.1.4
+markupsafe==2.1.5
     # via jinja2
     # via mkdocs
 matplotlib==3.8.3
@@ -61,7 +61,7 @@ mergedeep==1.3.4
 mkdocs==1.5.3
     # via mkdocs-material
     # via rimscode-website
-mkdocs-material==9.5.4
+mkdocs-material==9.5.12
     # via rimscode-website
 mkdocs-material-extensions==1.3.1
     # via mkdocs-material
@@ -82,7 +82,7 @@ packaging==23.2
     # via typepy
 paginate==0.5.6
     # via mkdocs-material
-pandas==2.2.0
+pandas==2.2.1
     # via rttools
 pathspec==0.12.1
     # via mkdocs
@@ -91,10 +91,11 @@ pathvalidate==3.2.0
 pillow==10.2.0
     # via matplotlib
 pint==0.23
+    # via rimscode-website
     # via rttools
-platformdirs==4.1.0
+platformdirs==4.2.0
     # via mkdocs
-pluggy==1.3.0
+pluggy==1.4.0
     # via pytest
 pyarrow==15.0.0
     # via rttools
@@ -106,7 +107,7 @@ pyparsing==3.1.1
     # via matplotlib
 pytablewriter==1.2.0
     # via rimscode-website
-pytest==7.4.4
+pytest==8.0.2
     # via pytest-mock
 pytest-mock==3.12.0
 python-dateutil==2.8.2
@@ -127,12 +128,12 @@ regex==2023.12.25
     # via mkdocs-material
 requests==2.31.0
     # via mkdocs-material
-rimsschemedrawer @ git+https://github.com/RIMS-Code/RIMSSchemeDrawer.git@c90e86501740c405f22cc72c5cbcdbad9db0f8b9
-rttools @ git+https://github.com/trappitsch/rttools@b17503a9d1a57fe36b15147c264928f1b948569c
-ruff==0.1.14
+rimsschemedrawer @ git+https://github.com/RIMS-Code/RIMSSchemeDrawer@b9f4487c6557aeb001b248f6280755aadf805c37
+rttools @ git+https://github.com/trappitsch/rttools@17f3f7cfbf0facba40676465fa433110b43a03ab
+ruff==0.3.0
 scipy==1.12.0
     # via rttools
-setuptools==69.1.0
+setuptools==69.1.1
     # via pytablewriter
 six==1.16.0
     # via python-dateutil
@@ -144,11 +145,11 @@ typepy==1.3.2
     # via dataproperty
     # via pytablewriter
     # via tabledata
-typing-extensions==4.9.0
+typing-extensions==4.10.0
     # via pint
 tzdata==2024.1
     # via pandas
-urllib3==2.1.0
+urllib3==2.2.1
     # via requests
-watchdog==3.0.0
+watchdog==4.0.0
     # via mkdocs
