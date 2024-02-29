@@ -31,6 +31,7 @@ class SchemeContentMD:
         self.fig_path = self.ele_path.joinpath(self.db_file.stem)
         self.fig_path.mkdir(exist_ok=True, parents=True)
         self.fig_name_dark = self.fig_path.joinpath(f"{self.db_file.stem}-dark")
+        self.fig_name_dark_web = self.fig_path.joinpath(f"{self.db_file.stem}-dark-web")
         self.fig_name_light = self.fig_path.joinpath(f"{self.db_file.stem}-light")
         self.fig_formats = ["pdf", "png", "svg"]
 
@@ -129,6 +130,11 @@ class SchemeContentMD:
                 for fmt in self.fig_formats
             ]
 
+            # create dark figure w/ transparent background for website
+            fig_dark.axes[0].patch.set_alpha(0)
+            fig_dark.figure.patch.set_alpha(0)
+            fig_dark.savefig(self.fig_path.joinpath(f"{fname}-dark-web.png"))
+
             # create and save data table as csv file
             data_table_fname = self.fig_path.joinpath(f"{fname}-data-table.csv")
             data_table_hdr = [fig_dark.axes[0].get_xlabel()]
@@ -148,7 +154,7 @@ class SchemeContentMD:
             # add the figures to the content for dark and light mode
             self._content_md += (
                 f"![{sat_key}, light mode]({self.fig_path.relative_to(self.ele_path).joinpath(f'{fname}-light.png')}#only-light)\n"
-                f"![{sat_key}, dark mode]({self.fig_path.relative_to(self.ele_path).joinpath(f'{fname}-dark.png')}#only-dark)\n"
+                f"![{sat_key}, dark mode]({self.fig_path.relative_to(self.ele_path).joinpath(f'{fname}-dark-web.png')}#only-dark)\n"
             )
 
             # download table for saturation curve: data file and figures
@@ -188,9 +194,7 @@ class SchemeContentMD:
         self._content_md += "\n\n## Scheme\n\n"
 
         # label scheme IP:
-        self._content_md += (
-            f"**Ionization Potential**: {self.scheme_config.ip_level:.3f} cm⁻¹\n\n"
-        )
+        self._content_md += f"**Ionization Potential**: {rimsschemedrawer.utils.get_ip(self.ele):.3f} cm⁻¹\n\n"
 
         # create the scheme table
         header, table = self.scheme_config.scheme_table()
@@ -212,13 +216,17 @@ class SchemeContentMD:
             fig_dark.savefig(self.fig_name_dark.with_suffix(f".{fmt}"))
             for fmt in self.fig_formats
         ]
+        # for web display, set backgrounds to transparent!
+        fig_dark.axes.patch.set_alpha(0)
+        fig_dark.figure.patch.set_alpha(0)
+        fig_dark.savefig(self.fig_name_dark_web.with_suffix(".png"))
 
         # add the figures to the content for dark and light mode
         self._content_md += (
             f"\n\n"
             f"### Scheme drawing\n\n"
             f"![{self.ele} scheme, light mode]({self.fig_name_light.relative_to(self.ele_path).with_suffix('.png')}#only-light)\n"
-            f"![{self.ele} scheme, dark mode]({self.fig_name_dark.relative_to(self.ele_path).with_suffix('.png')}#only-dark)"
+            f"![{self.ele} scheme, dark mode]({self.fig_name_dark_web.relative_to(self.ele_path).with_suffix('.png')}#only-dark)"
             f"\n\n"
         )
 

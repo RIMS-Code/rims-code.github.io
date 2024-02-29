@@ -11,12 +11,14 @@ theme:
   palette:
   - scheme: slate
     toggle:
-      icon: material/brightness-4
+      icon: material/brightness-2
       name: Switch to light mode
+    primary: indigo
   - scheme: default
     toggle:
       icon: material/brightness-7
       name: Switch to dark mode
+    primary: indigo
 markdown_extensions:
 - admonition
 - pymdownx.highlight:
