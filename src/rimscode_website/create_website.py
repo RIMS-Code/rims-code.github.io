@@ -8,10 +8,14 @@ from rimscode_website.mkdocs_handler import navigation
 from rimscode_website.periodic_table_md import PeriodicTableMD
 
 
-def website():
+def website_recreate():
     """Create the RIMS scheme part of the website."""
     shutil.rmtree(SCHEMES_PATH, ignore_errors=True)  # remove all existing schemes
+    website_add_new()
 
+
+def website_add_new():
+    """Add new RIMS schemes to the website."""
     element_writer = ElementMD()
     element_writer.write_elements_md()
 
@@ -20,8 +24,8 @@ def website():
 
     navigation(element_writer.all_schemes)
 
-    print("RIMS scheme part of the website created. Enjoy!")
+    print("New RIMS schemes added to the website. Enjoy!")
 
 
 if __name__ == "__main__":
-    website()
+    website_add_new()
