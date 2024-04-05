@@ -18,7 +18,7 @@ jobs:
         persist-credentials: false
         fetch-depth: 0
     - name: Install the latest version of rye
-      uses: eifinger/setup-rye@v1
+      uses: eifinger/setup-rye@v2
     - name: Build website with rye
       run: |
         rye sync --all-features

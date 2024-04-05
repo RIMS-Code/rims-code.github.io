@@ -1,6 +1,0 @@
-Added rimsschemedrawer>=3.0.0.dev2 as dev dependency
-Reusing already existing virtualenv
-Generating production lockfile: /home/reto/Documents/code/RIMSCode/rims-code.github.io/requirements.lock
-Generating dev lockfile: /home/reto/Documents/code/RIMSCode/rims-code.github.io/requirements-dev.lock
-Installing dependencies
-Done!

@@ -13,7 +13,7 @@ from rimscode_website.utils import parse_db_filename
 
 
 class SchemeContentMD:
-    """Create the content of a individual scheme page from the data file."""
+    """Create the content of an individual scheme page from the data file."""
 
     def __init__(self, db_file: Path) -> None:
         """Initialize the class.

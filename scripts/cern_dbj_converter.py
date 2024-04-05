@@ -46,6 +46,15 @@ KEY_MAPPER_SCHEME = {
     "tfuenf": "trans_strength5",
 }
 
+
+def symbol_replacer(str_in: str):
+    """Replaces common abbreviations in CERN db string with symbols."""
+    replacements = {"&deg;": "{\\circ}"}
+    for key, value in replacements.items():
+        str_in = str_in.replace(key, value)
+    return str_in
+
+
 with open(DBJ_FILE, "r") as f:
     data = json.load(f)
 
@@ -58,9 +67,11 @@ del data["Ex"]
 shutil.rmtree(OUT_PATH, ignore_errors=True)
 
 # warning counters
+cnt_total_schemes = 0
 cnt_warn_too_many_wl = 0
 cnt_warn_too_many_ion_steps = 0
 cnt_warn_no_ion_step = 0
+cnt_empty_ground_state = 0
 
 for ele, entries in data.items():
     # create the output directory
@@ -68,6 +79,7 @@ for ele, entries in data.items():
     out_dir.mkdir(parents=True)
 
     for eit, entry in enumerate(entries):
+        cnt_total_schemes += 1
         # problem at Ga, there's an additional level of nesting here!
         if ele == "Ga":
             entry = entries[entry]
@@ -75,7 +87,7 @@ for ele, entries in data.items():
         add_to_note = ""  # string to add to note at the very end
 
         entry_index = eit + 1
-        out_file = out_dir.joinpath(f"{ele.capitalize()}-{entry_index}.json")
+        out_file = out_dir.joinpath(f"{ele.capitalize()}-{entry_index:03d}.json")
 
         content = {"rims_scheme": {"scheme": {}}}
 
@@ -86,12 +98,17 @@ for ele, entries in data.items():
         # lasers used
         lasers_used = entry.get("lasersused", None)
         if lasers_used:
-            scheme_out["lasers"] = lasers_used
+            scheme_out["lasers"] = ", ".join(lasers_used)
 
         # go through key mapper and fill with values (even if empty)
         for key, val in KEY_MAPPER_SCHEME.items():
             ent = entry.get(key, "")
-            scheme_out[val] = ent
+            scheme_out[val] = symbol_replacer(ent)
+
+        # check for empty ground state
+        if scheme_out["gs_level"] == "":
+            cnt_empty_ground_state += 1
+            scheme_out["gs_level"] = "0"
 
         # define which step is the ionization step
         it_step = 0
@@ -159,19 +176,44 @@ for ele, entries in data.items():
         ionizaton_step = (
             w_cern if w_cern else ai_cern if ai_cern else ryd_cern if ryd_cern else None
         )
+
+        # find step to fill
+        it_ionization = 0
+        for it in range(6):
+            if scheme_out[f"step_level{it}"] == "":
+                it_ionization = it
+                break
         if ionizaton_step:
-            scheme_out[f"step_level{it_step}"] = ionizaton_step
+            scheme_out[f"step_level{it_ionization}"] = ionizaton_step
         else:
-            warnings.warn(f"No ionization step defined.\n{ele=}\n{eit=}\n{entry=}")
+            warnings.warn(f"No ionization step defined.\n{ele=}\n{eit=}")
             cnt_warn_no_ion_step += 1
 
         # unit
         scheme_out["unit"] = "cm^-1"
 
+        # todo: Check if there are entries for these keys
+        scheme_out["ip_term"] = ""
+
+        # todo: more settings
+        settings_out = {
+            "line_breaks": True,
+        }
+
+        # todo: Notes
+
+        # write out the json files
+        content["rims_scheme"]["scheme"] = scheme_out
+        content["rims_scheme"]["settings"] = settings_out
+        with open(out_file, "w") as fout:
+            json.dump(content, fout, indent=4)
+
 # print status of warning counters
+print("Information:\n" f"Total schemes: {cnt_total_schemes}\n")
 print(
     f"Warning counters:\n"
     f"{cnt_warn_too_many_wl=}\n"
     f"{cnt_warn_too_many_ion_steps=}\n"
-    f"{cnt_warn_no_ion_step=}"
+    f"{cnt_warn_no_ion_step=}\n"
+    f"{cnt_empty_ground_state=}"
 )

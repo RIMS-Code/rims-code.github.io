@@ -111,8 +111,9 @@ class ElementMD:
                 fname = folder.joinpath(
                     f"{ele}-{pos:0{self._file_name_zero_filling}d}.md"
                 )
-                with open(fname, "w") as f:
-                    f.write(ele_file_content)
+                if fname.exists() is False:
+                    with open(fname, "w") as f:
+                        f.write(ele_file_content)
 
                 # add element and scheme to the all_schemes dictionary
                 dict_entry = f"{ele}/{fname.stem}"
