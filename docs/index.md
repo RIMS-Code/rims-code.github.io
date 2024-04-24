@@ -25,9 +25,7 @@ you can open an
 [issue on GitHub](https://github.com/RIMS-Code/rims-code.github.io/issues),
 start a 
 [discussion](https://github.com/RIMS-Code/rims-code.github.io/discussions),
-or get in touch with the current maintainer(s) of the website and this community hub:
-
-- [Reto Trappitsch](mailto:reto@galactic-forensics.space)
+or get in touch with the [current maintainer(s)](maintainers.md) of the website and this community hub.
 
 You can also find more information in the 
 [Contribute](contribute.md) section of this website.
