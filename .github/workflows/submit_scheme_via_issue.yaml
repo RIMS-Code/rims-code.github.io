@@ -17,21 +17,9 @@ jobs:
       id: add-to-database
       run: |
         cd scripts
-        echo ${{ github.event.issue.body }}
         DB_FNAME=`python scheme_submission_handler.py '${{ github.event.issue.body }}'`
-        echo "::set-output name=DB_FNAME::$DB_FNAME"
+        echo "{name}={DB_FNAME}" >> $GITHUB_OUTPUT
         cd ..
-#    - name: Commit files to a new branch
-#      run: |
-#        git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
-#        git config --local user.name "github-actions[bot]"
-#        git add .
-#        git commit -a -m "Update website."
-#    - name: Push changes
-#      uses: ad-m/github-push-action@master
-#      with:
-#        github_token: ${{ secrets.GITHUB_TOKEN }}
-#        branch: ${{ github.head_ref }}
     - name: Generate token
       id: generate-token
       uses: tibdex/github-app-token@v1
@@ -42,6 +30,7 @@ jobs:
       uses: peter-evans/create-pull-request@v6
       with:
         token: ${{ steps.generate-token.outputs.token }}
+        p
         commit-message: ${{ github.event.issue.title }}
         title: ${{ github.event.issue.title }}
         body: |
