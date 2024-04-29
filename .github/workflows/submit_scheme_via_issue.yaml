@@ -39,6 +39,7 @@ jobs:
       uses: peter-evans/create-pull-request@v6
       with:
         token: ${{ secrets.PAT }}
+        git-token: ${{ secrets.PAT }}
         commit-message: ${{ github.event.issue.title }}
         title: ${{ github.event.issue.title }}
         body: |
