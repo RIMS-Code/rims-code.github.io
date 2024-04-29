@@ -22,6 +22,7 @@ jobs:
         cd scripts
         echo ${{ github.event.issue.body }}
         DB_FNAME=`python scheme_submission_handler.py '${{ github.event.issue.body }}'`
+        echo "::set-output name=DB_FNAME::$DB_FNAME"
         cd ..
 #    - name: Commit files to a new branch
 #      run: |
@@ -37,7 +38,7 @@ jobs:
     - name: Create PR
       uses: peter-evans/create-pull-request@v6
       with:
-        token: ${{ secrets.GITHUB_TOKEN }}
+        token: ${{ secrets.PAT}}
         commit-message: ${{ github.event.issue.title }}
         title: ${{ github.event.issue.title }}
         body: |
