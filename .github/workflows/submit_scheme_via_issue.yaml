@@ -39,12 +39,13 @@ jobs:
       uses: peter-evans/create-pull-request@v6
       with:
         token: ${{ secrets.PAT }}
-        git-token: ${{ secrets.PAT }}
+        author: scheme_submission_bot
         commit-message: ${{ github.event.issue.title }}
         title: ${{ github.event.issue.title }}
         body: |
           This PR adds a new scheme to the database.
           - Database file: ${{ steps.add-to-database.outputs.DB_FNAME }}
+          - Submitted by: @${{ github.event.issue.user.login }}
           - Closes #${{ github.event.issue.number }}
         branch: add_scheme_issue_${{ github.event.issue.number }}
         labels: scheme_submission
