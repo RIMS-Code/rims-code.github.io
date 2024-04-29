@@ -9,8 +9,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v4
-      with:
-        ssh-key: ${{ secrets.SSH_PRIVATE_KEY }}
     - name: Setup Python 3.12
       uses: actions/setup-python@v5
       with:
@@ -34,9 +32,16 @@ jobs:
 #      with:
 #        github_token: ${{ secrets.GITHUB_TOKEN }}
 #        branch: ${{ github.head_ref }}
+    - name: Generate token
+      id: generate-token
+      uses: tibdex/github-app-token@v1
+      with:
+        app_id: ${{ secrets.APP_ID }}
+        private_key: ${{ secrets.APP_PRIVATE_KEY }}
     - name: Create PR
       uses: peter-evans/create-pull-request@v6
       with:
+        token: ${{ steps.generate-token.outputs.token }}
         commit-message: ${{ github.event.issue.title }}
         title: ${{ github.event.issue.title }}
         body: |
