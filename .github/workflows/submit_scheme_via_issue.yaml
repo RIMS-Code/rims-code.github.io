@@ -10,8 +10,7 @@ jobs:
     steps:
     - uses: actions/checkout@v4
       with:
-        persist-credentials: false
-        fetch-depth: 0
+        ssh-key: ${{ secrets.SSH_PRIVATE_KEY }}
     - name: Setup Python 3.12
       uses: actions/setup-python@v5
       with:
@@ -38,8 +37,6 @@ jobs:
     - name: Create PR
       uses: peter-evans/create-pull-request@v6
       with:
-        token: ${{ secrets.PAT }}
-        author: scheme_submission_bot <41898282+github-actions[bot]@users.noreply.github.com>
         commit-message: ${{ github.event.issue.title }}
         title: ${{ github.event.issue.title }}
         body: |
