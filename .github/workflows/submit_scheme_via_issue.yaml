@@ -18,7 +18,7 @@ jobs:
       run: |
         cd scripts
         DB_FNAME=`python scheme_submission_handler.py '${{ github.event.issue.body }}'`
-        echo "{name}={DB_FNAME}" >> $GITHUB_OUTPUT
+        echo "{DB_FNAME}={DB_FNAME}" >> $GITHUB_OUTPUT
         cd ..
     - name: Generate token
       id: generate-token
