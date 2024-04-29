@@ -20,6 +20,7 @@ jobs:
       id: add-to-database
       run: |
         cd scripts
+        echo ${{ github.event.issue.body }}
         DB_FNAME=`python scheme_submission_handler.py "${{ github.event.issue.body }}"`
         cd ..
 #    - name: Commit files to a new branch
