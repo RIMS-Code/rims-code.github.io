@@ -30,7 +30,6 @@ jobs:
       uses: peter-evans/create-pull-request@v6
       with:
         token: ${{ steps.generate-token.outputs.token }}
-        p
         commit-message: ${{ github.event.issue.title }}
         title: ${{ github.event.issue.title }}
         body: |
