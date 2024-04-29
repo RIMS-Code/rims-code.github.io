@@ -1,17 +1,14 @@
 name: Submit a new scheme via a GitHub issue
 on:
   issues:
-    types: [created, edited]
+    types: [opened, edited]
 
 jobs:
   add-to-database:
-    if: containts(github.event.issue.labels, 'scheme_submission')
+    if: contains(github.event.issue.labels.*.name, 'scheme_submission')
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v4
-      with:
-        persist-credentials: false
-        fetch-depth: 0
     - name: Setup Python 3.12
       uses: actions/setup-python@v5
       with:
@@ -20,28 +17,25 @@ jobs:
       id: add-to-database
       run: |
         cd scripts
-        DB_FNAME=`python scheme_submission_handler.py ${{ github.event.issue.body }}`
+        DB_FNAME=`python scheme_submission_handler.py '${{ github.event.issue.body }}'`
+        echo "db_fname=$DB_FNAME" >> $GITHUB_OUTPUT
         cd ..
-#    - name: Commit files to a new branch
-#      run: |
-#        git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
-#        git config --local user.name "github-actions[bot]"
-#        git add .
-#        git commit -a -m "Update website."
-#    - name: Push changes
-#      uses: ad-m/github-push-action@master
-#      with:
-#        github_token: ${{ secrets.GITHUB_TOKEN }}
-#        branch: ${{ github.head_ref }}
+    - name: Generate token
+      id: generate-token
+      uses: tibdex/github-app-token@v1
+      with:
+        app_id: ${{ secrets.APP_ID }}
+        private_key: ${{ secrets.APP_PRIVATE_KEY }}
     - name: Create PR
       uses: peter-evans/create-pull-request@v6
       with:
-        token: ${{ secrets.GITHUB_TOKEN }}
+        token: ${{ steps.generate-token.outputs.token }}
         commit-message: ${{ github.event.issue.title }}
         title: ${{ github.event.issue.title }}
         body: |
           This PR adds a new scheme to the database.
-          - Database file: ${{ steps.add-to-database.outputs.DB_FNAME }}
+          - Database file: ${{ steps.add-to-database.outputs.db_fname }}
+          - Submitted by: @${{ github.event.issue.user.login }}
           - Closes #${{ github.event.issue.number }}
         branch: add_scheme_issue_${{ github.event.issue.number }}
         labels: scheme_submission
