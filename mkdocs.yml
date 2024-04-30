@@ -45,6 +45,9 @@ nav:
     - W:
       - Overview: schemes/w/index.md
       - W-1: schemes/w/w-001.md
+    - Ti:
+      - Overview: schemes/ti/index.md
+      - Ti-1: schemes/ti/ti-001.md
 - Contribute: contribute.md
 - Submit a Scheme: submit_scheme.md
 - Crystal calculator: crystal-calculator.md
