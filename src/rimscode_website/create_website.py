@@ -19,7 +19,9 @@ def website_add_new():
     element_writer = ElementMD()
     element_writer.write_elements_md()
 
-    scheme_writer = PeriodicTableMD(element_writer.ele_index_urls)
+    scheme_writer = PeriodicTableMD(
+        element_writer.ele_index_urls, element_writer.laser_type_dict
+    )
     scheme_writer.write_scheme_md()
 
     navigation(element_writer.all_schemes)
