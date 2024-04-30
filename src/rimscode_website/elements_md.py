@@ -20,6 +20,7 @@ class ElementMD:
 
         self._all_schemes = {}  # dictionary with all scheme: {ele: [ele-1, ele-2, ...]}
         self._ele_index_urls = {}  # dictionary with element name: url for adding to periodic table
+        self._laser_type_dict = {}  # dictionary with element name: laser type
 
         # create scheme docs path
         self._scheme_docs_path = SCHEMES_PATH
@@ -39,6 +40,28 @@ class ElementMD:
         :return: Dictionary with element name as key and list of schemes as value.
         """
         return self._all_schemes
+
+    @property
+    def laser_type_dict(self) -> dict:
+        """Return a dictionary with the laser type per element.
+
+        Example dictionary that could be returned:
+        {"Fe": "both", "Mo": "ti_sa", "U": "dye"}
+
+        :return: Dictionary with element name as key and set of laser types as value.
+        """
+        ret_dict = {}
+        for ele in self._laser_type_dict.keys():
+            types = self._laser_type_dict[ele]
+            if len(types) > 1:
+                tp = "both"
+            else:
+                if "Ti:Sa" in types:
+                    tp = "ti_sa"
+                else:
+                    tp = "dye"
+            ret_dict[ele] = tp
+        return ret_dict
 
     @property
     def ele_index_urls(self) -> dict:
@@ -175,6 +198,12 @@ class ElementMD:
                     entry["references"],
                 ]
             )
+
+            # add laser type to the laser type dictionary
+            if ele in self._laser_type_dict.keys():
+                self._laser_type_dict[ele].add(entry["lasers"])
+            else:
+                self._laser_type_dict[ele] = {entry["lasers"]}
 
         md_table = ptw.MarkdownTableWriter(
             headers=table_header, value_matrix=table, margin=1

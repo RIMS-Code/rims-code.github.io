@@ -44,6 +44,7 @@ if __name__ == "__main__":
     retval = add_to_db(arg_json)
     print(retval)
 
+
 # SOME MANUAL TESTS FOR THE FUNCTION ABOVE #
 
 

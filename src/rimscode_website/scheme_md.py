@@ -58,6 +58,9 @@ class SchemeContentMD:
         # Add the references section
         self._reference()
 
+        # Add submitted by
+        self._submitted_by()
+
     @property
     def content_md(self) -> str:
         """Return the content string for the markdown file.
@@ -97,6 +100,12 @@ class SchemeContentMD:
         # loop through available saturation curves
         for sit, sat_key in enumerate(self.db_content[key].keys()):
             self._content_md += f"### {sat_key}\n\n"
+
+            # add notes if they are available
+            notes_key = "notes"
+            if notes_key in self.db_content[key][sat_key].keys():
+                self._content_md += self.db_content[key][sat_key][notes_key] + "\n\n"
+                self._content_md += self.db_content[key][sat_key][notes_key] + "\n\n"
 
             fname = f"sat-{sit}"
 
@@ -194,7 +203,13 @@ class SchemeContentMD:
         self._content_md += "\n\n## Scheme\n\n"
 
         # label scheme IP:
-        self._content_md += f"**Ionization Potential**: {rimsschemedrawer.utils.get_ip(self.ele):.3f} cm⁻¹\n\n"
+        self._content_md += f"**Ionization Potential**: {rimsschemedrawer.utils.get_ip(self.ele):.3f} cm⁻¹  \n"
+
+        # label scheme lasers:
+        key = "lasers"
+        if key in self.db_content["rims_scheme"]["scheme"].keys():
+            lasers = self.db_content["rims_scheme"]["scheme"]["lasers"]
+            self._content_md += f"**Lasers used**: {lasers}\n\n"
 
         # create the scheme table
         header, table = self.scheme_config.scheme_table()
@@ -255,3 +270,10 @@ class SchemeContentMD:
         for col in range(len(download_table_header)):
             md_table.set_style(col, ptw.style.Style(align="left"))
         self._content_md += str(md_table)
+
+    def _submitted_by(self):
+        """Add submitted by if available."""
+        key = "submitted_by"
+        if key in self.db_content.keys():
+            self._content_md += "\n\n## Submitted by\n\n"
+            self._content_md += self.db_content[key] + "\n\n"

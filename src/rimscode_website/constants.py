@@ -123,12 +123,35 @@ ELEMENTS_BY_NAME = {
     "Lr": (8, 17, "#cdffee"),
 }
 
+COLORS_BY_TYPE = {
+    "inaccessible": "#fcfcfc",
+    "feasible": "#dddddd",
+    "dye": "#c8ffc8",
+    "ti_sa": "#bbddff",
+    "both": "#ffc9c9",
+}
+
+INACCESSIBLE_ELEMENTS = {
+    "H",
+    "He",
+    "C",
+    "N",
+    "O",
+    "F",
+    "Ne",
+    "S",
+    "Cl",
+    "Ar",
+    "Se",
+    "Br",
+}
+
 # special positions in table.
 # key: (row, col)
 # value: string to display
 SPECIAL_POSITIONS = {
     (5, 2): "*",  # Lanthanides
     (6, 2): "**",  # Actinides
-    (7, 2): "*",  # Lanthanides
-    (8, 2): "**",  # Actinides
+    (8, 2): "*",  # Lanthanides
+    (9, 2): "**",  # Actinides
 }

@@ -2,8 +2,10 @@
 
 Please click on an element in the periodic table below
 to see the corresponding RIMS scheme.
-If an element is not linked,
-no scheme is currently available.
+For gray elements, no scheme is currently available in the database.
+Therefore, the element is not clickable.
+All other element are color-coded according to the type of laser scheme available
+(see legend below).
 
 If you would like to contribute a scheme,
 please see [here](../contribute).
@@ -13,13 +15,13 @@ please see [here](../contribute).
 .tg  {border-collapse:collapse;border-spacing:0;}
 .tg td{border-color:transparent;border-style:solid;border-width:1px;overflow:hidden;padding:8px 8px;word-break:normal;}
 
-.tg .tg_c8ffc8{background-color: #c8ffc8; color: #000000; text-align: center; vertical-align: middle;}.tg .tg_ffffc7{background-color: #ffffc7; color: #000000; text-align: center; vertical-align: middle;}.tg .tg_e1eebd{background-color: #e1eebd; color: #000000; text-align: center; vertical-align: middle;}.tg .tg_d7d7ff{background-color: #d7d7ff; color: #000000; text-align: center; vertical-align: middle;}.tg .tg_ffe4bb{background-color: #ffe4bb; color: #000000; text-align: center; vertical-align: middle;}.tg .tg_bbddff{background-color: #bbddff; color: #000000; text-align: center; vertical-align: middle;}.tg .tg_ffc9c9{background-color: #ffc9c9; color: #000000; text-align: center; vertical-align: middle;}.tg .tg_b9ffff{background-color: #b9ffff; color: #000000; text-align: center; vertical-align: middle;}.tg .tg_cdffee{background-color: #cdffee; color: #000000; text-align: center; vertical-align: middle;}
+.tg .tg_fcfcfc{background-color: #fcfcfc; color: #000000; text-align: center; vertical-align: middle;}.tg .tg_dddddd{background-color: #dddddd; color: #000000; text-align: center; vertical-align: middle;}.tg .tg_c8ffc8{background-color: #c8ffc8; color: #000000; text-align: center; vertical-align: middle;}.tg .tg_bbddff{background-color: #bbddff; color: #000000; text-align: center; vertical-align: middle;}.tg .tg_ffc9c9{background-color: #ffc9c9; color: #000000; text-align: center; vertical-align: middle;}
 </style>
 
 <table class="tg">
 <tbody>
   <tr>
-    <td class="tg tg_ffffc7">H</td>
+    <td class="tg tg_fcfcfc">H</td>
     <td></td>
     <td></td>
     <td></td>
@@ -36,11 +38,11 @@ please see [here](../contribute).
     <td></td>
     <td></td>
     <td></td>
-    <td class="tg tg_ffe4bb">He</td>
+    <td class="tg tg_fcfcfc">He</td>
   </tr>
   <tr>
-    <td class="tg tg_ffc9c9">Li</td>
-    <td class="tg tg_d7d7ff">Be</td>
+    <td class="tg tg_dddddd">Li</td>
+    <td class="tg tg_dddddd">Be</td>
     <td></td>
     <td></td>
     <td></td>
@@ -51,16 +53,16 @@ please see [here](../contribute).
     <td></td>
     <td></td>
     <td></td>
-    <td class="tg tg_e1eebd">B</td>
-    <td class="tg tg_ffffc7">C</td>
-    <td class="tg tg_ffffc7">N</td>
-    <td class="tg tg_ffffc7">O</td>
-    <td class="tg tg_ffffc7">F</td>
-    <td class="tg tg_ffe4bb">Ne</td>
+    <td class="tg tg_dddddd">B</td>
+    <td class="tg tg_fcfcfc">C</td>
+    <td class="tg tg_fcfcfc">N</td>
+    <td class="tg tg_fcfcfc">O</td>
+    <td class="tg tg_fcfcfc">F</td>
+    <td class="tg tg_fcfcfc">Ne</td>
   </tr>
   <tr>
-    <td class="tg tg_ffc9c9">Na</td>
-    <td class="tg tg_d7d7ff">Mg</td>
+    <td class="tg tg_dddddd">Na</td>
+    <td class="tg tg_dddddd">Mg</td>
     <td></td>
     <td></td>
     <td></td>
@@ -71,132 +73,171 @@ please see [here](../contribute).
     <td></td>
     <td></td>
     <td></td>
-    <td class="tg tg_c8ffc8">Al</td>
-    <td class="tg tg_e1eebd">Si</td>
-    <td class="tg tg_ffffc7">P</td>
-    <td class="tg tg_ffffc7">S</td>
-    <td class="tg tg_ffffc7">Cl</td>
-    <td class="tg tg_ffe4bb">Ar</td>
+    <td class="tg tg_dddddd">Al</td>
+    <td class="tg tg_dddddd">Si</td>
+    <td class="tg tg_dddddd">P</td>
+    <td class="tg tg_fcfcfc">S</td>
+    <td class="tg tg_fcfcfc">Cl</td>
+    <td class="tg tg_fcfcfc">Ar</td>
   </tr>
   <tr>
-    <td class="tg tg_ffc9c9">K</td>
-    <td class="tg tg_d7d7ff">Ca</td>
-    <td class="tg tg_bbddff">Sc</td>
-    <td class="tg tg_bbddff">Ti</td>
-    <td class="tg tg_bbddff">V</td>
-    <td class="tg tg_bbddff">Cr</td>
-    <td class="tg tg_bbddff">Mn</td>
-    <td class="tg tg_bbddff">Fe</td>
-    <td class="tg tg_bbddff">Co</td>
-    <td class="tg tg_bbddff">Ni</td>
-    <td class="tg tg_bbddff">Cu</td>
-    <td class="tg tg_bbddff">Zn</td>
-    <td class="tg tg_c8ffc8">Ga</td>
-    <td class="tg tg_e1eebd">Ge</td>
-    <td class="tg tg_e1eebd">As</td>
-    <td class="tg tg_ffffc7">Se</td>
-    <td class="tg tg_ffffc7">Br</td>
-    <td class="tg tg_ffe4bb">Kr</td>
+    <td class="tg tg_dddddd">K</td>
+    <td class="tg tg_dddddd">Ca</td>
+    <td class="tg tg_dddddd">Sc</td>
+    <td class="tg tg_dddddd">Ti</td>
+    <td class="tg tg_dddddd">V</td>
+    <td class="tg tg_dddddd">Cr</td>
+    <td class="tg tg_dddddd">Mn</td>
+    <td class="tg tg_dddddd">Fe</td>
+    <td class="tg tg_dddddd">Co</td>
+    <td class="tg tg_dddddd">Ni</td>
+    <td class="tg tg_dddddd">Cu</td>
+    <td class="tg tg_dddddd">Zn</td>
+    <td class="tg tg_dddddd">Ga</td>
+    <td class="tg tg_dddddd">Ge</td>
+    <td class="tg tg_dddddd">As</td>
+    <td class="tg tg_fcfcfc">Se</td>
+    <td class="tg tg_fcfcfc">Br</td>
+    <td class="tg tg_dddddd">Kr</td>
   </tr>
   <tr>
-    <td class="tg tg_ffc9c9">Rb</td>
-    <td class="tg tg_d7d7ff">Sr</td>
-    <td class="tg tg_bbddff">Y</td>
-    <td class="tg tg_bbddff"><a href="../schemes/zr/">Zr</a></td>
-    <td class="tg tg_bbddff">Nb</td>
-    <td class="tg tg_bbddff">Mo</td>
-    <td class="tg tg_bbddff">Tc</td>
-    <td class="tg tg_bbddff">Ru</td>
-    <td class="tg tg_bbddff">Rh</td>
-    <td class="tg tg_bbddff">Pd</td>
-    <td class="tg tg_bbddff">Ag</td>
-    <td class="tg tg_bbddff">Cd</td>
-    <td class="tg tg_c8ffc8">In</td>
-    <td class="tg tg_c8ffc8">Sn</td>
-    <td class="tg tg_e1eebd">Sb</td>
-    <td class="tg tg_e1eebd">Te</td>
-    <td class="tg tg_ffffc7">I</td>
-    <td class="tg tg_ffe4bb">Xe</td>
+    <td class="tg tg_dddddd">Rb</td>
+    <td class="tg tg_dddddd">Sr</td>
+    <td class="tg tg_dddddd">Y</td>
+    <td class="tg tg_bbddff"><a href="../schemes/zr/"><span style="color:#000">Zr</span></a></td>
+    <td class="tg tg_dddddd">Nb</td>
+    <td class="tg tg_dddddd">Mo</td>
+    <td class="tg tg_dddddd">Tc</td>
+    <td class="tg tg_dddddd">Ru</td>
+    <td class="tg tg_dddddd">Rh</td>
+    <td class="tg tg_dddddd">Pd</td>
+    <td class="tg tg_dddddd">Ag</td>
+    <td class="tg tg_dddddd">Cd</td>
+    <td class="tg tg_dddddd">In</td>
+    <td class="tg tg_dddddd">Sn</td>
+    <td class="tg tg_dddddd">Sb</td>
+    <td class="tg tg_dddddd">Te</td>
+    <td class="tg tg_dddddd">I</td>
+    <td class="tg tg_dddddd">Xe</td>
   </tr>
   <tr>
-    <td class="tg tg_ffc9c9">Cs</td>
-    <td class="tg tg_d7d7ff">Ba</td>
+    <td class="tg tg_dddddd">Cs</td>
+    <td class="tg tg_dddddd">Ba</td>
     <td align="center">*</td>
-    <td class="tg tg_bbddff">Hf</td>
-    <td class="tg tg_bbddff">Ta</td>
-    <td class="tg tg_bbddff"><a href="../schemes/w/">W</a></td>
-    <td class="tg tg_bbddff">Re</td>
-    <td class="tg tg_bbddff">Os</td>
-    <td class="tg tg_bbddff">Ir</td>
-    <td class="tg tg_bbddff">Pt</td>
-    <td class="tg tg_bbddff">Au</td>
-    <td class="tg tg_bbddff">Hg</td>
-    <td class="tg tg_c8ffc8">Tl</td>
-    <td class="tg tg_c8ffc8">Pb</td>
-    <td class="tg tg_c8ffc8">Bi</td>
-    <td class="tg tg_e1eebd">Po</td>
-    <td class="tg tg_ffffc7">At</td>
-    <td class="tg tg_ffe4bb">Rn</td>
+    <td class="tg tg_dddddd">Hf</td>
+    <td class="tg tg_dddddd">Ta</td>
+    <td class="tg tg_bbddff"><a href="../schemes/w/"><span style="color:#000">W</span></a></td>
+    <td class="tg tg_dddddd">Re</td>
+    <td class="tg tg_dddddd">Os</td>
+    <td class="tg tg_dddddd">Ir</td>
+    <td class="tg tg_dddddd">Pt</td>
+    <td class="tg tg_dddddd">Au</td>
+    <td class="tg tg_dddddd">Hg</td>
+    <td class="tg tg_dddddd">Tl</td>
+    <td class="tg tg_dddddd">Pb</td>
+    <td class="tg tg_dddddd">Bi</td>
+    <td class="tg tg_dddddd">Po</td>
+    <td class="tg tg_dddddd">At</td>
+    <td class="tg tg_dddddd">Rn</td>
   </tr>
   <tr>
-    <td class="tg tg_ffc9c9">Fr</td>
-    <td class="tg tg_d7d7ff">Ra</td>
+    <td class="tg tg_dddddd">Fr</td>
+    <td class="tg tg_dddddd">Ra</td>
     <td align="center">**</td>
-    <td class="tg tg_bbddff">Rf</td>
-    <td class="tg tg_bbddff">Db</td>
-    <td class="tg tg_bbddff">Sg</td>
-    <td class="tg tg_bbddff">Bh</td>
-    <td class="tg tg_bbddff">Hs</td>
-    <td class="tg tg_bbddff">Mt</td>
-    <td class="tg tg_bbddff">Ds</td>
-    <td class="tg tg_bbddff">Rg</td>
-    <td class="tg tg_bbddff">Cn</td>
-    <td class="tg tg_c8ffc8">Nh</td>
-    <td class="tg tg_c8ffc8">Fl</td>
-    <td class="tg tg_c8ffc8">Mc</td>
-    <td class="tg tg_c8ffc8">Lv</td>
-    <td class="tg tg_ffffc7">Ts</td>
-    <td class="tg tg_ffe4bb">Og</td>
+    <td class="tg tg_dddddd">Rf</td>
+    <td class="tg tg_dddddd">Db</td>
+    <td class="tg tg_dddddd">Sg</td>
+    <td class="tg tg_dddddd">Bh</td>
+    <td class="tg tg_dddddd">Hs</td>
+    <td class="tg tg_dddddd">Mt</td>
+    <td class="tg tg_dddddd">Ds</td>
+    <td class="tg tg_dddddd">Rg</td>
+    <td class="tg tg_dddddd">Cn</td>
+    <td class="tg tg_dddddd">Nh</td>
+    <td class="tg tg_dddddd">Fl</td>
+    <td class="tg tg_dddddd">Mc</td>
+    <td class="tg tg_dddddd">Lv</td>
+    <td class="tg tg_dddddd">Ts</td>
+    <td class="tg tg_dddddd">Og</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
   </tr>
   <tr>
     <td></td>
     <td></td>
     <td align="center">*</td>
-    <td class="tg tg_b9ffff">La</td>
-    <td class="tg tg_b9ffff">Ce</td>
-    <td class="tg tg_b9ffff">Pr</td>
-    <td class="tg tg_b9ffff">Nd</td>
-    <td class="tg tg_b9ffff">Pm</td>
-    <td class="tg tg_b9ffff">Sm</td>
-    <td class="tg tg_b9ffff">Eu</td>
-    <td class="tg tg_b9ffff">Gd</td>
-    <td class="tg tg_b9ffff">Tb</td>
-    <td class="tg tg_b9ffff">Dy</td>
-    <td class="tg tg_b9ffff">Ho</td>
-    <td class="tg tg_b9ffff">Er</td>
-    <td class="tg tg_b9ffff">Tm</td>
-    <td class="tg tg_b9ffff">Yb</td>
-    <td class="tg tg_b9ffff">Lu</td>
+    <td class="tg tg_dddddd">La</td>
+    <td class="tg tg_dddddd">Ce</td>
+    <td class="tg tg_dddddd">Pr</td>
+    <td class="tg tg_dddddd">Nd</td>
+    <td class="tg tg_dddddd">Pm</td>
+    <td class="tg tg_dddddd">Sm</td>
+    <td class="tg tg_dddddd">Eu</td>
+    <td class="tg tg_dddddd">Gd</td>
+    <td class="tg tg_dddddd">Tb</td>
+    <td class="tg tg_dddddd">Dy</td>
+    <td class="tg tg_dddddd">Ho</td>
+    <td class="tg tg_dddddd">Er</td>
+    <td class="tg tg_dddddd">Tm</td>
+    <td class="tg tg_dddddd">Yb</td>
+    <td class="tg tg_dddddd">Lu</td>
   </tr>
   <tr>
     <td></td>
     <td></td>
     <td align="center">**</td>
-    <td class="tg tg_cdffee">Ac</td>
-    <td class="tg tg_cdffee">Th</td>
-    <td class="tg tg_cdffee">Pa</td>
-    <td class="tg tg_cdffee">U</td>
-    <td class="tg tg_cdffee">Np</td>
-    <td class="tg tg_cdffee">Pu</td>
-    <td class="tg tg_cdffee">Am</td>
-    <td class="tg tg_cdffee">Cm</td>
-    <td class="tg tg_cdffee">Bk</td>
-    <td class="tg tg_cdffee">Cf</td>
-    <td class="tg tg_cdffee">Es</td>
-    <td class="tg tg_cdffee">Fm</td>
-    <td class="tg tg_cdffee">Md</td>
-    <td class="tg tg_cdffee">No</td>
-    <td class="tg tg_cdffee">Lr</td>
+    <td class="tg tg_dddddd">Ac</td>
+    <td class="tg tg_dddddd">Th</td>
+    <td class="tg tg_dddddd">Pa</td>
+    <td class="tg tg_dddddd">U</td>
+    <td class="tg tg_dddddd">Np</td>
+    <td class="tg tg_dddddd">Pu</td>
+    <td class="tg tg_dddddd">Am</td>
+    <td class="tg tg_dddddd">Cm</td>
+    <td class="tg tg_dddddd">Bk</td>
+    <td class="tg tg_dddddd">Cf</td>
+    <td class="tg tg_dddddd">Es</td>
+    <td class="tg tg_dddddd">Fm</td>
+    <td class="tg tg_dddddd">Md</td>
+    <td class="tg tg_dddddd">No</td>
+    <td class="tg tg_dddddd">Lr</td>
   </tr>
 </tbody>
 </table>
+
+<center>
+
+Color coding:
+
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{border-color:transparent;border-style:solid;border-width:1px;overflow:hidden;padding:8px 8px;word-break:normal;}
+
+.tg .tg_fcfcfc{background-color: #fcfcfc; color: #000000; text-align: center; vertical-align: middle;}.tg .tg_dddddd{background-color: #dddddd; color: #000000; text-align: center; vertical-align: middle;}.tg .tg_c8ffc8{background-color: #c8ffc8; color: #000000; text-align: center; vertical-align: middle;}.tg .tg_bbddff{background-color: #bbddff; color: #000000; text-align: center; vertical-align: middle;}.tg .tg_ffc9c9{background-color: #ffc9c9; color: #000000; text-align: center; vertical-align: middle;}
+</style>
+
+<table class="tg">
+<tbody>
+  <tr>    <td class="tg tg_fcfcfc">Inaccessible</td>    <td class="tg tg_dddddd">Feasible</td>    <td class="tg tg_c8ffc8">Dye schemes</td>    <td class="tg tg_bbddff">Ti:Sa schemes</td>    <td class="tg tg_ffc9c9">Ti:Sa and Dye schemes</td>  <tr>
+</tbody>
+</table>
+
+</center>
