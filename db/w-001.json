@@ -58,5 +58,6 @@
         }
     },
     "notes": "Developed by Shulaker et al. at Lawrence Livermore National Laboratory using the LION instrument.",
-    "references": ["10.1039/D2JA00320A"]
+    "references": ["10.1039/D2JA00320A"],
+    "submitted_by": "Reto Trappitsch"
 }

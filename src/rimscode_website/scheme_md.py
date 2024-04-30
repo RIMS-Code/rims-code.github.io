@@ -58,6 +58,9 @@ class SchemeContentMD:
         # Add the references section
         self._reference()
 
+        # Add submitted by
+        self._submitted_by()
+
     @property
     def content_md(self) -> str:
         """Return the content string for the markdown file.
@@ -261,3 +264,10 @@ class SchemeContentMD:
         for col in range(len(download_table_header)):
             md_table.set_style(col, ptw.style.Style(align="left"))
         self._content_md += str(md_table)
+
+    def _submitted_by(self):
+        """Add submitted by if available."""
+        key = "submitted_by"
+        if key in self.db_content.keys():
+            self._content_md += "\n\n## Submitted by\n\n"
+            self._content_md += self.db_content[key] + "\n\n"
