@@ -194,7 +194,13 @@ class SchemeContentMD:
         self._content_md += "\n\n## Scheme\n\n"
 
         # label scheme IP:
-        self._content_md += f"**Ionization Potential**: {rimsschemedrawer.utils.get_ip(self.ele):.3f} cm⁻¹\n\n"
+        self._content_md += f"**Ionization Potential**: {rimsschemedrawer.utils.get_ip(self.ele):.3f} cm⁻¹  \n"
+
+        try:
+            lasers = self.db_content["rims_scheme"]["scheme"]["lasers"]
+            self._content_md += f"**Lasers used**: {lasers}\n\n"
+        except KeyError:
+            self._content_md += "\n"
 
         # create the scheme table
         header, table = self.scheme_config.scheme_table()
