@@ -101,6 +101,12 @@ class SchemeContentMD:
         for sit, sat_key in enumerate(self.db_content[key].keys()):
             self._content_md += f"### {sat_key}\n\n"
 
+            # add notes if they are available
+            notes_key = "notes"
+            if notes_key in self.db_content[key][sat_key].keys():
+                self._content_md += self.db_content[key][sat_key][notes_key] + "\n\n"
+                self._content_md += self.db_content[key][sat_key][notes_key] + "\n\n"
+
             fname = f"sat-{sit}"
 
             xdat = self.db_content[key][sat_key]["data"]["x"]
@@ -199,11 +205,11 @@ class SchemeContentMD:
         # label scheme IP:
         self._content_md += f"**Ionization Potential**: {rimsschemedrawer.utils.get_ip(self.ele):.3f} cm⁻¹  \n"
 
-        try:
+        # label scheme lasers:
+        key = "lasers"
+        if key in self.db_content["rims_scheme"]["scheme"].keys():
             lasers = self.db_content["rims_scheme"]["scheme"]["lasers"]
             self._content_md += f"**Lasers used**: {lasers}\n\n"
-        except KeyError:
-            self._content_md += "\n"
 
         # create the scheme table
         header, table = self.scheme_config.scheme_table()
