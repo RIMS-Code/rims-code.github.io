@@ -39,7 +39,7 @@
         }
     },
     "saturation_curves": {
-        "1st transition (3F2, 465.777 nm)": {
+        "1st transition (465.777 nm)": {
             "data": {
                 "x": [
                     27779.77189,
@@ -71,7 +71,7 @@
             "notes": "First transition from ground state at 0 cm\u00af\u00b9.",
             "units": "W * cm^-2"
         },
-        "1st transition (3F3, 469.498 nm)": {
+        "1st transition (469.498 nm)": {
             "data": {
                 "x": [
                     518236.003,
@@ -103,7 +103,7 @@
             "notes": "First transiton from ground state at 170.15 cm\u00af\u00b9.1",
             "units": "W * cm^-2"
         },
-        "1st transition (3F4, 4741.324 nm)": {
+        "1st transition (474.324 nm)": {
             "data": {
                 "x": [
                     919561.8934,
@@ -179,7 +179,7 @@
             "notes": "",
             "units": "W * cm^-2"
         },
-        "Ionizing transition (881.399 nm)1": {
+        "Ionizing transition (881.399 nm)": {
             "data": {
                 "x": [
                     8359653.577,
