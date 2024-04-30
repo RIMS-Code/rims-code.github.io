@@ -4,3 +4,7 @@
 
 TBD:
 Step-by-step guide to submitting a new scheme to the RIMS database.
+
+### Submitting via GitHub
+
+**Your request URL is too long** - this can happen when adding lots of notes and saturation curves. Please simply submit the scheme via e-mail or open an issue on GitHub with the scheme as the issue body.
