@@ -21,6 +21,7 @@ theme:
     primary: indigo
 markdown_extensions:
 - admonition
+- attr_list
 - pymdownx.highlight:
     anchor_linenums: true
     line_spans: __span
@@ -30,6 +31,9 @@ markdown_extensions:
 - pymdownx.snippets
 - pymdownx.arithmatex:
     generic: true
+plugins:
+- privacy
+- search
 extra_javascript:
 - javascripts/mathjax.js
 - https://polyfill.io/v3/polyfill.min.js?features=es6
@@ -45,7 +49,10 @@ nav:
     - W:
       - Overview: schemes/w/index.md
       - W-1: schemes/w/w-001.md
-- Contribute: contribute.md
-- Submit a Scheme: submit_scheme.md
-- Crystal calculator: crystal-calculator.md
-- Maintainers: maintainers.md
+  - Submit a Scheme: submit_scheme.md
+- Tools:
+  - Crystal calculator: crystal-calculator.md
+- About:
+  - Maintainers: maintainers.md
+  - Contribute: contribute.md
+  - Maintainers manual: maintainers_manual.md

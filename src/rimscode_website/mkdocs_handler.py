@@ -22,7 +22,13 @@ def navigation(all_schemes: dict) -> None:
         {"ele": ["ele/scheme-1", "ele/scheme-2", ...]}
     """
     # create the new scheme section
-    scheme_dict = {"Schemes": [{"Periodic Table": "schemes.md"}, {"Elements": []}]}
+    scheme_dict = {
+        "Schemes": [
+            {"Periodic Table": "schemes.md"},
+            {"Elements": []},
+            {"Submit a Scheme": "submit_scheme.md"},
+        ]
+    }
 
     for ele, schemes in all_schemes.items():
         ele_dict = {}

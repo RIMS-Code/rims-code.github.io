@@ -1,6 +1,6 @@
-<iframe
-src="https://rims-code.github.io/rimsdb_scheme_submission//?embed=true"
-width="100%"
-height="800"
-style={{ width: "100%", height: "100%", border: "none" }}
-></iframe>
+[**Click here to open the submission mask in a new tab.**](https://rims-code.github.io/rimsdb_scheme_submission){target="_blank"}
+
+## How to submit a new scheme
+
+TBD:
+Step-by-step guide to submitting a new scheme to the RIMS database.

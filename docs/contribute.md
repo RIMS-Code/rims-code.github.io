@@ -2,7 +2,7 @@
 
 ## Contribute a scheme
 
-bla
+To contribute a scheme, please check out the guidelines [here](submit_scheme.md).
 
 ## Contribute to the website
 
