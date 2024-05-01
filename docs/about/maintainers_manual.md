@@ -71,3 +71,21 @@ by clicking the `Squash and merge` button.
 This will merge the PR into the main branch, 
 close the issue, 
 and deploy the modified website.
+
+## Add / Edit a static site
+
+The website is generated using 
+[mkdocs](https://www.mkdocs.org/){:target="_blank"}.
+All pages of the documentation are hosted in the `docs` folder. 
+
+!!! danger
+   
+   Do not edit anything in the `docs/schemes` folder directly.
+   All the files in this folder are generated automatically
+   by the website generating `python` code.
+
+All static pages, like, e.g., this one,
+can be modified directly and then commited again to the repository.
+
+Please always create a pull request to add new pages or edit existing ones.
+This ensures that the website generator is run and changes are checked.
