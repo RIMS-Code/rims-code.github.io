@@ -8,6 +8,7 @@ on:
       - 'db/**'
       - 'pyproject.toml'
       - '.python-version'
+  workflow_dispatch:
 
 jobs:
   build:
