@@ -46,6 +46,9 @@ nav:
     - Ti:
       - Overview: schemes/ti/index.md
       - Ti-1: schemes/ti/ti-001.md
+    - Fe:
+      - Overview: schemes/fe/index.md
+      - Fe-1: schemes/fe/fe-001.md
     - Zr:
       - Overview: schemes/zr/index.md
       - Zr-1: schemes/zr/zr-001.md
