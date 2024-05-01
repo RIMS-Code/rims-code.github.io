@@ -2,7 +2,7 @@
 
 ## Contribute a scheme
 
-To contribute a scheme, please check out the guidelines [here](../submit_scheme.md).
+To contribute a scheme, please check out the guidelines [here](../schemes_static/submit_scheme.md).
 
 ## Contribute to the website
 
@@ -19,3 +19,5 @@ or by opening an issue.
 
 Finally, if you would like to become a part of the team maintaining the website,
 please also get in touch with us!
+ccccliitvgrdufvburbjbvrikhdfifdiciegekigkr
+q2

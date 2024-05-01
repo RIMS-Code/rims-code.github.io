@@ -7,8 +7,8 @@ and resonance ionization mass spectrometry.
 Below is a list of some resources 
 that you can find on this page:
 
-- [Resonance Ionization Scheme Database](schemes.md)
-- [Form to submit a new scheme for the database](submit_scheme.md)
+- [Resonance Ionization Scheme Database](schemes/schemes.md)
+- [Form to submit a new scheme for the database](schemes_static/submit_scheme.md)
 - [Help on how to submit a new scheme](about/contribute.md#contribute-to-the-website)
 - [Crystal angle calculator for second and third harmonic generation](tools/crystal-calculator.md)
 

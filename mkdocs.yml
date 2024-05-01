@@ -41,7 +41,7 @@ extra_javascript:
 nav:
 - Home: index.md
 - Schemes:
-  - Periodic Table: schemes.md
+  - Periodic Table: schemes/schemes.md
   - Elements:
     - Ti:
       - Overview: schemes/ti/index.md
@@ -52,7 +52,8 @@ nav:
     - W:
       - Overview: schemes/w/index.md
       - W-1: schemes/w/w-001.md
-  - Submit a Scheme: submit_scheme.md
+  - Submit a Scheme: schemes_static/submit_scheme.md
+  - Information: schemes_static/info.md
 - Tools:
   - Crystal calculator: tools/crystal-calculator.md
   - RIMS Scheme Drawer: tools/rimsschemedrawer.md
