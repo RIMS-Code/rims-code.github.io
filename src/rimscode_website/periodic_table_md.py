@@ -4,7 +4,7 @@ from typing import Dict, List, Set, Tuple, Union
 
 import numpy as np
 
-from rimscode_website import DOCS_PATH
+from rimscode_website import SCHEMES_PATH
 from rimscode_website.constants import (
     COLORS_BY_TYPE,
     INACCESSIBLE_ELEMENTS,
@@ -38,7 +38,7 @@ All other element are color-coded according to the type of laser scheme availabl
 (see legend below).
 
 If you would like to contribute a scheme,
-please see [here](contribute.md).
+please see [here](../schemes_static/submit_scheme.md).
 
 
 """
@@ -52,7 +52,7 @@ please see [here](contribute.md).
         str_to_write += self._table_legend()
         str_to_write += "\n\n</center>\n"
 
-        fname = DOCS_PATH.joinpath("schemes.md")
+        fname = SCHEMES_PATH.joinpath("schemes.md")
         with open(fname, "w") as f:
             # write the header of the site
             f.write(str_to_write)
