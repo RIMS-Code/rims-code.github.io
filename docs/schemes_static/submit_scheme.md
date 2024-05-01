@@ -5,9 +5,9 @@
 To submit a new scheme,
 you can use the input mask that can be found 
 [here](https://rims-code.github.io/rimsdb_scheme_submission){target="_blank"}.
-The following is a step-by-step guide on how to fill in the input mask.
-
-### Filling in the various sections
+The input mask is fairly self-explanatory.
+If you would like some help, 
+below is a step-by-step guide on how to fill in the input mask.
 
 !!! tip
 
@@ -17,6 +17,11 @@ The following is a step-by-step guide on how to fill in the input mask.
     you are interested in.
     You can then load this config file into the submission mask 
     using the `Load config file` button.
+
+
+
+### Filling in the various sections
+
 
 #### Notes
 
