@@ -58,6 +58,6 @@ nav:
   - Crystal calculator: tools/crystal-calculator.md
   - RIMS Scheme Drawer: tools/rimsschemedrawer.md
 - About:
-  - Maintainers: about/maintainers.md
   - Contribute: about/contribute.md
+  - Maintainers: about/maintainers.md
   - Maintainers manual: about/maintainers_manual.md
