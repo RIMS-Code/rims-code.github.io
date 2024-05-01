@@ -19,5 +19,3 @@ or by opening an issue.
 
 Finally, if you would like to become a part of the team maintaining the website,
 please also get in touch with us!
-ccccliitvgrdufvburbjbvrikhdfifdiciegekigkr
-q2
