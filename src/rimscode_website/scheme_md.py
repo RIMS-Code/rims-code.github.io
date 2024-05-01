@@ -101,12 +101,6 @@ class SchemeContentMD:
         for sit, sat_key in enumerate(self.db_content[key].keys()):
             self._content_md += f"### {sat_key}\n\n"
 
-            # add notes if they are available
-            notes_key = "notes"
-            if notes_key in self.db_content[key][sat_key].keys():
-                self._content_md += self.db_content[key][sat_key][notes_key] + "\n\n"
-                self._content_md += self.db_content[key][sat_key][notes_key] + "\n\n"
-
             fname = f"sat-{sit}"
 
             xdat = self.db_content[key][sat_key]["data"]["x"]
@@ -114,6 +108,8 @@ class SchemeContentMD:
             ydat = self.db_content[key][sat_key]["data"]["y"]
             ydat_err = self.db_content[key][sat_key]["data"].get("y_err", None)
             unit = self.db_content[key][sat_key].get("unit", None)
+
+            fit = self.db_content[key][sat_key].get("fit", True)
 
             # create figures
             if xdat_err:
@@ -125,14 +121,14 @@ class SchemeContentMD:
             else:
                 ydata = np.array(ydat)
             fig_light = sc.saturation_curve(
-                xdata, ydata, xunit=unit, darkmode=False, title=sat_key
+                xdata, ydata, xunit=unit, darkmode=False, title=sat_key, fit=fit
             )
             [
                 fig_light.savefig(self.fig_path.joinpath(f"{fname}-light.{fmt}"))
                 for fmt in self.fig_formats
             ]
             fig_dark = sc.saturation_curve(
-                xdata, ydata, xunit=unit, darkmode=True, title=sat_key
+                xdata, ydata, xunit=unit, darkmode=True, title=sat_key, fit=fit
             )
             [
                 fig_dark.savefig(self.fig_path.joinpath(f"{fname}-dark.{fmt}"))
