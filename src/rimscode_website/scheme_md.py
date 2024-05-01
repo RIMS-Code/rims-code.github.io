@@ -109,6 +109,8 @@ class SchemeContentMD:
             ydat_err = self.db_content[key][sat_key]["data"].get("y_err", None)
             unit = self.db_content[key][sat_key].get("unit", None)
 
+            fit = self.db_content[key][sat_key].get("fit", True)
+
             # create figures
             if xdat_err:
                 xdata = np.stack([np.array(xdat), np.array(xdat_err)])
@@ -119,14 +121,14 @@ class SchemeContentMD:
             else:
                 ydata = np.array(ydat)
             fig_light = sc.saturation_curve(
-                xdata, ydata, xunit=unit, darkmode=False, title=sat_key
+                xdata, ydata, xunit=unit, darkmode=False, title=sat_key, fit=fit
             )
             [
                 fig_light.savefig(self.fig_path.joinpath(f"{fname}-light.{fmt}"))
                 for fmt in self.fig_formats
             ]
             fig_dark = sc.saturation_curve(
-                xdata, ydata, xunit=unit, darkmode=True, title=sat_key
+                xdata, ydata, xunit=unit, darkmode=True, title=sat_key, fit=fit
             )
             [
                 fig_dark.savefig(self.fig_path.joinpath(f"{fname}-dark.{fmt}"))
