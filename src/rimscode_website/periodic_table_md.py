@@ -38,7 +38,7 @@ All other element are color-coded according to the type of laser scheme availabl
 (see legend below).
 
 If you would like to contribute a scheme,
-please see [here](../contribute).
+please see [here](contribute.md).
 
 
 """
