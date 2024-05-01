@@ -84,7 +84,7 @@ please see [here](../schemes_static/submit_scheme.md).
     <td class="tg tg_dddddd">K</td>
     <td class="tg tg_dddddd">Ca</td>
     <td class="tg tg_dddddd">Sc</td>
-    <td class="tg tg_bbddff"><a href="../schemes/ti/"><span style="color:#000">Ti</span></a></td>
+    <td class="tg tg_bbddff"><a href="../../schemes/ti/"><span style="color:#000">Ti</span></a></td>
     <td class="tg tg_dddddd">V</td>
     <td class="tg tg_dddddd">Cr</td>
     <td class="tg tg_dddddd">Mn</td>
@@ -104,7 +104,7 @@ please see [here](../schemes_static/submit_scheme.md).
     <td class="tg tg_dddddd">Rb</td>
     <td class="tg tg_dddddd">Sr</td>
     <td class="tg tg_dddddd">Y</td>
-    <td class="tg tg_bbddff"><a href="../schemes/zr/"><span style="color:#000">Zr</span></a></td>
+    <td class="tg tg_bbddff"><a href="../../schemes/zr/"><span style="color:#000">Zr</span></a></td>
     <td class="tg tg_dddddd">Nb</td>
     <td class="tg tg_dddddd">Mo</td>
     <td class="tg tg_dddddd">Tc</td>
@@ -126,7 +126,7 @@ please see [here](../schemes_static/submit_scheme.md).
     <td align="center">*</td>
     <td class="tg tg_dddddd">Hf</td>
     <td class="tg tg_dddddd">Ta</td>
-    <td class="tg tg_bbddff"><a href="../schemes/w/"><span style="color:#000">W</span></a></td>
+    <td class="tg tg_bbddff"><a href="../../schemes/w/"><span style="color:#000">W</span></a></td>
     <td class="tg tg_dddddd">Re</td>
     <td class="tg tg_dddddd">Os</td>
     <td class="tg tg_dddddd">Ir</td>
