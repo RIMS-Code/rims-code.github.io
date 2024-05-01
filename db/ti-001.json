@@ -69,7 +69,7 @@
                 ]
             },
             "notes": "First transition from ground state at 0 cm\u00af\u00b9.",
-            "units": "W * cm^-2"
+            "unit": "W * cm^-2"
         },
         "1st transition (469.498 nm)": {
             "data": {
@@ -101,7 +101,7 @@
                 ]
             },
             "notes": "First transiton from ground state at 170.15 cm\u00af\u00b9.1",
-            "units": "W * cm^-2"
+            "unit": "W * cm^-2"
         },
         "1st transition (474.324 nm)": {
             "data": {
@@ -136,8 +136,9 @@
                     1.0
                 ]
             },
+            "fit": false,
             "notes": "First transition from low-lying state at 318.88 cm\u00af\u00b9. This transition is not saturated.",
-            "units": "W * cm^-2"
+            "unit": "W * cm^-2"
         },
         "2nd transition (416.158 nm)": {
             "data": {
@@ -177,7 +178,7 @@
                 ]
             },
             "notes": "",
-            "units": "W * cm^-2"
+            "unit": "W * cm^-2"
         },
         "Ionizing transition (881.399 nm)": {
             "data": {
@@ -229,7 +230,7 @@
                 ]
             },
             "notes": "",
-            "units": "W * cm^-2"
+            "unit": "W * cm^-2"
         }
     },
     "submitted_by": "Reto Trappitsch"
