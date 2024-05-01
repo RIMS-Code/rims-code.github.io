@@ -15,4 +15,4 @@ $N_{max}$ the maximum signal,
 $I$ the laser irradiance, 
 and $I_{sat}$ the saturation irradiance of the transition. 
 While this model does not describe real multilevel transitions, 
-it provides a semiquantitative measure of the effectiveness of the schemes.
+it provides a semi-quantitative measure of the effectiveness of the schemes.

@@ -49,7 +49,7 @@ Then select the unit how you want to enter the transitions.
 Possibilities are:
 
 - `nm`: Wavelength of the individual step in nanometers.
-- `cm¯¹`: Wavenumber of the level that is reached in this step.
+- `cm¯¹`: Wave number of the level that is reached in this step.
 
 The transitions themselves can be entered into the `Level` fields.
 
