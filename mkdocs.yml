@@ -54,8 +54,9 @@ nav:
       - W-1: schemes/w/w-001.md
   - Submit a Scheme: submit_scheme.md
 - Tools:
-  - Crystal calculator: crystal-calculator.md
+  - Crystal calculator: tools/crystal-calculator.md
+  - RIMS Scheme Drawer: tools/rimsschemedrawer.md
 - About:
-  - Maintainers: maintainers.md
-  - Contribute: contribute.md
-  - Maintainers manual: maintainers_manual.md
+  - Maintainers: about/maintainers.md
+  - Contribute: about/contribute.md
+  - Maintainers manual: about/maintainers_manual.md
