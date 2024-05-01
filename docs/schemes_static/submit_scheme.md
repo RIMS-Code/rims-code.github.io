@@ -79,6 +79,7 @@ and color the elements adequately.
 If you like, you can add saturation curves to your scheme submission.
 For each saturation curve you want to add, type a title,
 select a unit for the x-axis data,
+select if the saturation curve should be fit or not,
 and then copy/paste the data from, e.g., your spreadsheet program
 into the fields. 
 If you know the uncertainties, you can populate those fields as well,
