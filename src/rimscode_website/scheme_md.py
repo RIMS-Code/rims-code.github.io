@@ -101,6 +101,9 @@ class SchemeContentMD:
         for sit, sat_key in enumerate(self.db_content[key].keys()):
             self._content_md += f"### {sat_key}\n\n"
 
+            if "notes" in self.db_content[key][sat_key].keys():
+                self._content_md += f"{self.db_content[key][sat_key]["notes"]}\n\n"
+
             fname = f"sat-{sit}"
 
             xdat = self.db_content[key][sat_key]["data"]["x"]
