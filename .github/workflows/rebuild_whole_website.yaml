@@ -22,8 +22,12 @@ jobs:
         git config --local user.name "github-actions[bot]"
         git add .
         git commit -a -m "Update website."
-    - name: Push changes
-      uses: ad-m/github-push-action@master
+    - name: Create PR
+      uses: peter-evans/create-pull-request@v6
       with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
-        branch: ${{ github.head_ref }}
+        commit-message: rebuild website
+        title: Rebuild website
+        body: |
+          This PR is a rebuild of the whole website.
+        branch: rebuild_website
+        draft: false
