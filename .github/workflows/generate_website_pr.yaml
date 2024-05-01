@@ -17,13 +17,21 @@ jobs:
     - uses: actions/checkout@v4
       with:
         persist-credentials: false
-        fetch-depth: 0
+        fetch-depth: 10
+    - uses: marceloprado/has-changed-path@v1.0.1
+      id: changed-front
+      with:
+        paths: db/ pyproject.toml .python-version
     - name: Install the latest version of rye
       uses: eifinger/setup-rye@v2
-    - name: Build website with rye
-      run: |
-        rye sync --all-features
-        rye run build
+    - name: Sync rye
+      run: rye sync --all-features
+    - name: Rebuild website
+      if: steps.changed-front.outputs.changed == 'true'
+      run: rye run rebuild
+    - name: Build new pages
+      if: steps.changed-front.outputs.changed == 'false'
+      run: rye run rebuild
     - name: Commit files
       run: |
         git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
