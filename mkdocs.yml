@@ -39,15 +39,15 @@ nav:
 - Schemes:
   - Periodic Table: schemes.md
   - Elements:
+    - Ti:
+      - Overview: schemes/ti/index.md
+      - Ti-1: schemes/ti/ti-001.md
     - Zr:
       - Overview: schemes/zr/index.md
       - Zr-1: schemes/zr/zr-001.md
     - W:
       - Overview: schemes/w/index.md
       - W-1: schemes/w/w-001.md
-    - Ti:
-      - Overview: schemes/ti/index.md
-      - Ti-1: schemes/ti/ti-001.md
 - Contribute: contribute.md
 - Submit a Scheme: submit_scheme.md
 - Crystal calculator: crystal-calculator.md
