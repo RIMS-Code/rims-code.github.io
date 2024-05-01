@@ -89,3 +89,15 @@ can be modified directly and then commited again to the repository.
 
 Please always create a pull request to add new pages or edit existing ones.
 This ensures that the website generator is run and changes are checked.
+
+## Manually trigger a rebuild
+
+If something went wrong 
+and the page was not rebuilt even though it should have been,
+document the problem in an issue.
+Then, you can manually trigger a rebuild by going to the
+[Actions](https://github.com/RIMS-Code/rims-code.github.io/actions){:target="_blank"}
+and click on the `Rebuild the whole website (manual dispatch)`.
+Then trigger the rebuild by clicking on `Run workflow` -> `Run workflow`.
+This will re-create the whole page and create a PR that should pass.
+Review the PR and, if all is good, merge it into the `main` branch.
