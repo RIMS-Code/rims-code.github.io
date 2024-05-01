@@ -1,7 +1,9 @@
 """This script handles all tasks related to the mkdocs.yaml file."""
 
+from collections import OrderedDict
 import yaml
 
+from rimscode_website import constants
 from rimscode_website import REPO_PATH
 
 
@@ -23,6 +25,16 @@ def navigation(all_schemes: dict) -> None:
     """
     # create the new scheme section
     scheme_dict = {"Schemes": [{"Periodic Table": "schemes.md"}, {"Elements": []}]}
+
+    # Sort the dictionary according to position in periodic table (row, column).
+    all_schemes = OrderedDict(
+        sorted(
+            all_schemes.items(),
+            key=lambda x: 100 * constants.ELEMENTS_BY_NAME[x[0].capitalize()][0]
+            + constants.ELEMENTS_BY_NAME[x[0].capitalize()][1],
+        )
+    )
+    print(all_schemes)
 
     for ele, schemes in all_schemes.items():
         ele_dict = {}
