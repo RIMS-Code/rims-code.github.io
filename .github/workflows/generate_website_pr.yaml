@@ -31,7 +31,7 @@ jobs:
       run: rye run rebuild
     - name: Build new pages
       if: steps.changed-front.outputs.changed == 'false'
-      run: rye run rebuild
+      run: rye run build
     - name: Commit files
       run: |
         git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
