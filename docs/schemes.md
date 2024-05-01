@@ -8,7 +8,7 @@ All other element are color-coded according to the type of laser scheme availabl
 (see legend below).
 
 If you would like to contribute a scheme,
-please see [here](../contribute).
+please see [here](contribute.md).
 
 
 <style type="text/css">
@@ -84,7 +84,7 @@ please see [here](../contribute).
     <td class="tg tg_dddddd">K</td>
     <td class="tg tg_dddddd">Ca</td>
     <td class="tg tg_dddddd">Sc</td>
-    <td class="tg tg_dddddd">Ti</td>
+    <td class="tg tg_bbddff"><a href="../schemes/ti/"><span style="color:#000">Ti</span></a></td>
     <td class="tg tg_dddddd">V</td>
     <td class="tg tg_dddddd">Cr</td>
     <td class="tg tg_dddddd">Mn</td>
