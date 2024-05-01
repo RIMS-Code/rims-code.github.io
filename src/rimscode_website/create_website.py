@@ -10,12 +10,14 @@ from rimscode_website.periodic_table_md import PeriodicTableMD
 
 def website_recreate():
     """Create the RIMS scheme part of the website."""
+    print("Full website rebuild started... please hold on!")
     shutil.rmtree(SCHEMES_PATH, ignore_errors=True)  # remove all existing schemes
     website_add_new()
 
 
 def website_add_new():
     """Add new RIMS schemes to the website."""
+    print("Adding new RIMS schemes to the website...")
     element_writer = ElementMD()
     element_writer.write_elements_md()
 

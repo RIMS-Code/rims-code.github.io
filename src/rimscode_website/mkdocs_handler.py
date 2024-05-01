@@ -34,7 +34,6 @@ def navigation(all_schemes: dict) -> None:
             + constants.ELEMENTS_BY_NAME[x[0].capitalize()][1],
         )
     )
-    print(all_schemes)
 
     for ele, schemes in all_schemes.items():
         ele_dict = {}
