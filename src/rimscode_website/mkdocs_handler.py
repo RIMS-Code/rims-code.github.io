@@ -24,7 +24,14 @@ def navigation(all_schemes: dict) -> None:
         {"ele": ["ele/scheme-1", "ele/scheme-2", ...]}
     """
     # create the new scheme section
-    scheme_dict = {"Schemes": [{"Periodic Table": "schemes.md"}, {"Elements": []}]}
+    scheme_dict = {
+        "Schemes": [
+            {"Periodic Table": "schemes/schemes.md"},
+            {"Elements": []},
+            {"Submit a Scheme": "schemes_static/submit_scheme.md"},
+            {"Information": "schemes_static/info.md"},
+        ]
+    }
 
     # Sort the dictionary according to position in periodic table (row, column).
     all_schemes = OrderedDict(
