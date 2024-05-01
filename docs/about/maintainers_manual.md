@@ -79,10 +79,10 @@ The website is generated using
 All pages of the documentation are hosted in the `docs` folder. 
 
 !!! danger
-   
-   Do not edit anything in the `docs/schemes` folder directly.
-   All the files in this folder are generated automatically
-   by the website generating `python` code.
+
+    Do not edit anything in the `docs/schemes` folder directly.
+    All the files in this folder are generated automatically
+    by the website generating `python` code.
 
 All static pages, like, e.g., this one,
 can be modified directly and then commited again to the repository.
