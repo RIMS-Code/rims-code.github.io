@@ -201,7 +201,7 @@ please see [here](../schemes_static/submit_scheme.md).
         :return: The URL to the scheme if it exists, return None.
         """
         ret_url = self._urls.get(element.lower(), None)
-        return "../" + ret_url if isinstance(ret_url, str) else None
+        return "../../" + ret_url if isinstance(ret_url, str) else None
 
     def _table_style(self) -> str:
         """Generate a CSS style tag for the table.
