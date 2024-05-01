@@ -39,6 +39,7 @@ dev-dependencies = [
 
 [tool.rye.scripts]
 build = "python -m rimscode_website.create_website"
+rebuild = "python -c 'from rimscode_website import create_website; create_website.website_recreate()'"
 serve = "mkdocs serve"
 
 [tool.hatch.metadata]
