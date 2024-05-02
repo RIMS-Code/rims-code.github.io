@@ -8,6 +8,7 @@
 #   with-sources: false
 
 -e file:.
+    # via file:///-
 babel==2.14.0
     # via mkdocs-material
 certifi==2024.2.2
@@ -135,13 +136,11 @@ regex==2024.4.28
 requests==2.31.0
     # via habanero
     # via mkdocs-material
-rimsschemedrawer @ git+https://github.com/RIMS-Code/RIMSSchemeDrawer@5c2fa6813b38eaf1270bfd12112ef0226030d4d7
-rttools @ git+https://github.com/trappitsch/rttools@5bbf5ba3f8dc3591230877491839343885ef6bc0
+rimsschemedrawer @ git+https://github.com/RIMS-Code/RIMSSchemeDrawer
+rttools @ git+https://github.com/trappitsch/rttools
 ruff==0.4.2
 scipy==1.13.0
     # via rttools
-setuptools==69.5.1
-    # via pytablewriter
 six==1.16.0
     # via python-dateutil
 tabledata==1.3.3
@@ -154,6 +153,7 @@ typepy==1.3.2
     # via dataproperty
     # via pytablewriter
     # via tabledata
+    # via typepy
 typing-extensions==4.11.0
     # via pint
 tzdata==2024.1
@@ -162,3 +162,5 @@ urllib3==2.2.1
     # via requests
 watchdog==4.0.0
     # via mkdocs
+setuptools==69.5.1
+    # via pytablewriter
