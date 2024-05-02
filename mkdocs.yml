@@ -55,6 +55,9 @@ nav:
     - Zr:
       - Overview: schemes/zr/index.md
       - Zr-1: schemes/zr/zr-001.md
+    - Mo:
+      - Overview: schemes/mo/index.md
+      - Mo-1: schemes/mo/mo-001.md
     - Ba:
       - Overview: schemes/ba/index.md
       - Ba-1: schemes/ba/ba-001.md

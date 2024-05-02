@@ -1,0 +1,87 @@
+{
+    "notes": "Wavelengths taken from Barzyk et al. (2006). Saturation curves measured on the CHILI instrument in 2016 by Reto Trappitsch.",
+    "references": [
+        "10.1016/j.newar.2006.06.055"
+    ],
+    "rims_scheme": {
+        "scheme": {
+            "element": "Mo",
+            "gs_level": "0",
+            "gs_term": "7S3",
+            "ip_term": "",
+            "lasers": "Ti:Sa",
+            "step_forbidden0": false,
+            "step_forbidden1": false,
+            "step_level0": "31913.196",
+            "step_level1": "57664.026",
+            "step_lowlying0": false,
+            "step_lowlying1": false,
+            "step_term0": "7P4",
+            "step_term1": "",
+            "trans_strength0": "",
+            "trans_strength1": "",
+            "unit": "cm<sup>-1</sup>"
+        }
+    },
+    "saturation_curves": [
+        {
+            "data": {
+                "x": [
+                    0.05,
+                    0.022,
+                    0.017,
+                    0.0138,
+                    0.0,
+                    0.00107,
+                    0.0042,
+                    0.05,
+                    0.006
+                ],
+                "y": [
+                    0.974061810154525,
+                    0.934878587196468,
+                    0.854304635761589,
+                    0.84271523178808,
+                    0.0209713024282561,
+                    0.528697571743929,
+                    0.745584988962472,
+                    1.0,
+                    0.705849889624724
+                ]
+            },
+            "fit": true,
+            "notes": "Approximate beam size: (1.5 x 1.5) mm.",
+            "title": "First transition (313.350 nm)",
+            "unit": "W"
+        },
+        {
+            "data": {
+                "x": [
+                    0.524,
+                    0.282,
+                    0.174,
+                    0.09,
+                    0.0,
+                    0.027,
+                    0.542,
+                    0.4
+                ],
+                "y": [
+                    0.932907348242811,
+                    0.79297124600639,
+                    0.649201277955272,
+                    0.452396166134185,
+                    0.00319488817891374,
+                    0.178274760383387,
+                    1.0,
+                    0.863258785942492
+                ]
+            },
+            "fit": true,
+            "notes": "Approximate beam size: (1.5 x 1.5) mm.",
+            "title": "Ionization transition (388.337 nm)",
+            "unit": "W"
+        }
+    ],
+    "submitted_by": "Reto Trappitsch"
+}
