@@ -122,7 +122,7 @@ please see [here](../schemes_static/submit_scheme.md).
   </tr>
   <tr>
     <td class="tg tg_dddddd">Cs</td>
-    <td class="tg tg_dddddd">Ba</td>
+    <td class="tg tg_bbddff"><a href="../../schemes/ba/"><span style="color:#000">Ba</span></a></td>
     <td align="center">*</td>
     <td class="tg tg_dddddd">Hf</td>
     <td class="tg tg_dddddd">Ta</td>
