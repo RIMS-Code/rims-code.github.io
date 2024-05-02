@@ -106,7 +106,7 @@ please see [here](../schemes_static/submit_scheme.md).
     <td class="tg tg_dddddd">Y</td>
     <td class="tg tg_bbddff"><a href="../../schemes/zr/"><span style="color:#000">Zr</span></a></td>
     <td class="tg tg_dddddd">Nb</td>
-    <td class="tg tg_dddddd">Mo</td>
+    <td class="tg tg_bbddff"><a href="../../schemes/mo/"><span style="color:#000">Mo</span></a></td>
     <td class="tg tg_dddddd">Tc</td>
     <td class="tg tg_dddddd">Ru</td>
     <td class="tg tg_dddddd">Rh</td>
