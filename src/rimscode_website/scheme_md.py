@@ -98,21 +98,22 @@ class SchemeContentMD:
         self._content_md += "\n\n## Saturation curves\n\n"
 
         # loop through available saturation curves
-        for sit, sat_key in enumerate(self.db_content[key].keys()):
-            self._content_md += f"### {sat_key}\n\n"
+        for sit, sat in enumerate(self.db_content[key]):
+            title = sat["title"]
+            self._content_md += f"### {title}\n\n"
 
-            if "notes" in self.db_content[key][sat_key].keys():
-                self._content_md += f"{self.db_content[key][sat_key]["notes"]}\n\n"
+            if "notes" in sat.keys():
+                self._content_md += f"{sat["notes"]}\n\n"
 
             fname = f"sat-{sit}"
 
-            xdat = self.db_content[key][sat_key]["data"]["x"]
-            xdat_err = self.db_content[key][sat_key]["data"].get("x_err", None)
-            ydat = self.db_content[key][sat_key]["data"]["y"]
-            ydat_err = self.db_content[key][sat_key]["data"].get("y_err", None)
-            unit = self.db_content[key][sat_key].get("unit", None)
+            xdat = sat["data"]["x"]
+            xdat_err = sat["data"].get("x_err", None)
+            ydat = sat["data"]["y"]
+            ydat_err = sat["data"].get("y_err", None)
+            unit = sat.get("unit", None)
 
-            fit = self.db_content[key][sat_key].get("fit", True)
+            fit = sat.get("fit", True)
 
             # create figures
             if xdat_err:
@@ -124,14 +125,14 @@ class SchemeContentMD:
             else:
                 ydata = np.array(ydat)
             fig_light = sc.saturation_curve(
-                xdata, ydata, xunit=unit, darkmode=False, title=sat_key, fit=fit
+                xdata, ydata, xunit=unit, darkmode=False, title=title, fit=fit
             )
             [
                 fig_light.savefig(self.fig_path.joinpath(f"{fname}-light.{fmt}"))
                 for fmt in self.fig_formats
             ]
             fig_dark = sc.saturation_curve(
-                xdata, ydata, xunit=unit, darkmode=True, title=sat_key, fit=fit
+                xdata, ydata, xunit=unit, darkmode=True, title=title, fit=fit
             )
             [
                 fig_dark.savefig(self.fig_path.joinpath(f"{fname}-dark.{fmt}"))
@@ -161,8 +162,8 @@ class SchemeContentMD:
 
             # add the figures to the content for dark and light mode
             self._content_md += (
-                f"![{sat_key}, light mode]({self.fig_path.relative_to(self.ele_path).joinpath(f'{fname}-light.png')}#only-light)\n"
-                f"![{sat_key}, dark mode]({self.fig_path.relative_to(self.ele_path).joinpath(f'{fname}-dark-web.png')}#only-dark)\n"
+                f"![{title}, light mode]({self.fig_path.relative_to(self.ele_path).joinpath(f'{fname}-light.png')}#only-light)\n"
+                f"![{title}, dark mode]({self.fig_path.relative_to(self.ele_path).joinpath(f'{fname}-dark-web.png')}#only-dark)\n"
             )
 
             # download table for saturation curve: data file and figures
