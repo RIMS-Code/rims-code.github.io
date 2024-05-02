@@ -1,0 +1,113 @@
+{
+    "notes": "Wavelengths taken from Savina et al. (2003). Saturation curves measured on the CHILI instrument in 2014 by Reto Trappitsch.\n\nThe ionizing photon (883.472 nm) was simply a photon that was leftover in the original study from some other scheme. Adding more photons can lead to saturating the Ba signal. Another way of saturating the ionization transition is to use a 1064 nm photon.",
+    "references": [
+        "10.1016/S0016-7037(03)00082-6"
+    ],
+    "rims_scheme": {
+        "scheme": {
+            "element": "Ba",
+            "gs_level": "0",
+            "gs_term": "1S0",
+            "ip_term": "",
+            "lasers": "Ti:Sa",
+            "step_forbidden0": false,
+            "step_forbidden1": false,
+            "step_level0": "32547.104",
+            "step_level1": "43866.082",
+            "step_lowlying0": false,
+            "step_lowlying1": false,
+            "step_term0": "1P1",
+            "step_term1": "",
+            "trans_strength0": "",
+            "trans_strength1": "",
+            "unit": "cm<sup>-1</sup>"
+        }
+    },
+    "saturation_curves": [
+        {
+            "data": {
+                "x": [
+                    0.04,
+                    0.053,
+                    0.066,
+                    0.034,
+                    0.024,
+                    0.019,
+                    0.013,
+                    0.0075,
+                    0.0025,
+                    0.001,
+                    0.0,
+                    0.0
+                ],
+                "y": [
+                    0.931854393920824,
+                    0.968255913714916,
+                    1.0,
+                    0.87731339624954,
+                    0.874984679495036,
+                    0.821853168280427,
+                    0.793479593087388,
+                    0.75530089471749,
+                    0.603260203456306,
+                    0.523471013604608,
+                    0.285941904645177,
+                    0.00318666503247947
+                ]
+            },
+            "fit": true,
+            "notes": "Approximate beam size: (1.5 x 1.5) mm.",
+            "title": "First transition (307.247 nm)",
+            "unit": "W"
+        },
+        {
+            "data": {
+                "x": [
+                    0.97,
+                    0.91,
+                    0.81,
+                    0.595,
+                    0.375,
+                    0.565,
+                    0.028,
+                    0.235,
+                    0.415,
+                    0.105,
+                    0.755,
+                    0.917,
+                    0.375,
+                    0.675,
+                    0.87,
+                    0.002,
+                    0.85,
+                    0.963
+                ],
+                "y": [
+                    1.0,
+                    0.947026486756622,
+                    0.877394636015326,
+                    0.652340496418457,
+                    0.42920206563385,
+                    0.610444777611194,
+                    0.0476428452440446,
+                    0.282525403964684,
+                    0.473846410128269,
+                    0.136181909045477,
+                    0.798517407962685,
+                    0.926536731634183,
+                    0.428785607196402,
+                    0.717141429285357,
+                    0.900299850074963,
+                    0.0226553389971681,
+                    0.887472930201566,
+                    0.981092786939863
+                ]
+            },
+            "fit": true,
+            "notes": "Approximate beam size: (1.5 x 1.5) mm.",
+            "title": "Ionizing transition (883.472 nm)",
+            "unit": "W"
+        }
+    ],
+    "submitted_by": "Reto Trappitsch"
+}
