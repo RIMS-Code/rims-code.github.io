@@ -44,7 +44,8 @@ The next step in the PR is to check the changes on the website.
 To do so, go to the bottom where the checks are.
 This section should look like this:
 
-![PR checks example](assets/maint_manual_pr_checks.png)
+![PR checks example](assets/maint_manual_pr_checks_light.png#only-light)
+![PR checks example](assets/maint_manual_pr_checks_dark.png#only-dark)
 
 Make sure that there is only one check from `readthedocs` as displayed here.
 If two checks are there or checks are in orange (still running),
@@ -79,7 +80,7 @@ The website is generated using
 [mkdocs](https://www.mkdocs.org/){:target="_blank"}.
 All pages of the documentation are hosted in the `docs` folder. 
 
-!!! danger
+!!! warning 
 
     Do not edit anything in the `docs/schemes` folder directly.
     All the files in this folder are generated automatically
