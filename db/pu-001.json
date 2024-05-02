@@ -1,0 +1,98 @@
+{
+    "notes": "Wavelengths taken from Gr\u00fcning et al. (2004). Saturation curves measured on the LION instrument independently.",
+    "references": [
+        "10.1016/j.ijms.2004.04.013"
+    ],
+    "rims_scheme": {
+        "scheme": {
+            "element": "Pu",
+            "gs_level": "0",
+            "gs_term": "",
+            "ip_term": "",
+            "lasers": "Ti:Sa",
+            "step_forbidden0": false,
+            "step_forbidden1": false,
+            "step_forbidden2": false,
+            "step_level0": "420.762",
+            "step_level1": "847.282",
+            "step_level2": "767.530",
+            "step_lowlying0": false,
+            "step_lowlying1": false,
+            "step_lowlying2": false,
+            "step_term0": "",
+            "step_term1": "",
+            "step_term2": "",
+            "trans_strength0": "",
+            "trans_strength1": "",
+            "trans_strength2": "",
+            "unit": "nm"
+        }
+    },
+    "saturation_curves": [
+        {
+            "data": {
+                "x": [
+                    2009000.0,
+                    251100.0,
+                    150700.0,
+                    366700.0,
+                    502300.0,
+                    753400.0,
+                    200900.0,
+                    200900.0,
+                    85380.0,
+                    85380.0,
+                    85380.0,
+                    85380.0,
+                    85380.0
+                ],
+                "y": [
+                    0.77,
+                    0.64,
+                    0.6,
+                    0.65,
+                    0.7,
+                    0.75,
+                    0.64,
+                    0.67,
+                    0.61,
+                    0.55,
+                    0.54,
+                    0.46,
+                    0.48
+                ]
+            },
+            "fit": true,
+            "notes": "",
+            "title": "First transition (420.762 nm)",
+            "unit": "W * cm^-2"
+        },
+        {
+            "data": {
+                "x": [
+                    226100.0,
+                    81170.0,
+                    0.0,
+                    869700.0,
+                    521800.0,
+                    1867000.0,
+                    3711000.0
+                ],
+                "y": [
+                    0.59,
+                    0.46,
+                    0.02,
+                    0.76,
+                    0.66,
+                    0.85,
+                    0.82
+                ]
+            },
+            "fit": true,
+            "notes": "",
+            "title": "Second transition (847.282 nm)",
+            "unit": "W * cm^-2"
+        }
+    ],
+    "submitted_by": "Reto Trappitsch"
+}
