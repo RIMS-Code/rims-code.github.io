@@ -102,7 +102,7 @@ please see [here](../schemes_static/submit_scheme.md).
   </tr>
   <tr>
     <td class="tg tg_dddddd">Rb</td>
-    <td class="tg tg_dddddd">Sr</td>
+    <td class="tg tg_bbddff"><a href="../../schemes/sr/"><span style="color:#000">Sr</span></a></td>
     <td class="tg tg_dddddd">Y</td>
     <td class="tg tg_bbddff"><a href="../../schemes/zr/"><span style="color:#000">Zr</span></a></td>
     <td class="tg tg_dddddd">Nb</td>
