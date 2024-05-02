@@ -67,6 +67,9 @@ nav:
     - W:
       - Overview: schemes/w/index.md
       - W-1: schemes/w/w-001.md
+    - Pu:
+      - Overview: schemes/pu/index.md
+      - Pu-1: schemes/pu/pu-001.md
   - Submit a Scheme: schemes_static/submit_scheme.md
   - Information: schemes_static/info.md
 - Tools:

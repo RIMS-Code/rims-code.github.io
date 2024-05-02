@@ -209,7 +209,7 @@ please see [here](../schemes_static/submit_scheme.md).
     <td class="tg tg_dddddd">Pa</td>
     <td class="tg tg_dddddd">U</td>
     <td class="tg tg_dddddd">Np</td>
-    <td class="tg tg_dddddd">Pu</td>
+    <td class="tg tg_bbddff"><a href="../../schemes/pu/"><span style="color:#000">Pu</span></a></td>
     <td class="tg tg_dddddd">Am</td>
     <td class="tg tg_dddddd">Cm</td>
     <td class="tg tg_dddddd">Bk</td>
