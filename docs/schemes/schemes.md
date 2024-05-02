@@ -90,7 +90,7 @@ please see [here](../schemes_static/submit_scheme.md).
     <td class="tg tg_dddddd">Mn</td>
     <td class="tg tg_bbddff"><a href="../../schemes/fe/"><span style="color:#000">Fe</span></a></td>
     <td class="tg tg_dddddd">Co</td>
-    <td class="tg tg_dddddd">Ni</td>
+    <td class="tg tg_bbddff"><a href="../../schemes/ni/"><span style="color:#000">Ni</span></a></td>
     <td class="tg tg_dddddd">Cu</td>
     <td class="tg tg_dddddd">Zn</td>
     <td class="tg tg_dddddd">Ga</td>

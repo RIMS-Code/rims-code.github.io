@@ -49,6 +49,9 @@ nav:
     - Fe:
       - Overview: schemes/fe/index.md
       - Fe-1: schemes/fe/fe-001.md
+    - Ni:
+      - Overview: schemes/ni/index.md
+      - Ni-1: schemes/ni/ni-001.md
     - Zr:
       - Overview: schemes/zr/index.md
       - Zr-1: schemes/zr/zr-001.md
