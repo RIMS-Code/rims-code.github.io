@@ -52,6 +52,9 @@ nav:
     - Ni:
       - Overview: schemes/ni/index.md
       - Ni-1: schemes/ni/ni-001.md
+    - Sr:
+      - Overview: schemes/sr/index.md
+      - Sr-1: schemes/sr/sr-001.md
     - Zr:
       - Overview: schemes/zr/index.md
       - Zr-1: schemes/zr/zr-001.md
