@@ -27,7 +27,8 @@ The new website is then added to the pull request by the bot.
 
 The first thing to check for a maintainer is the PR summary, e.g.:
 
-![PR summary example](assets/maint_manual_pr_info.png)
+![PR summary example](assets/maint_manual_pr_info_light.png#only-light)
+![PR summary example](assets/maint_manual_pr_info_dark.png#only-dark)
 
 This information will be given at the top of the PR.
 Here, we can see the following information:
