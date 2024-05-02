@@ -3,12 +3,14 @@
 import json
 from pathlib import Path
 
+import matplotlib as mpl
 import numpy as np
 import pytablewriter as ptw
 import rimsschemedrawer
 import rttools.rims.saturation_curve as sc
 
 from rimscode_website import SCHEMES_PATH
+from rimscode_website.reference_mngr import ReferenceDOI
 from rimscode_website.utils import parse_db_filename
 
 
@@ -61,6 +63,9 @@ class SchemeContentMD:
         # Add submitted by
         self._submitted_by()
 
+        # close all open plots
+        mpl.pyplot.close("all")
+
     @property
     def content_md(self) -> str:
         """Return the content string for the markdown file.
@@ -83,11 +88,12 @@ class SchemeContentMD:
         """
         key = "references"
         if key in self.db_content.keys():
-            self._content_md += "\n\n## Reference\n\n"
+            self._content_md += "\n\n## References\n\n"
 
             dois = self.db_content[key]
             for doi in dois:
-                self._content_md += f"[DOI: {doi}](https://doi.org/{doi})\n\n"
+                md_text_link = ReferenceDOI(doi).md_url_t
+                self._content_md += f"  - {md_text_link}\n\n"
 
     def _saturation_curves(self):
         """Add the saturation curves to the content if available."""
@@ -194,6 +200,9 @@ class SchemeContentMD:
             self._content_md += "\n\n#### Download saturation curve\n\n"
             self._content_md += str(md_table)
             self._content_md += "\n\n"
+
+            # close the figures
+            mpl.pyplot.close("all")
 
     def _scheme(self):
         """Add the scheme table to the content.
