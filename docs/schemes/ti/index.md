@@ -13,6 +13,6 @@
 
 ##Available Schemes
 
-|       Scheme link       | Lasers |                       Reference(s)                       |
-| ----------------------- | ------ | -------------------------------------------------------- |
-| [Ti 1](../ti/ti-001.md) | Ti:Sa  | [10.1039/C8JA00269J](https://doi.org/10.1039/C8JA00269J) |
+|       Scheme link       | Lasers |                                  Reference(s)                                   |
+| ----------------------- | ------ | ------------------------------------------------------------------------------- |
+| [Ti 1](../ti/ti-001.md) | Ti:Sa  | [Trappitsch et al. (2018)](https://doi.org/10.1039/C8JA00269J){target="_blank"} |

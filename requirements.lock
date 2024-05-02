@@ -26,6 +26,8 @@ dataproperty==1.0.1
     # via tabledata
 ghp-import==2.1.0
     # via mkdocs
+habanero==1.2.6
+    # via rimscode-website
 idna==3.7
     # via requests
 jinja2==3.1.3
@@ -90,6 +92,7 @@ pyyaml-env-tag==0.1
 regex==2024.4.28
     # via mkdocs-material
 requests==2.31.0
+    # via habanero
     # via mkdocs-material
 six==1.16.0
     # via python-dateutil
@@ -97,6 +100,8 @@ tabledata==1.3.3
     # via pytablewriter
 tcolorpy==0.1.6
     # via pytablewriter
+tqdm==4.66.2
+    # via habanero
 typepy==1.3.2
     # via dataproperty
     # via pytablewriter
