@@ -7,7 +7,7 @@
         "scheme": {
             "element": "Sr",
             "gs_level": "0",
-            "gs_term": "7S3",
+            "gs_term": "1S0",
             "ip_term": "",
             "lasers": "Ti:Sa",
             "step_forbidden0": false,
@@ -16,7 +16,7 @@
             "step_level1": "46376.788",
             "step_lowlying0": false,
             "step_lowlying1": false,
-            "step_term0": "7P4",
+            "step_term0": "1P1",
             "step_term1": "",
             "trans_strength0": "",
             "trans_strength1": "",
