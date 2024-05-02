@@ -101,7 +101,7 @@ class ElementMD:
                 f: {
                     "position": ele_pos[1],
                     "lasers": db_file.lasers,
-                    "references": db_file.references_md_link_list,
+                    "references": db_file.main_reference_md_link,
                 }
             }
 

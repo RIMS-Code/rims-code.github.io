@@ -6,6 +6,8 @@ Note: Updated the element file with all element names up to Oganesson (2024-02-2
 import json
 from pathlib import Path
 
+REFERENCE_FILE = Path(__file__).parent.joinpath("references.json")
+
 
 def read_rilis_elements() -> dict:
     """Read the CERN RILIS element file.

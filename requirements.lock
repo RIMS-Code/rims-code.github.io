@@ -8,7 +8,6 @@
 #   with-sources: false
 
 -e file:.
-    # via file:///-
 babel==2.14.0
     # via mkdocs-material
 certifi==2024.2.2
@@ -26,6 +25,8 @@ dataproperty==1.0.1
     # via tabledata
 ghp-import==2.1.0
     # via mkdocs
+habanero==1.2.6
+    # via rimscode-website
 idna==3.7
     # via requests
 jinja2==3.1.3
@@ -90,23 +91,25 @@ pyyaml-env-tag==0.1
 regex==2024.4.28
     # via mkdocs-material
 requests==2.31.0
+    # via habanero
     # via mkdocs-material
+setuptools==69.5.1
+    # via pytablewriter
 six==1.16.0
     # via python-dateutil
 tabledata==1.3.3
     # via pytablewriter
 tcolorpy==0.1.6
     # via pytablewriter
+tqdm==4.66.2
+    # via habanero
 typepy==1.3.2
     # via dataproperty
     # via pytablewriter
     # via tabledata
-    # via typepy
 typing-extensions==4.11.0
     # via pint
 urllib3==2.2.1
     # via requests
 watchdog==4.0.0
     # via mkdocs
-setuptools==69.5.1
-    # via pytablewriter

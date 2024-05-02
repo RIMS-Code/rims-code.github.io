@@ -2,6 +2,9 @@
 
 import json
 from pathlib import Path
+from typing import List
+
+from rimscode_website.reference_mngr import ReferenceDOI
 
 
 class DataFileReader:
@@ -24,12 +27,18 @@ class DataFileReader:
         return self._data["rims_scheme"]["scheme"]["lasers"]
 
     @property
-    def references(self) -> list[str]:
-        """Return the references for the scheme."""
-        return self._data["references"]
+    def dois(self) -> List[str]:
+        """Return the DOIs of all references."""
+        try:
+            return self._data["references"]
+        except KeyError:
+            return []
 
     @property
-    def references_md_link_list(self) -> str:
-        """Return a markdown formatted link list of the references."""
-        ref_list = ", ".join(f"[{it}](https://doi.org/{it})" for it in self.references)
-        return ref_list
+    def main_reference_md_link(self) -> str:
+        """Return the markdown link to the main reference."""
+        dois = self.dois
+        if len(dois) == 0:
+            return ""
+        else:
+            return ReferenceDOI(dois[0]).md_url_t
