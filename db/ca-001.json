@@ -1,0 +1,31 @@
+{
+    "notes": "",
+    "references": [],
+    "rims_scheme": {
+        "scheme": {
+            "element": "Ca",
+            "gs_level": "0",
+            "gs_term": "",
+            "ip_term": "",
+            "lasers": "Ti:Sa",
+            "step_forbidden0": false,
+            "step_forbidden1": true,
+            "step_forbidden2": false,
+            "step_level0": "22000",
+            "step_level1": "40000",
+            "step_level2": "50000",
+            "step_lowlying0": false,
+            "step_lowlying1": false,
+            "step_lowlying2": false,
+            "step_term0": "",
+            "step_term1": "",
+            "step_term2": "",
+            "trans_strength0": "",
+            "trans_strength1": "",
+            "trans_strength2": "",
+            "unit": "cm<sup>-1</sup>"
+        }
+    },
+    "saturation_curves": [],
+    "submitted_by": "test"
+}
