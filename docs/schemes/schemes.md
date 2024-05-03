@@ -86,7 +86,7 @@ please see [here](../schemes_static/submit_scheme.md).
   </tr>
   <tr>
     <td class="tg tg_dddddd">K</td>
-    <td class="tg tg_dddddd">Ca</td>
+    <td class="tg tg_bbddff"><a href="../../schemes/ca/"><span style="color:#000">Ca</span></a></td>
     <td class="tg tg_dddddd">Sc</td>
     <td class="tg tg_bbddff"><a href="../../schemes/ti/"><span style="color:#000">Ti</span></a></td>
     <td class="tg tg_dddddd">V</td>

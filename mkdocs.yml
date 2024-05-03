@@ -43,6 +43,9 @@ nav:
 - Schemes:
   - Periodic Table: schemes/schemes.md
   - Elements:
+    - Ca:
+      - Overview: schemes/ca/index.md
+      - Ca-1: schemes/ca/ca-001.md
     - Ti:
       - Overview: schemes/ti/index.md
       - Ti-1: schemes/ti/ti-001.md
