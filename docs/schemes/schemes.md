@@ -11,6 +11,10 @@ If you would like to contribute a scheme,
 please see [here](../schemes_static/submit_scheme.md).
 
 
+
+
+<center>
+
 <style type="text/css">
 .tg  {border-collapse:collapse;border-spacing:0;}
 .tg td{border-color:transparent;border-style:solid;border-width:1px;overflow:hidden;padding:8px 8px;word-break:normal;}
@@ -221,11 +225,7 @@ please see [here](../schemes_static/submit_scheme.md).
     <td class="tg tg_dddddd">Lr</td>
   </tr>
 </tbody>
-</table>
-
-<center>
-
-Color coding:
+</table>Color coding:
 
 <style type="text/css">
 .tg  {border-collapse:collapse;border-spacing:0;}

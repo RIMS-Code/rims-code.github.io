@@ -126,15 +126,15 @@ class ElementMD:
                 pos = entry_fl_dict["position"]
                 folder = Path(self._scheme_docs_path.joinpath(ele))
 
-                # scheme content creator
-                content_creator = SchemeContentMD(fl)
-                ele_file_content = content_creator.content_md
-
                 # scheme files
                 fname = folder.joinpath(
                     f"{ele}-{pos:0{self._file_name_zero_filling}d}.md"
                 )
-                if fname.exists() is False:
+                if fname.exists() is False:  # scheme does not exist yet!
+                    # scheme content creator
+                    content_creator = SchemeContentMD(fl)
+                    ele_file_content = content_creator.content_md
+
                     with open(fname, "w") as f:
                         f.write(ele_file_content)
 
