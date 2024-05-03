@@ -18,22 +18,44 @@ below is a step-by-step guide on how to fill in the input mask.
     You can then load this config file into the submission mask 
     using the `Load config file` button.
 
+    ![Usage helpers in the submission mask](assets/sub_usage_light.png#only-light)
+    ![Usage helpers in the submission mask](assets/sub_usage_dark.png#only-dark)
+
 
 
 ### Filling in the various sections
 
+!!! tip
+
+    There are various usage sections in the program that can be extended.
+    These give you more information on specific topics.
 
 #### Notes
+
+![Notes section in the submission mask](assets/sub_notes_light.png#only-light)
+![Notes section in the submission mask](assets/sub_notes_dark.png#only-dark)
 
 Here you can provide notes for the scheme that will be submitted.
 These could be where the scheme was developed,
 what tools were used, etc.
 The notes will be displayed at the top of the scheme page.
 *Adding notes is optional.*
+In your notes, you can use markdown-style formatting, e.g.,
+you can write a link as:
+
+```markdown
+[Link to RIMS-Code](https://rims-code.github.io)
+```
+
+This would render as: [Link to RIMS-Code](https://rims-code.github.io).
 
 #### Scheme
 
+![Scheme section in the submission mask](assets/sub_scheme_light.png#only-light)
+![Scheme section in the submission mask](assets/sub_scheme_dark.png#only-dark)
+
 In this section you can enter the used scheme.
+The above example is the input for the [Ti-1 scheme](../schemes/ti/ti-001.md).
 If you have previously drawn the scheme using `RIMSSchemeDrawer`
 (see [here](../tools/rimsschemedrawer.md)),
 you can load a saved config file using the button `Load config file`.
@@ -63,7 +85,7 @@ If you know the transition strength,
 you can enter it in the respective column.
 
 If you have low-lying states
-(see, e.g., the [Ti-1 scheme](../schemes/ti/ti-001.md)),
+(see, e.g., the example above and the [Ti-1 scheme](../schemes/ti/ti-001.md)),
 these can be added by selecting the checkbox.
 Not that now you will need to enter the level of the low-lying state.
 
@@ -86,24 +108,48 @@ If you know the uncertainties, you can populate those fields as well,
 however, this is not mandatory.
 The signal column takes arbitrary units. 
 We recommend to norm the signal such that the highest signal recorded is unity.
+Below example is a saturation curve for the [Ti-1 scheme](../schemes/ti/ti-001.md).
 
-After added the saturation curves, click `Add`. 
+![Saturation curves section in the submission mask](assets/sub_saturation_curve_light.png#only-light)
+![Saturation curves section in the submission mask](assets/sub_saturation_curve_dark.png#only-dark)
+
+To add the saturation curves click `Add or Update`. 
 The list underneath will now contain the saturation curve that you just defined
 and the input mask will be cleared.
+After adding a few saturation curves, the list might look something like this:
 
-In the defined list you can do the following:
+![Saturation curves list in the submission mask](assets/sub_saturation_list_light.png#only-light)
+![Saturation curves list in the submission mask](assets/sub_saturation_list_dark.png#only-dark)
 
-- `^`: Move saturation curve up
-- 'v': Move saturation curve down
-- `Edit`: Copy the curve into the input mask and, when `Add` is pressed again, modify it with the new values.
+Note that the curves will be added to the website in the order they appear in this list.
+On the right side of the list, there are buttons that allow you to do the following tasks:
+
+- `Move up`: Move position of this saturation curve up in list
+- `Move down`: Move position of this saturation curve down in list
+- `Edit`: Copy the curve into the input mask and, when `Add or Update` is pressed again, modify it with the new values.
+  Note that the curve will be added as a new curve when the title is changed. 
+  If the title is unchanged, the curve will be updated.
 - `Delete`: Delete the selected curve.
 
 #### References
 
+![References section in the submission mask](assets/sub_refs_light.png#only-light)
+![References section in the submission mask](assets/sub_refs_dark.png#only-dark)
+
 Please add any papers that you'd like to reference here. 
 Only enter the DOI and nothing else!
+Then click `Add`. 
+This will add the reference to a list (below) as for the saturation curves.
+
+!!! note
+
+    The top-most reference is assumed to be the main reference for the scheme.
+    This is also the reference that will be added to the element overview page.
 
 #### Submitted by
+
+![Submitted by section in the submission mask](assets/sub_submitted_by_light.png#only-light)
+![Submitted by section in the submission mask](assets/sub_submitted_by_dark.png#only-dark)
 
 Please enter your name here.
 This will be added to the website to give you credit for submitting!
@@ -143,7 +189,19 @@ and send it by e-mail to one of the [maintainers](../about/maintainers.md).
 
 ### FAQ
 
-#### Your URL request is too long
+#### Why is the last scheme I submitted still here?
+
+If you have previously submitted a scheme and reopen your browser,
+the last scheme you submitted might still be there.
+The RIMS submission mask program actually runs completely in your browser and is thus fully local.
+It stores its information in a browser cookie.
+If you haven't cleared your cookies recently / your browser hasn't done so,
+you might see an old scheme still in the submission mask.
+Just press the `Clear all` button in the bottom right corner.
+
+#### Error: Your URL request is too long
+
+![Error message for too long URL requests](assets/sub_err_url_too_long.png)
 
 If you try to submit via GitHub and get an error message stating
 that your URL request is too long, your scheme is large and extensive.
