@@ -43,11 +43,12 @@ please see [here](../schemes_static/submit_scheme.md).
 
 """
 
+        # center both tables
+        str_to_write += "\n\n<center>\n\n"
         # add table
         str_to_write += self._table()
 
         # add Legend
-        str_to_write += "\n\n<center>\n\n"
         str_to_write += "Color coding:\n\n"
         str_to_write += self._table_legend()
         str_to_write += "\n\n</center>\n"
