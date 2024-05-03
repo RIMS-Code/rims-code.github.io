@@ -1,3 +1,18 @@
+Below you find some instructions on how to perform the basic maintenance of the website.
+We hope that this is useful and for new maintainers to get started and help with the on-boarding.
+If you are interested in how the website generator works, want to add new features to that part,
+please have a look at the [Wiki in the GitHub repo](https://github.com/RIMS-Code/rims-code.github.io/wiki).
+
+!!! note
+
+    If you are a maintainer and have questions, 
+    please do not hesitate to ask any other maintainer.
+    We are happy to help and guide you through the process.
+
+And one final note: If you are reading this, and you are currently not a maintainer but want to become one,
+please get in touch with us as well! 
+We are always looking for new excited people to help with the website, the database, etc.
+
 ## Add a scheme received by e-mail
 
 If you have received a scheme by e-mail, 
@@ -103,3 +118,23 @@ and click on the `Rebuild the whole website (manual dispatch)`.
 Then trigger the rebuild by clicking on `Run workflow` -> `Run workflow`.
 This will re-create the whole page and create a PR that should pass.
 Review the PR and, if all is good, merge it into the `main` branch.
+
+## Advanced: Edit / optimize an existing scheme
+
+If you want/need to edit an existing scheme,
+you can do so by editing the according `.json` file in the `db/` folder.
+Apply your changes to the database file. 
+
+**Important**: You must also delete the associated `ELEMENT_###.md` file in `docs/schemes/ELEMENT/`.
+Otherwise, the website will not be updated correctly.
+
+!!! info "Why does the website not update correctly?"
+
+    The reason for this is that the website generator checks for existing element / scheme files.
+    If they are present, the generator will not update / recreate them. 
+    This saves a lot of time when adding schemes to the website, which is the most common use case.
+    However, if you edit a scheme, you must delete the associated file to trigger a rebuild of this specific scheme.
+
+After you have edited the `.json` file and deleted the associated `.md` file,
+commit the changes to a new branch and create a pull request.
+Then you can follow the steps above to review the PR and merge it.
