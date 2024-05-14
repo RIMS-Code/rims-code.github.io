@@ -5,7 +5,6 @@ from pathlib import Path
 import shutil
 import warnings
 
-
 DBJ_FILE = Path("../temp/scheme_formatted.dbj")
 OUT_PATH = Path("../temp/out")
 
@@ -49,7 +48,13 @@ KEY_MAPPER_SCHEME = {
 
 def symbol_replacer(str_in: str):
     """Replaces common abbreviations in CERN db string with symbols."""
-    replacements = {"&deg;": "{\\circ}"}
+    replacements = {
+        "&deg;": "{\\circ}",
+        "&lt;=": "≤",
+        "&lt;": "<",
+        "&gt;": ">",
+        "^{-1}": "<sup>-1</sup>",
+    }
     for key, value in replacements.items():
         str_in = str_in.replace(key, value)
     return str_in
@@ -74,6 +79,8 @@ cnt_warn_no_ion_step = 0
 cnt_empty_ground_state = 0
 
 for ele, entries in data.items():
+    if ele != "Ag":
+        continue
     # create the output directory
     out_dir = OUT_PATH.joinpath(ele.lower())
     out_dir.mkdir(parents=True)
@@ -98,7 +105,15 @@ for ele, entries in data.items():
         # lasers used
         lasers_used = entry.get("lasersused", None)
         if lasers_used:
-            scheme_out["lasers"] = ", ".join(lasers_used)
+            if "Ti:sapphire" in lasers_used and "Dye" in lasers_used:
+                lasers_out = "Ti:Sa and Dye"
+            elif "Ti:sapphire" in lasers_used:
+                lasers_out = "Ti:Sa"
+            elif "Dye" in lasers_used:
+                lasers_out = "Dye"
+            else:
+                raise ValueError(f"Unknown lasers used: {lasers_used}")
+            scheme_out["lasers"] = lasers_out
 
         # go through key mapper and fill with values (even if empty)
         for key, val in KEY_MAPPER_SCHEME.items():
@@ -151,7 +166,7 @@ for ele, entries in data.items():
                     add_to_note += "Ionization wavelength is a lower limit.\n"
                 wl = float(ws_temp)
 
-                step_before = it_step - 1
+                step_before = it_step
                 if step_before == -1:
                     step_before_key = "gs_level"
                 else:
@@ -184,7 +199,7 @@ for ele, entries in data.items():
                 it_ionization = it
                 break
         if ionizaton_step:
-            scheme_out[f"step_level{it_ionization}"] = ionizaton_step
+            scheme_out[f"step_level{it_ionization}"] = str(ionizaton_step)
         else:
             warnings.warn(f"No ionization step defined.\n{ele=}\n{eit=}")
             cnt_warn_no_ion_step += 1
@@ -195,12 +210,33 @@ for ele, entries in data.items():
         # todo: Check if there are entries for these keys
         scheme_out["ip_term"] = ""
 
-        # todo: more settings
         settings_out = {
             "line_breaks": True,
         }
 
-        # todo: Notes
+        # add note to settings
+        notes = r""
+
+        n_efficiency = entry.get("efficiency", None)
+        if n_efficiency:
+            notes += f"Efficiency: {symbol_replacer(n_efficiency)}\n"
+
+        n_used_at = entry.get("usedat", None)
+        if n_used_at:
+            notes += f"Used at: {', '.join(n_used_at)}\n"
+
+        n_lasers_used = entry.get("lasersused", None)
+        if n_lasers_used:
+            notes += f"Lasers used: {', '.join(n_lasers_used)}\n"
+
+        n_notes = entry.get("notes", None)
+        if n_notes:
+            notes += f"Notes: {symbol_replacer(n_notes)}\n"
+
+        if add_to_note:
+            notes += add_to_note
+
+        content["notes"] = notes
 
         # write out the json files
         content["rims_scheme"]["scheme"] = scheme_out
