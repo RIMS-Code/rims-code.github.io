@@ -211,6 +211,8 @@ class ElementMD:
                 else:
                     self._laser_type_dict[ele] = {entry["lasers"]}
 
+        table = sorted(table, key=lambda x: x[0].split("]")[1])
+
         md_table = ptw.MarkdownTableWriter(
             headers=table_header, value_matrix=table, margin=1
         )
