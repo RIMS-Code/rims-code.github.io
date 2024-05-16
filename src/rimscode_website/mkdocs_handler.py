@@ -48,7 +48,7 @@ def navigation(all_schemes: dict) -> None:
         ele_dict[ele.capitalize()] = [{"Overview": f"schemes/{ele}/index.md"}]
 
         # add the schemes to the element
-        for scheme in all_schemes[ele]:
+        for scheme in sorted(all_schemes[ele]):
             scheme_key = scheme.split("/")[1].capitalize()
             scheme_key = f"{scheme_key.split("-")[0]}-{int(scheme_key.split('-')[1])}"
             ele_dict[ele.capitalize()].append({scheme_key: f"schemes/{scheme}.md"})

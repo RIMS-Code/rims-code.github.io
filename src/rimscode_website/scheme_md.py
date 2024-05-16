@@ -88,9 +88,12 @@ class SchemeContentMD:
         """
         key = "references"
         if key in self.db_content.keys():
+            dois = self.db_content[key]
+            if len(dois) < 1:
+                return
+
             self._content_md += "\n\n## References\n\n"
 
-            dois = self.db_content[key]
             for doi in dois:
                 md_text_link = ReferenceDOI(doi).md_url_t
                 self._content_md += f"  - {md_text_link}\n\n"

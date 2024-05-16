@@ -13,6 +13,6 @@
 
 ##Available Schemes
 
-|       Scheme link       | Lasers |                                   Reference(s)                                   |
-| ----------------------- | ------ | -------------------------------------------------------------------------------- |
-| [Sr 1](../sr/sr-001.md) | Ti:Sa  | [Liu et al. (2015)](https://doi.org/10.1088/0004-637X/803/1/12){target="_blank"} |
+|       Scheme link       | Lasers |                                   Reference(s)                                   |  Submitted by   |
+| ----------------------- | ------ | -------------------------------------------------------------------------------- | --------------- |
+| [Sr 1](../sr/sr-001.md) | Ti:Sa  | [Liu et al. (2015)](https://doi.org/10.1088/0004-637X/803/1/12){target="_blank"} | Reto Trappitsch |
