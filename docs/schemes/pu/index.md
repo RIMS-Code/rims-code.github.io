@@ -13,6 +13,6 @@
 
 ##Available Schemes
 
-|       Scheme link       | Lasers |                                     Reference(s)                                     |
-| ----------------------- | ------ | ------------------------------------------------------------------------------------ |
-| [Pu 1](../pu/pu-001.md) | Ti:Sa  | [Grüning et al. (2004)](https://doi.org/10.1016/j.ijms.2004.04.013){target="_blank"} |
+|       Scheme link       | Lasers |                                     Reference(s)                                     |  Submitted by   |
+| ----------------------- | ------ | ------------------------------------------------------------------------------------ | --------------- |
+| [Pu 1](../pu/pu-001.md) | Ti:Sa  | [Grüning et al. (2004)](https://doi.org/10.1016/j.ijms.2004.04.013){target="_blank"} | Reto Trappitsch |

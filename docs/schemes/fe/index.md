@@ -13,6 +13,6 @@
 
 ##Available Schemes
 
-|       Scheme link       | Lasers |                                      Reference(s)                                      |
-| ----------------------- | ------ | -------------------------------------------------------------------------------------- |
-| [Fe 1](../fe/fe-001.md) | Ti:Sa  | [Trappitsch et al. (2018)](https://doi.org/10.1016/j.gca.2017.05.031){target="_blank"} |
+|       Scheme link       | Lasers |                                      Reference(s)                                      |  Submitted by   |
+| ----------------------- | ------ | -------------------------------------------------------------------------------------- | --------------- |
+| [Fe 1](../fe/fe-001.md) | Ti:Sa  | [Trappitsch et al. (2018)](https://doi.org/10.1016/j.gca.2017.05.031){target="_blank"} | Reto Trappitsch |

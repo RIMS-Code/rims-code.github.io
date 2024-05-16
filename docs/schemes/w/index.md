@@ -13,6 +13,6 @@
 
 ##Available Schemes
 
-|     Scheme link      | Lasers |                                 Reference(s)                                  |
-| -------------------- | ------ | ----------------------------------------------------------------------------- |
-| [W 1](../w/w-001.md) | Ti:Sa  | [Shulaker et al. (2023)](https://doi.org/10.1039/D2JA00320A){target="_blank"} |
+|     Scheme link      | Lasers |                                 Reference(s)                                  |  Submitted by   |
+| -------------------- | ------ | ----------------------------------------------------------------------------- | --------------- |
+| [W 1](../w/w-001.md) | Ti:Sa  | [Shulaker et al. (2023)](https://doi.org/10.1039/D2JA00320A){target="_blank"} | Reto Trappitsch |

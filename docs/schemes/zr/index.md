@@ -13,6 +13,6 @@
 
 ##Available Schemes
 
-|       Scheme link       | Lasers |                                      Reference(s)                                       |
-| ----------------------- | ------ | --------------------------------------------------------------------------------------- |
-| [Zr 1](../zr/zr-001.md) | Ti:Sa  | [Trappitsch et al. (2022)](https://doi.org/10.1007/s10967-022-08581-x){target="_blank"} |
+|       Scheme link       | Lasers |                                      Reference(s)                                       |  Submitted by   |
+| ----------------------- | ------ | --------------------------------------------------------------------------------------- | --------------- |
+| [Zr 1](../zr/zr-001.md) | Ti:Sa  | [Trappitsch et al. (2022)](https://doi.org/10.1007/s10967-022-08581-x){target="_blank"} | Reto Trappitsch |
