@@ -13,6 +13,6 @@
 
 ##Available Schemes
 
-|       Scheme link       | Lasers |                                     Reference(s)                                     |
-| ----------------------- | ------ | ------------------------------------------------------------------------------------ |
-| [Mo 1](../mo/mo-001.md) | Ti:Sa  | [Barzyk et al. (2006)](https://doi.org/10.1016/j.newar.2006.06.055){target="_blank"} |
+|       Scheme link       | Lasers |                                     Reference(s)                                     |  Submitted by   |
+| ----------------------- | ------ | ------------------------------------------------------------------------------------ | --------------- |
+| [Mo 1](../mo/mo-001.md) | Ti:Sa  | [Barzyk et al. (2006)](https://doi.org/10.1016/j.newar.2006.06.055){target="_blank"} | Reto Trappitsch |
