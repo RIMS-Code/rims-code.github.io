@@ -1,0 +1,36 @@
+{
+    "rims_scheme": {
+        "scheme": {
+            "element": "Co",
+            "lasers": "Dye",
+            "gs_level": "0",
+            "gs_term": "3p^6 3d^7 4s^2 ^4F_{9/2}",
+            "step_level0": "32841.99",
+            "step_level1": "51203.750",
+            "step_level2": "70000.74248120301",
+            "step_level3": "",
+            "step_level4": "",
+            "step_level5": "",
+            "step_term0": "3p^6 3d^8 4p ^4F^{o}_{9/2}",
+            "step_term1": "_{11/2}",
+            "step_term2": "",
+            "step_term3": "",
+            "step_term4": "",
+            "step_term5": "",
+            "trans_strength0": "1.9e+07",
+            "trans_strength1": "2.522e+06",
+            "trans_strength2": "",
+            "trans_strength3": "",
+            "trans_strength4": "",
+            "trans_strength5": "",
+            "unit": "cm^-1",
+            "ip_term": ""
+        },
+        "settings": {
+            "line_breaks": true
+        }
+    },
+    "notes": "Efficiency: >3.8%\n\nUsed at: CERN\n\nLasers used: Dye, CVL, Nd:Yag\n\n",
+    "references": [],
+    "submitted_by": "Sebastian Rothe"
+}

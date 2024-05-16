@@ -1,0 +1,36 @@
+{
+    "rims_scheme": {
+        "scheme": {
+            "element": "Al",
+            "lasers": "Ti:Sa",
+            "gs_level": "0.00",
+            "gs_term": "3s^23p ^2P_{1/2}",
+            "step_level0": "32435.45",
+            "step_level1": "54059.05865593055",
+            "step_level2": "",
+            "step_level3": "",
+            "step_level4": "",
+            "step_level5": "",
+            "step_term0": "3s^23d ^2D_{3/2}",
+            "step_term1": "",
+            "step_term2": "",
+            "step_term3": "",
+            "step_term4": "",
+            "step_term5": "",
+            "trans_strength0": "",
+            "trans_strength1": "",
+            "trans_strength2": "",
+            "trans_strength3": "",
+            "trans_strength4": "",
+            "trans_strength5": "",
+            "unit": "cm^-1",
+            "ip_term": ""
+        },
+        "settings": {
+            "line_breaks": true
+        }
+    },
+    "notes": "Used at: Mainz\n\nLasers used: Ti:sapphire\n\nFirst transition: 3rd harmonic\n\nIonization transition: 2nd harmonic from tripling\n\n",
+    "references": [],
+    "submitted_by": "Johannes Roßnagel"
+}

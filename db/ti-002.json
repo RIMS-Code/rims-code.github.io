@@ -1,0 +1,36 @@
+{
+    "rims_scheme": {
+        "scheme": {
+            "element": "Ti",
+            "lasers": "Ti:Sa",
+            "gs_level": "0",
+            "gs_term": "3d^24s^2 a^3F_2",
+            "step_level0": "25317.81",
+            "step_level1": "39526.89",
+            "step_level2": "58323.88248120301",
+            "step_level3": "",
+            "step_level4": "",
+            "step_level5": "",
+            "step_term0": "3d^34p y^3D^o_1",
+            "step_term1": "3d^35s f^3F_2",
+            "step_term2": "",
+            "step_term3": "",
+            "step_term4": "",
+            "step_term5": "",
+            "trans_strength0": "4.9e7",
+            "trans_strength1": "7.1e6",
+            "trans_strength2": "",
+            "trans_strength3": "",
+            "trans_strength4": "",
+            "trans_strength5": "",
+            "unit": "cm^-1",
+            "ip_term": ""
+        },
+        "settings": {
+            "line_breaks": true
+        }
+    },
+    "notes": "Used at: Mainz\n\nLasers used: Ti:sapphire, Nd:Yag\n\nNotes: Used in diploma Thesis S.Rothe. Saturation measurements in MABU\n\nFirst transition: Saturation 8.3 mW\n\nSecond transition: Saturation 76 mW\n\nIonizing transition: SHG MIRUS\n\n",
+    "references": [],
+    "submitted_by": "Katerina Chrysalidis"
+}

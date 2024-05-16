@@ -1,0 +1,36 @@
+{
+    "rims_scheme": {
+        "scheme": {
+            "element": "Cu",
+            "lasers": "Dye",
+            "gs_level": "0",
+            "gs_term": "4s ^2S_{1/2}",
+            "step_level0": "30535.302",
+            "step_level1": "65260.1",
+            "step_level2": "",
+            "step_level3": "",
+            "step_level4": "",
+            "step_level5": "",
+            "step_term0": "4p ^2P_{1/2}",
+            "step_term1": "",
+            "step_term2": "",
+            "step_term3": "4s 5s ^2D_{3/2 }",
+            "step_term4": "",
+            "step_term5": "",
+            "trans_strength0": "1.361e+08",
+            "trans_strength1": "",
+            "trans_strength2": "",
+            "trans_strength3": "",
+            "trans_strength4": "",
+            "trans_strength5": "",
+            "unit": "cm^-1",
+            "ip_term": ""
+        },
+        "settings": {
+            "line_breaks": true
+        }
+    },
+    "notes": "Used at: CERN\n\nLasers used: Dye\n\n",
+    "references": [],
+    "submitted_by": "Sebastian Rothe"
+}

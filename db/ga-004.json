@@ -1,0 +1,36 @@
+{
+    "rims_scheme": {
+        "scheme": {
+            "element": "Ga",
+            "lasers": "Ti:Sa and Dye",
+            "gs_level": "826.240",
+            "gs_term": "3d^{10}4s^{2}4p ^{2}P^{o}_{3/2}",
+            "step_level0": "34781.67",
+            "step_level1": "53578.662481203006",
+            "step_level2": "",
+            "step_level3": "",
+            "step_level4": "",
+            "step_level5": "",
+            "step_term0": "4s^{2}4d ^{2}D_{3/2}",
+            "step_term1": "",
+            "step_term2": "",
+            "step_term3": "",
+            "step_term4": "",
+            "step_term5": "",
+            "trans_strength0": "1.461e+08",
+            "trans_strength1": "",
+            "trans_strength2": "",
+            "trans_strength3": "",
+            "trans_strength4": "",
+            "trans_strength5": "",
+            "unit": "cm^-1",
+            "ip_term": ""
+        },
+        "settings": {
+            "line_breaks": true
+        }
+    },
+    "notes": "Used at: CERN\n\nLasers used: Dye, Ti:sapphire, Nd:YVO4\n\nUsed: online\n\n",
+    "references": [],
+    "submitted_by": "Sebastian Rothe"
+}

@@ -1,0 +1,36 @@
+{
+    "rims_scheme": {
+        "scheme": {
+            "element": "Se",
+            "lasers": "Ti:Sa",
+            "gs_level": "1989.497",
+            "gs_term": "4s^24p^4 ^3P_1",
+            "step_level0": "48182.190",
+            "step_level1": "60677.388",
+            "step_level2": "79474.380481203",
+            "step_level3": "",
+            "step_level4": "",
+            "step_level5": "",
+            "step_term0": "4s^24p^35s ^5S^o_2",
+            "step_term1": "4s^24p^35p ^3P_2 ",
+            "step_term2": "",
+            "step_term3": "",
+            "step_term4": "",
+            "step_term5": "",
+            "trans_strength0": "",
+            "trans_strength1": "",
+            "trans_strength2": "",
+            "trans_strength3": "",
+            "trans_strength4": "",
+            "trans_strength5": "",
+            "unit": "cm^-1",
+            "ip_term": ""
+        },
+        "settings": {
+            "line_breaks": true
+        }
+    },
+    "notes": "Efficiency: 1.2 %\n\nUsed at: CERN\n\nLasers used: Ti:sapphire\n\nUsed: offline\n\nSecond transition: not in Kurucz\n\nIonizing transition: Blaze",
+    "references": [],
+    "submitted_by": "Katerina Chrysalidis"
+}

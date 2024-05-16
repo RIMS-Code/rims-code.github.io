@@ -1,0 +1,36 @@
+{
+    "rims_scheme": {
+        "scheme": {
+            "element": "Mn",
+            "lasers": "Ti:Sa and Dye",
+            "gs_level": "0",
+            "gs_term": "3d^5 4s^2 ^6S_{5/2}",
+            "step_level0": "35725.85 ",
+            "step_level1": "51638.17",
+            "step_level2": "67366.6",
+            "step_level3": "",
+            "step_level4": "",
+            "step_level5": "",
+            "step_term0": "3d^5 4s 4p ^6P_{5/2}",
+            "step_term1": "3p^63d^7 ^4P_{5/2}",
+            "step_term2": "",
+            "step_term3": "",
+            "step_term4": "",
+            "step_term5": "",
+            "trans_strength0": "3.564e+08",
+            "trans_strength1": "2.544e+04",
+            "trans_strength2": "",
+            "trans_strength3": "",
+            "trans_strength4": "",
+            "trans_strength5": "",
+            "unit": "cm^-1",
+            "ip_term": ""
+        },
+        "settings": {
+            "line_breaks": true
+        }
+    },
+    "notes": "Efficiency: > 19% ?\n\nUsed at: CERN\n\nLasers used: Dye, Ti:sapphire, Nd:Yag, Edgewave\n\nUsed: online\n\nNotes: Scheme as published in https://doi.org/10.1007/s10751-010-0168-5, but different last step. Was used like this on-line at ISOLDE since at least 2014.\n\n",
+    "references": ["10.1007/s10751-010-0168-5"],
+    "submitted_by": "Reinhard Heinke"
+}

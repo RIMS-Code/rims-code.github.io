@@ -1,0 +1,36 @@
+{
+    "rims_scheme": {
+        "scheme": {
+            "element": "Co",
+            "lasers": "Dye",
+            "gs_level": "0",
+            "gs_term": "3d^{7} 4s^{2} ^{4}F_{9/2}",
+            "step_level0": "43308.6",
+            "step_level1": "64059.8",
+            "step_level2": "",
+            "step_level3": "",
+            "step_level4": "",
+            "step_level5": "",
+            "step_term0": "4s4p ^4F{\\circ}_{9/2}",
+            "step_term1": "",
+            "step_term2": "",
+            "step_term3": "",
+            "step_term4": "",
+            "step_term5": "",
+            "trans_strength0": "5,6 * 10^7",
+            "trans_strength1": "",
+            "trans_strength2": "",
+            "trans_strength3": "",
+            "trans_strength4": "",
+            "trans_strength5": "",
+            "unit": "cm^-1",
+            "ip_term": ""
+        },
+        "settings": {
+            "line_breaks": true
+        }
+    },
+    "notes": "Used at: LLN\n\nLasers used: Dye\n\nUsed: online\n\n",
+    "references": ["10.1016/j.nimb.2012.08.023"],
+    "submitted_by": "Tobias Kron"
+}

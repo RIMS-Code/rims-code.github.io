@@ -1,0 +1,36 @@
+{
+    "rims_scheme": {
+        "scheme": {
+            "element": "Sc",
+            "lasers": "Ti:Sa",
+            "gs_level": "0",
+            "gs_term": "",
+            "step_level0": "24866.2",
+            "step_level1": "40802.8",
+            "step_level2": "53161.27",
+            "step_level3": "",
+            "step_level4": "",
+            "step_level5": "",
+            "step_term0": "",
+            "step_term1": "",
+            "step_term2": "",
+            "step_term3": "",
+            "step_term4": "",
+            "step_term5": "",
+            "trans_strength0": "1.6e+8",
+            "trans_strength1": "6.0e+6",
+            "trans_strength2": "",
+            "trans_strength3": "",
+            "trans_strength4": "",
+            "trans_strength5": "",
+            "unit": "cm^-1",
+            "ip_term": ""
+        },
+        "settings": {
+            "line_breaks": true
+        }
+    },
+    "notes": "Used at: Mainz\n\nLasers used: Ti:sapphire, Cr:Forsterite\n\nNotes: Diploma Thesis S.Rothe. AI Two orders of magnitude above non-resonant background.\n\nFirst transition: Saturation < 1 mW\n\nIonizing transition: Saturation 7.3 mW\n\n",
+    "references": [],
+    "submitted_by": "Martin Klein"
+}

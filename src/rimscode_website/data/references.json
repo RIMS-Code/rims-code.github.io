@@ -38,5 +38,29 @@
     "10.1016/j.sab.2017.01.001": {
         "author": "Day Goodacre et al.",
         "year": 2017
+    },
+    "10.25358/openscience-3289": {
+        "author": "Gottwald",
+        "year": 2011
+    },
+    "10.1007/s10751-010-0168-5": {
+        "author": "Marsh et al.",
+        "year": 2010
+    },
+    "10.1016/j.nimb.2005.09.014": {
+        "author": "Liu et al.",
+        "year": 2006
+    },
+    "10.1016/j.nimb.2012.08.023": {
+        "author": "Ferrer et al.",
+        "year": 2012
+    },
+    "10.1016/j.nima.2015.10.066": {
+        "author": "Day Goodacre et al.",
+        "year": 2016
+    },
+    "10.1051/epjap/2022210270": {
+        "author": "Kneip et al.",
+        "year": 2022
     }
 }

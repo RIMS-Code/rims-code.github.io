@@ -1,0 +1,36 @@
+{
+    "rims_scheme": {
+        "scheme": {
+            "element": "Ca",
+            "lasers": "Ti:Sa",
+            "gs_level": "0",
+            "gs_term": "3p^{6} 4s^{2} ^{1}S_{0}",
+            "step_level0": "23652.304",
+            "step_level1": "37298.287",
+            "step_level2": "48812.09",
+            "step_level3": "",
+            "step_level4": "",
+            "step_level5": "",
+            "step_term0": "3p^{6} 4s 4p ^{1}P_{1}",
+            "step_term1": "3p^{6} 4s 4d ^{1}D_{2}",
+            "step_term2": "Ryd, 3p^{6} 4s 15f ^{1}F_{3}",
+            "step_term3": "",
+            "step_term4": "",
+            "step_term5": "",
+            "trans_strength0": "2.18e8",
+            "trans_strength1": "1e7",
+            "trans_strength2": "",
+            "trans_strength3": "",
+            "trans_strength4": "",
+            "trans_strength5": "",
+            "unit": "cm^-1",
+            "ip_term": ""
+        },
+        "settings": {
+            "line_breaks": true
+        }
+    },
+    "notes": "Used at: TRIUMF\n\nLasers used: Ti:sapphire, LEE\n\nNotes: triumf scheme\n\n",
+    "references": [],
+    "submitted_by": "Tom"
+}

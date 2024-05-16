@@ -1,0 +1,35 @@
+{
+    "rims_scheme": {
+        "scheme": {
+            "element": "Li",
+            "lasers": "Dye",
+            "gs_level": "0",
+            "gs_term": "1s^2 2s ^2S_{1/2}",
+            "step_level0": "14904.00",
+            "step_level1": "31283.12",
+            "step_level2": "50080.112481203",
+            "step_level3": "",
+            "step_level4": "",
+            "step_level5": "",
+            "step_term0": "1s^2 2p ^2P^{o}_{3/2}",
+            "step_term1": "1s^2 3d ^2D_{5/2}",
+            "step_term2": "",
+            "step_term3": "",
+            "step_term4": "",
+            "step_term5": "",
+            "trans_strength0": "",
+            "trans_strength1": "",
+            "trans_strength2": "",
+            "trans_strength3": "",
+            "trans_strength4": "",
+            "trans_strength5": "",
+            "unit": "cm^-1",
+            "ip_term": ""
+        },
+        "settings": {
+            "line_breaks": true
+        }
+    },
+    "notes": "Used at: CERN\n\nLasers used: Dye, Nd:YVO4\n\nUsed: online",
+    "submitted_by": "Sebastian Rothe"
+}

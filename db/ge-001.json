@@ -1,0 +1,36 @@
+{
+    "rims_scheme": {
+        "scheme": {
+            "element": "Ge",
+            "lasers": "Ti:Sa",
+            "gs_level": "557.134",
+            "gs_term": "4s^{2} 4p^{2} ^{3}P_{1}",
+            "step_level0": "40020.560",
+            "step_level1": "51011.439",
+            "step_level2": "63827.06",
+            "step_level3": "",
+            "step_level4": "",
+            "step_level5": "",
+            "step_term0": "4s^{2} 4p5s ^1P^{o}_{1}",
+            "step_term1": "4s^{2} 4p 5p ^{1}S_{0}",
+            "step_term2": "",
+            "step_term3": "",
+            "step_term4": "",
+            "step_term5": "",
+            "trans_strength0": "",
+            "trans_strength1": "",
+            "trans_strength2": "",
+            "trans_strength3": "",
+            "trans_strength4": "",
+            "trans_strength5": "",
+            "unit": "cm^-1",
+            "ip_term": ""
+        },
+        "settings": {
+            "line_breaks": true
+        }
+    },
+    "notes": "Efficiency: 3.3%\n\nUsed at: ORNL\n\nLasers used: Ti:sapphire\n\nUsed: offline\n\nNotes: For efficiency see Liu et al.\n\n",
+    "references": ["10.1016/j.nimb.2005.09.014"],
+    "submitted_by": "Sebastian Rothe"
+}

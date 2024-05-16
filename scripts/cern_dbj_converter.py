@@ -79,7 +79,7 @@ cnt_warn_no_ion_step = 0
 cnt_empty_ground_state = 0
 
 for ele, entries in data.items():
-    if ele != "Ag":
+    if ele != "Se":
         continue
     # create the output directory
     out_dir = OUT_PATH.joinpath(ele.lower())
@@ -94,7 +94,7 @@ for ele, entries in data.items():
         add_to_note = ""  # string to add to note at the very end
 
         entry_index = eit + 1
-        out_file = out_dir.joinpath(f"{ele.capitalize()}-{entry_index:03d}.json")
+        out_file = out_dir.joinpath(f"{ele.lower()}-{entry_index:03d}.json")
 
         content = {"rims_scheme": {"scheme": {}}}
 
@@ -112,7 +112,8 @@ for ele, entries in data.items():
             elif "Dye" in lasers_used:
                 lasers_out = "Dye"
             else:
-                raise ValueError(f"Unknown lasers used: {lasers_used}")
+                warnings.warn(f"Unknown lasers used: {lasers_used}")
+                lasers_out = "MANUALLY DEFINE"
             scheme_out["lasers"] = lasers_out
 
         # go through key mapper and fill with values (even if empty)
@@ -219,19 +220,27 @@ for ele, entries in data.items():
 
         n_efficiency = entry.get("efficiency", None)
         if n_efficiency:
-            notes += f"Efficiency: {symbol_replacer(n_efficiency)}\n"
+            notes += f"Efficiency: {symbol_replacer(n_efficiency)}\n\n"
 
         n_used_at = entry.get("usedat", None)
         if n_used_at:
-            notes += f"Used at: {', '.join(n_used_at)}\n"
+            notes += f"Used at: {', '.join(n_used_at)}\n\n"
 
         n_lasers_used = entry.get("lasersused", None)
         if n_lasers_used:
-            notes += f"Lasers used: {', '.join(n_lasers_used)}\n"
+            notes += f"Lasers used: {', '.join(n_lasers_used)}\n\n"
+
+        n_online = entry.get("online", None)
+        if n_online == "on":
+            notes += "Used: online\n\n"
+
+        n_offline = entry.get("offline", None)
+        if n_offline == "on":
+            notes += "Used: offline\n\n"
 
         n_notes = entry.get("notes", None)
         if n_notes:
-            notes += f"Notes: {symbol_replacer(n_notes)}\n"
+            notes += f"Notes: {symbol_replacer(n_notes)}\n\n"
 
         if add_to_note:
             notes += add_to_note
@@ -241,6 +250,8 @@ for ele, entries in data.items():
         # write out the json files
         content["rims_scheme"]["scheme"] = scheme_out
         content["rims_scheme"]["settings"] = settings_out
+        content["references"] = []
+        content["submitted_by"] = ""
         with open(out_file, "w") as fout:
             json.dump(content, fout, indent=4)
 
