@@ -53,7 +53,7 @@ class ElementMD:
         ret_dict = {}
         for ele in self._laser_type_dict.keys():
             types = self._laser_type_dict[ele]
-            if len(types) > 1:
+            if "Ti:Sa and Dye" in types or len(types) > 1:
                 tp = "both"
             else:
                 if "Ti:Sa" in types:
