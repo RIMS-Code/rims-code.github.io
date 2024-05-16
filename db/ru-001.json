@@ -1,0 +1,36 @@
+{
+    "rims_scheme": {
+        "scheme": {
+            "element": "Ru",
+            "lasers": "Ti:Sa",
+            "gs_level": "0",
+            "gs_term": "4d^75s_5",
+            "step_level0": "34772.57",
+            "step_level1": "59526.087",
+            "step_level2": "",
+            "step_level3": "",
+            "step_level4": "",
+            "step_level5": "",
+            "step_term0": "4d^65s5p_5^o",
+            "step_term1": "",
+            "step_term2": "",
+            "step_term3": "",
+            "step_term4": "",
+            "step_term5": "",
+            "trans_strength0": "",
+            "trans_strength1": "",
+            "trans_strength2": "",
+            "trans_strength3": "",
+            "trans_strength4": "",
+            "trans_strength5": "",
+            "unit": "cm^-1",
+            "ip_term": ""
+        },
+        "settings": {
+            "line_breaks": true
+        }
+    },
+    "notes": "Used at: ANL\n\nLasers used: Ti:sapphire\n\nNotes: Savina, M., et al. (2004). &quot;Extinct Technetium in Presolar Grains.&quot; Lunar and Planetary Institute Science Conference Abstracts 35: 1877.\n\n",
+    "references": [],
+    "submitted_by": "Katerina Chrysalidis"
+}

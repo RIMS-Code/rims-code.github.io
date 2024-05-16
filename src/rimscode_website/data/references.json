@@ -62,5 +62,25 @@
     "10.1051/epjap/2022210270": {
         "author": "Kneip et al.",
         "year": 2022
+    },
+    "10.1103/PhysRevA.15.1920": {
+        "author": "Esherick",
+        "year": 1977
+    },
+    "10.1016/0022-4073(96)00032-5": {
+        "author": "Dai et al.",
+        "year": 1996
+    },
+    "10.1007/s10751-005-9204-2": {
+        "author": "Fedosseev et al.",
+        "year": 2006
+    },
+    "10.1111/j.1945-5100.2007.tb00563.x": {
+        "author": "Barzyk et al.",
+        "year": 2007
+    },
+    "10.25358/openscience-1713": {
+        "author": "Kron",
+        "year": 2017
     }
 }

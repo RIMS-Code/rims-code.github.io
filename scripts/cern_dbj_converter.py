@@ -79,7 +79,7 @@ cnt_warn_no_ion_step = 0
 cnt_empty_ground_state = 0
 
 for ele, entries in data.items():
-    if ele != "Se":
+    if ele != "Ru":
         continue
     # create the output directory
     out_dir = OUT_PATH.joinpath(ele.lower())

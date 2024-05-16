@@ -1,0 +1,36 @@
+{
+    "rims_scheme": {
+        "scheme": {
+            "element": "Sr",
+            "lasers": "Ti:Sa",
+            "gs_level": "0",
+            "gs_term": "5s^2 ^1S_0",
+            "step_level0": "21698.45",
+            "step_level1": "46380.1",
+            "step_level2": "",
+            "step_level3": "",
+            "step_level4": "",
+            "step_level5": "",
+            "step_term0": "5s5p ^1P^o_1",
+            "step_term1": "",
+            "step_term2": "",
+            "step_term3": "",
+            "step_term4": "",
+            "step_term5": "",
+            "trans_strength0": "",
+            "trans_strength1": "",
+            "trans_strength2": "",
+            "trans_strength3": "",
+            "trans_strength4": "",
+            "trans_strength5": "",
+            "unit": "cm^-1",
+            "ip_term": ""
+        },
+        "settings": {
+            "line_breaks": true
+        }
+    },
+    "notes": "Used at: TRIUMF\n\nLasers used: Ti:sapphire\n\nUsed: online\n\nNotes: AI reported in Esherik (1977) and later in Dai et al. (1996). The width of the AI is reported as ~60cm<sup>-1</sup>, so probably a broad laser is advisable for this (e.g. TiSa with 0.2 or 0.1mm etalon)\n\nInvestigation on Sr schemes, yielding this one as most efficient, also in M.Sc. thesis of Hauke Bosco (https://www.irs.uni-hannover.de/fileadmin/irs/Arbeiten/Master/mastbosc.pdf, in German)\n\n",
+    "references": ["10.1103/PhysRevA.15.1920", "10.1016/0022-4073(96)00032-5"],
+    "submitted_by": "Reinhard Heinke"
+}
