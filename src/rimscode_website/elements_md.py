@@ -102,6 +102,7 @@ class ElementMD:
                     "position": ele_pos[1],
                     "lasers": db_file.lasers,
                     "references": db_file.main_reference_md_link,
+                    "submitted_by": db_file.submitted_by,
                 }
             }
             if ele_pos[0] not in db_dict.keys():
@@ -189,7 +190,7 @@ class ElementMD:
         # add the schemes
 
         # create a bullet point list of links to the schemes
-        table_header = ["Scheme link", "Lasers", "Reference(s)"]
+        table_header = ["Scheme link", "Lasers", "Reference(s)", "Submitted by"]
         table = []
         for db_dict_it in db_dict:
             for fl, entry in db_dict_it.items():
@@ -202,6 +203,7 @@ class ElementMD:
                         f"[{ele.capitalize()} {pos}]({url})",
                         entry["lasers"],
                         entry["references"],
+                        entry["submitted_by"],
                     ]
                 )
 

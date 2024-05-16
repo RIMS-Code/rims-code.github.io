@@ -42,3 +42,8 @@ class DataFileReader:
             return ""
         else:
             return ReferenceDOI(dois[0]).md_url_t
+
+    @property
+    def submitted_by(self) -> str:
+        """Return the name of the person who submitted the scheme."""
+        return self._data.get("submitted_by", "")
