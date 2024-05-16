@@ -97,13 +97,17 @@ class ElementMD:
             # parse the file name
             db_file = DataFileReader(f)
             ele_pos = parse_db_filename(f)
-            db_dict[ele_pos[0]] = {
+            tmp_dict = {
                 f: {
                     "position": ele_pos[1],
                     "lasers": db_file.lasers,
                     "references": db_file.main_reference_md_link,
                 }
             }
+            if ele_pos[0] not in db_dict.keys():
+                db_dict[ele_pos[0]] = [tmp_dict]
+            else:
+                db_dict[ele_pos[0]].append(tmp_dict)
 
         self.db_dict = db_dict
 
@@ -122,28 +126,29 @@ class ElementMD:
         db_dict = self.db_dict
 
         for ele, entry_ele_dict in db_dict.items():
-            for fl, entry_fl_dict in entry_ele_dict.items():
-                pos = entry_fl_dict["position"]
-                folder = Path(self._scheme_docs_path.joinpath(ele))
+            for entry_ele_dict_it in entry_ele_dict:
+                for fl, entry_fl_dict in entry_ele_dict_it.items():
+                    pos = entry_fl_dict["position"]
+                    folder = Path(self._scheme_docs_path.joinpath(ele))
 
-                # scheme files
-                fname = folder.joinpath(
-                    f"{ele}-{pos:0{self._file_name_zero_filling}d}.md"
-                )
-                if fname.exists() is False:  # scheme does not exist yet!
-                    # scheme content creator
-                    content_creator = SchemeContentMD(fl)
-                    ele_file_content = content_creator.content_md
+                    # scheme files
+                    fname = folder.joinpath(
+                        f"{ele}-{pos:0{self._file_name_zero_filling}d}.md"
+                    )
+                    if fname.exists() is False:  # scheme does not exist yet!
+                        # scheme content creator
+                        content_creator = SchemeContentMD(fl)
+                        ele_file_content = content_creator.content_md
 
-                    with open(fname, "w") as f:
-                        f.write(ele_file_content)
+                        with open(fname, "w") as f:
+                            f.write(ele_file_content)
 
-                # add element and scheme to the all_schemes dictionary
-                dict_entry = f"{ele}/{fname.stem}"
-                if ele not in self._all_schemes.keys():
-                    self._all_schemes[ele] = [dict_entry]
-                else:
-                    self._all_schemes[ele].append(dict_entry)
+                    # add element and scheme to the all_schemes dictionary
+                    dict_entry = f"{ele}/{fname.stem}"
+                    if ele not in self._all_schemes.keys():
+                        self._all_schemes[ele] = [dict_entry]
+                    else:
+                        self._all_schemes[ele].append(dict_entry)
 
         # index file
         for ele in db_dict.keys():
@@ -186,24 +191,25 @@ class ElementMD:
         # create a bullet point list of links to the schemes
         table_header = ["Scheme link", "Lasers", "Reference(s)"]
         table = []
-        for fl, entry in db_dict.items():
-            # URL for each scheme
-            pos = entry["position"]
-            url = f"../{ele}/{ele}-{pos:0{self._file_name_zero_filling}d}.md"
+        for db_dict_it in db_dict:
+            for fl, entry in db_dict_it.items():
+                # URL for each scheme
+                pos = entry["position"]
+                url = f"../{ele}/{ele}-{pos:0{self._file_name_zero_filling}d}.md"
 
-            table.append(
-                [
-                    f"[{ele.capitalize()} {pos}]({url})",
-                    entry["lasers"],
-                    entry["references"],
-                ]
-            )
+                table.append(
+                    [
+                        f"[{ele.capitalize()} {pos}]({url})",
+                        entry["lasers"],
+                        entry["references"],
+                    ]
+                )
 
-            # add laser type to the laser type dictionary
-            if ele in self._laser_type_dict.keys():
-                self._laser_type_dict[ele].add(entry["lasers"])
-            else:
-                self._laser_type_dict[ele] = {entry["lasers"]}
+                # add laser type to the laser type dictionary
+                if ele in self._laser_type_dict.keys():
+                    self._laser_type_dict[ele].add(entry["lasers"])
+                else:
+                    self._laser_type_dict[ele] = {entry["lasers"]}
 
         md_table = ptw.MarkdownTableWriter(
             headers=table_header, value_matrix=table, margin=1
