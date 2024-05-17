@@ -1,0 +1,36 @@
+{
+    "rims_scheme": {
+        "scheme": {
+            "element": "Tl",
+            "lasers": "Ti:Sa and Dye",
+            "gs_level": "0",
+            "gs_term": "6s^{2} 6p ^{2}P_{1/2}",
+            "step_level0": "36117.9",
+            "step_level1": "54914.89248120301",
+            "step_level2": "",
+            "step_level3": "",
+            "step_level4": "",
+            "step_level5": "",
+            "step_term0": "6s^{2} 6d ^{2}D_{3/2}",
+            "step_term1": "",
+            "step_term2": "",
+            "step_term3": "",
+            "step_term4": "",
+            "step_term5": "",
+            "trans_strength0": "1.26e+08",
+            "trans_strength1": "",
+            "trans_strength2": "",
+            "trans_strength3": "",
+            "trans_strength4": "",
+            "trans_strength5": "",
+            "unit": "cm^-1",
+            "ip_term": ""
+        },
+        "settings": {
+            "line_breaks": true
+        }
+    },
+    "notes": "Efficiency: <27%\n\nUsed at: CERN\n\nLasers used: Dye, Ti:sapphire, Nd:YVO4\n\nUsed: online\n\nReference: B. Marsh, V. Fedosseev, \"RILIS Database\" (2009)\n\n",
+    "references": [],
+    "submitted_by": "Sebastian Rothe"
+}

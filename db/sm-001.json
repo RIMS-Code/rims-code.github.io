@@ -1,0 +1,36 @@
+{
+    "rims_scheme": {
+        "scheme": {
+            "element": "Sm",
+            "lasers": "Dye",
+            "gs_level": "811.920",
+            "gs_term": "6s^2 ^7F_2",
+            "step_level0": "17462.370",
+            "step_level1": "32269.8",
+            "step_level2": "47054.5",
+            "step_level3": "",
+            "step_level4": "",
+            "step_level5": "",
+            "step_term0": "6s 6p ^5G_2",
+            "step_term1": "",
+            "step_term2": "AI",
+            "step_term3": "",
+            "step_term4": "",
+            "step_term5": "",
+            "trans_strength0": "4.955e+05",
+            "trans_strength1": "",
+            "trans_strength2": "",
+            "trans_strength3": "",
+            "trans_strength4": "",
+            "trans_strength5": "",
+            "unit": "cm^-1",
+            "ip_term": ""
+        },
+        "settings": {
+            "line_breaks": true
+        }
+    },
+    "notes": "Used at: CERN, PNPI\n\nLasers used: Dye, CVL, Nd:Yag, Edgewave\n\nUsed: online\n\nNotes: Ground state population 21%\n\n",
+    "references": [],
+    "submitted_by": "Katerina Chrysalidis"
+}

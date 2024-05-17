@@ -1,0 +1,36 @@
+{
+    "rims_scheme": {
+        "scheme": {
+            "element": "Pd",
+            "lasers": "Ti:Sa",
+            "gs_level": "0",
+            "gs_term": "4d^{10} ^1S_0",
+            "step_level0": "36180.76",
+            "step_level1": "58448.705",
+            "step_level2": "69419.63",
+            "step_level3": "",
+            "step_level4": "",
+            "step_level5": "",
+            "step_term0": "4d^9 (^2D_{5/2}) 5p ^2[3/2]_1^o",
+            "step_term1": "4d^9 (^2D_{3/2}) 5d ^2[5/2]_2",
+            "step_term2": "AI",
+            "step_term3": "",
+            "step_term4": "",
+            "step_term5": "",
+            "trans_strength0": "",
+            "trans_strength1": "",
+            "trans_strength2": "",
+            "trans_strength3": "",
+            "trans_strength4": "",
+            "trans_strength5": "",
+            "unit": "cm^-1",
+            "ip_term": ""
+        },
+        "settings": {
+            "line_breaks": true
+        }
+    },
+    "notes": "Efficiency: 54 / 60 %\n\nUsed at: Mainz, ORNL\n\nLasers used: Ti:sapphire\n\nUsed: offline\n\nNotes: AI is part of rydberg series to excited ion state\n\n",
+    "references": [],
+    "submitted_by": "Tobias Kron"
+}

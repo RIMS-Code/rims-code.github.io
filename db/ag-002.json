@@ -1,0 +1,36 @@
+{
+    "rims_scheme": {
+        "scheme": {
+            "element": "Ag",
+            "lasers": "Ti:Sa",
+            "gs_level": "0",
+            "gs_term": "5s ^2S_{1/2}",
+            "step_level0": "30472.71",
+            "step_level1": "54213.60",
+            "step_level2": "73798.40219349784",
+            "step_level3": "",
+            "step_level4": "",
+            "step_level5": "",
+            "step_term0": "5p ^2P_{3/2}",
+            "step_term1": "6d ^2D_{5/2}",
+            "step_term2": "",
+            "step_term3": "",
+            "step_term4": "",
+            "step_term5": "",
+            "trans_strength0": "1.380e+08",
+            "trans_strength1": "1.5e+06",
+            "trans_strength2": "",
+            "trans_strength3": "",
+            "trans_strength4": "",
+            "trans_strength5": "",
+            "unit": "cm^-1",
+            "ip_term": ""
+        },
+        "settings": {
+            "line_breaks": true
+        }
+    },
+    "notes": "Used at: IGISOL\n\nLasers used: CVL, Ti:sapphire\n\nUsed: offline\n\nNotes: There is a collection of Rydberg states at around 60950cm<sup>-1</sup> which are accessible from the first excitation step using the first step laser. (Berthold et al. Phys. Rev. B 56, 4251. The scheme has been tested both off-line and &quot;online&quot; where a stable beam from K130 cyclotron was implanted in a hot cavity catcher.\n\nSecond transition strength calculated from relative intensity.\n\n",
+    "references": [],
+    "submitted_by": "Mikael Reponen"
+}

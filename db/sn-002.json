@@ -1,0 +1,36 @@
+{
+    "rims_scheme": {
+        "scheme": {
+            "element": "Sn",
+            "lasers": "Ti:Sa and Dye",
+            "gs_level": "0",
+            "gs_term": "5p^{2} ^{3}P_{1}",
+            "step_level0": "34914.282",
+            "step_level1": "47235.221",
+            "step_level2": "59375.9",
+            "step_level3": "",
+            "step_level4": "",
+            "step_level5": "",
+            "step_term0": "5p 6s ^{3}P_{1}",
+            "step_term1": "5p 6p ^{3}P_{2}",
+            "step_term2": "",
+            "step_term3": "5p 9s ^{3}P_{2}",
+            "step_term4": "",
+            "step_term5": "",
+            "trans_strength0": "",
+            "trans_strength1": "",
+            "trans_strength2": "",
+            "trans_strength3": "",
+            "trans_strength4": "",
+            "trans_strength5": "",
+            "unit": "cm^-1",
+            "ip_term": ""
+        },
+        "settings": {
+            "line_breaks": true
+        }
+    },
+    "notes": "Used at: CERN\n\nLasers used: Dye\n\nReference: B. Marsh, V. Fedosseev, \"RILIS Database\" (2009)\n\nNotes: reported efficiency for this scheme at HRIBF with just a single first step: 22% (Liu et al., 2006)\n\n",
+    "references": ["10.1016/j.nimb.2005.09.014"],
+    "submitted_by": "Katerina Chrysalidis"
+}

@@ -82,5 +82,37 @@
     "10.25358/openscience-1713": {
         "author": "Kron",
         "year": 2017
+    },
+    "10.1007/BF01297718": {
+        "author": "Fedoseyev et al.",
+        "year": 1995
+    },
+    "10.1007/s10751-017-1398-6": {
+        "author": "Day Goodacre et al.",
+        "year": 2017
+    },
+    "10.1016/S0584-8547(99)00112-3": {
+        "author": "Podshivalov et al.",
+        "year": 1999
+    },
+    "10.1038/s41567-018-0292-8": {
+        "author": "Marsh et al.",
+        "year": 2018
+    },
+    "10.5281/zenodo.4298406": {
+        "author": "Wessolek",
+        "year": 2020
+    },
+    "10.1016/S0168-583X(02)01956-0": {
+        "author": "K\u00f6ster et al.",
+        "year": 2003
+    },
+    "10.17181/CERN.0HNZ.7Z6X": {
+        "author": "Rothe",
+        "year": 2012
+    },
+    "10.1103/PhysRevA.99.062513": {
+        "author": "Studer et al.",
+        "year": 2019
     }
 }

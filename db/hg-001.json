@@ -1,0 +1,36 @@
+{
+    "rims_scheme": {
+        "scheme": {
+            "element": "Hg",
+            "lasers": "Dye",
+            "gs_level": "0",
+            "gs_term": "6s^{2} ^{1}S_{0}",
+            "step_level0": " 39412.237",
+            "step_level1": "71396.073",
+            "step_level2": "87319.92761  ",
+            "step_level3": "",
+            "step_level4": "",
+            "step_level5": "",
+            "step_term0": "6s 6p ^{3}P_{1}",
+            "step_term1": "6s 6d ^{3}D_{2}",
+            "step_term2": "",
+            "step_term3": "",
+            "step_term4": "",
+            "step_term5": "",
+            "trans_strength0": "1.43e7",
+            "trans_strength1": "6.56e+07",
+            "trans_strength2": "",
+            "trans_strength3": "",
+            "trans_strength4": "",
+            "trans_strength5": "",
+            "unit": "cm^-1",
+            "ip_term": ""
+        },
+        "settings": {
+            "line_breaks": true
+        }
+    },
+    "notes": "Efficiency: 0.1%\n\nUsed at: CERN\n\nLasers used: Dye\n\nReference: B. Marsh, V. Fedosseev, \"RILIS Database\" (2009)\n\nNotes: From literature review it seems more likely the used 2nd excited state was 71333.053cm<sup>-1</sup> (<sup>1</sup>D<sub>2</sub>). In Podshivalov et al. (1999), this is given as the most intense.\n\n",
+    "references": ["10.1016/S0584-8547(99)00112-3"],
+    "submitted_by": "Reinhard Heinke"
+}

@@ -1,0 +1,36 @@
+{
+    "rims_scheme": {
+        "scheme": {
+            "element": "Cd",
+            "lasers": "Ti:Sa and Dye",
+            "gs_level": "0",
+            "gs_term": "5s^{2} ^{1}S_{0}",
+            "step_level0": "43692.474",
+            "step_level1": "59219.824",
+            "step_level2": "78016.81648120302",
+            "step_level3": "",
+            "step_level4": "",
+            "step_level5": "",
+            "step_term0": "5s 5p ^{1}P_{1}",
+            "step_term1": "5s 5d ^{1}D_{2}",
+            "step_term2": "",
+            "step_term3": "",
+            "step_term4": "",
+            "step_term5": "",
+            "trans_strength0": "9.2e8",
+            "trans_strength1": "3.1e7",
+            "trans_strength2": "",
+            "trans_strength3": "",
+            "trans_strength4": "",
+            "trans_strength5": "",
+            "unit": "cm^-1",
+            "ip_term": ""
+        },
+        "settings": {
+            "line_breaks": true
+        }
+    },
+    "notes": "Efficiency: 10.4%\n\nUsed at: CERN\n\nLasers used: Dye, Ti:sapphire, Nd:YVO4, Nd:YAG, Edgewave\n\nUsed: online\n\nNotes: Taken from RILIS website\n\nFirst transition: 686 THG Dye\n\nSecond transition: Dye\n\nIonizing transition: Edgewave\n\n",
+    "references": [],
+    "submitted_by": "Sebastian Rothe"
+}

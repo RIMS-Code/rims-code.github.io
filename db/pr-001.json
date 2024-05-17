@@ -1,0 +1,36 @@
+{
+    "rims_scheme": {
+        "scheme": {
+            "element": "Pr",
+            "lasers": "Ti:Sa",
+            "gs_level": "0",
+            "gs_term": "4f^{3} 6s^{2} ^{4}I^{o}_{9/2}",
+            "step_level0": "21649.640",
+            "step_level1": "32760.8  ",
+            "step_level2": "51557.79248120301",
+            "step_level3": "",
+            "step_level4": "",
+            "step_level5": "",
+            "step_term0": "J=7/2",
+            "step_term1": "^{o}J=5/2,7/2,9/2",
+            "step_term2": "",
+            "step_term3": "",
+            "step_term4": "",
+            "step_term5": "",
+            "trans_strength0": "6.456e+06",
+            "trans_strength1": "",
+            "trans_strength2": "",
+            "trans_strength3": "",
+            "trans_strength4": "",
+            "trans_strength5": "",
+            "unit": "cm^-1",
+            "ip_term": ""
+        },
+        "settings": {
+            "line_breaks": true
+        }
+    },
+    "notes": "Efficiency: unknown\n\nUsed at: CERN\n\nLasers used: Ti:sapphire, Photonics\n\nUsed: online\n\n",
+    "references": ["10.17181/CERN.0HNZ.7Z6X"],
+    "submitted_by": "Sebastian Rothe"
+}

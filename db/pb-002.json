@@ -1,0 +1,37 @@
+{
+    "rims_scheme": {
+        "scheme": {
+            "element": "Pb",
+            "lasers": "Ti:Sa",
+            "gs_level": "0",
+            "gs_term": "6s^26p^2 _0",
+            "step_level0": "35287.225",
+            "step_level1": "57598.573",
+            "step_level2": "70548.67",
+            "step_level3": "",
+            "step_level4": "",
+            "step_level5": "",
+            "step_term0": "6s^26p7s _1^o",
+            "step_term1": "6s^26p7p _2",
+            "step_term2": "AI",
+            "step_term3": "",
+            "step_term4": "",
+            "step_term5": "",
+            "trans_strength0": "5.8e+07",
+            "trans_strength1": "",
+            "trans_strength2": "",
+            "trans_strength3": "",
+            "trans_strength4": "",
+            "trans_strength5": "",
+            "unit": "cm^-1",
+            "ip_term": ""
+        },
+        "settings": {
+            "line_breaks": true,
+            "ip_label_pos": "Top"
+        }
+    },
+    "notes": "Used at: TRIUMF\n\nLasers used: Ti:sapphire\n\nUsed: offline\n\nNotes: Scheme development from Master thesis by Wessolek (2020)\n\n",
+    "references": ["10.5281/zenodo.4298406"],
+    "submitted_by": "Katerina Chrysalidis"
+}
