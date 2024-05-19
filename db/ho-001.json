@@ -1,0 +1,36 @@
+{
+    "rims_scheme": {
+        "scheme": {
+            "element": "Ho",
+            "lasers": "Ti:Sa",
+            "gs_level": "0",
+            "gs_term": "4f^{11} 6s^{2} ^{4}I^{o} J=15/2",
+            "step_level0": "24660.8",
+            "step_level1": "36873.76",
+            "step_level2": "48809.2",
+            "step_level3": "",
+            "step_level4": "",
+            "step_level5": "",
+            "step_term0": "4f^{11} 6s6p(^1P^o_1) (15/2,1) J=15/2",
+            "step_term1": "4f^{11} 6s 7s (13/2,1)^{o} J=13/2",
+            "step_term2": "AI",
+            "step_term3": "^{4}I^{o}_{15/2} 6s (15/2,1/2)^{*}_{8}",
+            "step_term4": "",
+            "step_term5": "",
+            "trans_strength0": "1.6e8",
+            "trans_strength1": "",
+            "trans_strength2": "",
+            "trans_strength3": "",
+            "trans_strength4": "",
+            "trans_strength5": "",
+            "unit": "cm^-1",
+            "ip_term": ""
+        },
+        "settings": {
+            "line_breaks": true
+        }
+    },
+    "notes": "Efficiency: 28.7 %\n\nUsed at: Mainz\n\nLasers used: Ti:sapphire\n\nUsed: offline\n\nNotes: Data taken from Mainz database\r\n\r\nEfficiency at Oak Ridge: 40 %\r\nEfficiency measured at Mainz with ISOLDE ionizer: 28.7%\n\nFirst transition: SHG (810.104 nm)\n\n",
+    "references": ["10.1063/1.3115590"],
+    "submitted_by": "Valentin Fedosseev"
+}

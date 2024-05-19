@@ -1,0 +1,36 @@
+{
+    "rims_scheme": {
+        "scheme": {
+            "element": "Dy",
+            "lasers": "Ti:Sa",
+            "gs_level": "0",
+            "gs_term": "4f^{10} 6s^2 ^5I_8",
+            "step_level0": "23736.61",
+            "step_level1": "48343.96",
+            "step_level2": "",
+            "step_level3": "",
+            "step_level4": "",
+            "step_level5": "",
+            "step_term0": "4f^{10} (^5I_8) 6s 6p (^1P_1), (8,1)_9",
+            "step_term1": "AI",
+            "step_term2": "",
+            "step_term3": "",
+            "step_term4": "",
+            "step_term5": "",
+            "trans_strength0": "2.8E8",
+            "trans_strength1": "",
+            "trans_strength2": "",
+            "trans_strength3": "",
+            "trans_strength4": "",
+            "trans_strength5": "",
+            "unit": "cm^-1",
+            "ip_term": ""
+        },
+        "settings": {
+            "line_breaks": true
+        }
+    },
+    "notes": "Used at: Mainz\n\nLasers used: Ti:sapphire\n\nUsed: offline\n\nNotes: From M.Ed. thesis of P. Dyrauf (Mainz). Efficiency not quantified. 2nd step taken as one of the highest peaks in the scan range 47400 - 48900 cm<sup>-1</sup>. Maximum available power for 2nd step was 120mW, still linear in this regime.\n\n11/2021: Compared this scheme to [418.8nm - Blaze (35W at launch)] scheme. The Blaze scheme seems to give ~ factor 4 more ion signal than this. Blaze was not found to be saturated at that test.\n\nFirst transition: Saturated at 3.5(1) mW\n\nSecond transition: Saturation at > 120 mW\n\n",
+    "references": [],
+    "submitted_by": "Reinhard Heinke"
+}

@@ -114,5 +114,29 @@
     "10.1103/PhysRevA.99.062513": {
         "author": "Studer et al.",
         "year": 2019
+    },
+    "10.1063/1.3115590": {
+        "author": "Gottwald et al.",
+        "year": 2009
+    },
+    "10.1007/s10751-016-1384-4": {
+        "author": "Studer et al.",
+        "year": 2016
+    },
+    "10.1103/PhysRevA.98.042504": {
+        "author": "Studer et al.",
+        "year": 2018
+    },
+    "10.1016/0168-9002(91)90348-T": {
+        "author": "Alkhazov et al.",
+        "year": 1991
+    },
+    "10.1016/j.nima.2019.162602": {
+        "author": "Kieck et al.",
+        "year": 2019
+    },
+    "10.3389%2Ffmed.2021.712374": {
+        "author": "Heinke et al.",
+        "year": 2021
     }
 }

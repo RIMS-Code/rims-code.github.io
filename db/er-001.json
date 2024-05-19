@@ -1,0 +1,36 @@
+{
+    "rims_scheme": {
+        "scheme": {
+            "element": "Er",
+            "lasers": "Ti:Sa",
+            "gs_level": "0",
+            "gs_term": "4f^{12}6s^2(^3H_6)",
+            "step_level0": "24943.27",
+            "step_level1": "49279.8",
+            "step_level2": "",
+            "step_level3": "",
+            "step_level4": "",
+            "step_level5": "",
+            "step_term0": "4f^{12}(^3H)6s6p^o J=7",
+            "step_term1": "AI",
+            "step_term2": "",
+            "step_term3": "",
+            "step_term4": "",
+            "step_term5": "",
+            "trans_strength0": "1.73E8",
+            "trans_strength1": "",
+            "trans_strength2": "",
+            "trans_strength3": "",
+            "trans_strength4": "",
+            "trans_strength5": "",
+            "unit": "cm^-1",
+            "ip_term": ""
+        },
+        "settings": {
+            "line_breaks": true
+        }
+    },
+    "notes": "Used at: Mainz, GANIL, TRIUMF\n\nLasers used: Ti:sapphire\n\nUsed: offline\n\nNotes: from thesis of D. Studer (Mainz 2015)\r\nThe AI is most likely a member of the 6snd Rydberg-series, converging to the higher lying fine structure component of the ionic ground state at 440.43 cm<sup>-1</sup>. It can also be addressed from the state at 24083.17 cm<sup>-1</sup>, which can be an advantage if non-resonant background from the FES should be avoided.\n\n",
+    "references": [],
+    "submitted_by": "Tobias Kron"
+}

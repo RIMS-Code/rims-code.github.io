@@ -1,0 +1,36 @@
+{
+    "rims_scheme": {
+        "scheme": {
+            "element": "Lu",
+            "lasers": "Ti:Sa",
+            "gs_level": "0",
+            "gs_term": "5d 6s2 (2D3/2)",
+            "step_level0": "22124.76",
+            "step_level1": "43831.62",
+            "step_level2": "",
+            "step_level3": "",
+            "step_level4": "",
+            "step_level5": "",
+            "step_term0": "5d 6s (3D) 6p (2D{\\circ}3/2)",
+            "step_term1": "",
+            "step_term2": "",
+            "step_term3": "",
+            "step_term4": "",
+            "step_term5": "",
+            "trans_strength0": "2.3E+7",
+            "trans_strength1": "",
+            "trans_strength2": "",
+            "trans_strength3": "",
+            "trans_strength4": "",
+            "trans_strength5": "",
+            "unit": "cm^-1",
+            "ip_term": ""
+        },
+        "settings": {
+            "line_breaks": true
+        }
+    },
+    "notes": "Efficiency: 36.5\n\nUsed at: Mainz\n\nLasers used: Ti:sapphire\n\n",
+    "references": [],
+    "submitted_by": "LARISSA JGU Mainz"
+}

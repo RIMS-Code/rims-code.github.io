@@ -1,0 +1,36 @@
+{
+    "rims_scheme": {
+        "scheme": {
+            "element": "Dy",
+            "lasers": "Ti:Sa",
+            "gs_level": "0",
+            "gs_term": "",
+            "step_level0": "23877.739",
+            "step_level1": "48343.96",
+            "step_level2": "",
+            "step_level3": "",
+            "step_level4": "",
+            "step_level5": "",
+            "step_term0": "",
+            "step_term1": "AI",
+            "step_term2": "",
+            "step_term3": "",
+            "step_term4": "",
+            "step_term5": "",
+            "trans_strength0": "1.26E8",
+            "trans_strength1": "",
+            "trans_strength2": "",
+            "trans_strength3": "",
+            "trans_strength4": "",
+            "trans_strength5": "",
+            "unit": "cm^-1",
+            "ip_term": ""
+        },
+        "settings": {
+            "line_breaks": true
+        }
+    },
+    "notes": "Used at: CERN\n\nLasers used: Ti:sapphire, Nd:YVO4\n\nUsed: online\n\nNotes: used for Tb collections Nov 2021 together with the Blaze. Enhancement over the first step is about 3-4 with the AI (which is the same as the one used with 421nm first step transition)\n\n",
+    "references": [],
+    "submitted_by": "Katerina Chrysalidis"
+}
