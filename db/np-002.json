@@ -1,0 +1,36 @@
+{
+    "rims_scheme": {
+        "scheme": {
+            "element": "Np",
+            "lasers": "Ti:Sa",
+            "gs_level": "0",
+            "gs_term": "",
+            "step_level0": "26264.37",
+            "step_level1": "38843.95",
+            "step_level2": "51146.5",
+            "step_level3": "",
+            "step_level4": "",
+            "step_level5": "",
+            "step_term0": "",
+            "step_term1": "",
+            "step_term2": "AI",
+            "step_term3": "",
+            "step_term4": "",
+            "step_term5": "",
+            "trans_strength0": "",
+            "trans_strength1": "",
+            "trans_strength2": "",
+            "trans_strength3": "",
+            "trans_strength4": "",
+            "trans_strength5": "",
+            "unit": "cm^-1",
+            "ip_term": ""
+        },
+        "settings": {
+            "line_breaks": true
+        }
+    },
+    "notes": "Efficiency: 0.3%\n\nUsed at: Mainz\n\nLasers used: Ti:sapphire\n\nNotes: Efficiency measured with QMF in MABU\n\n",
+    "references": ["10.25358/openscience-4788"],
+    "submitted_by": "Sebastian Rothe"
+}

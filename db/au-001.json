@@ -1,0 +1,36 @@
+{
+    "rims_scheme": {
+        "scheme": {
+            "element": "Au",
+            "lasers": "Ti:Sa",
+            "gs_level": "0",
+            "gs_term": "6s ^2S_{1/2}",
+            "step_level0": "37358.99",
+            "step_level1": "61951.89",
+            "step_level2": "74410.31002317266",
+            "step_level3": "",
+            "step_level4": "",
+            "step_level5": "",
+            "step_term0": "6p ^2P_{1/2}",
+            "step_term1": "6d ^2D_{3/2} \t",
+            "step_term2": "",
+            "step_term3": "",
+            "step_term4": "",
+            "step_term5": "",
+            "trans_strength0": "1.652e+08",
+            "trans_strength1": "8.4e+07",
+            "trans_strength2": "",
+            "trans_strength3": "",
+            "trans_strength4": "",
+            "trans_strength5": "",
+            "unit": "cm^-1",
+            "ip_term": ""
+        },
+        "settings": {
+            "line_breaks": true
+        }
+    },
+    "notes": "Used at: Mainz\n\nLasers used: Ti:sapphire\n\nNotes: Many Rydberg levels in PhD thesis Mattolat (Updated: 30.Oct.2010 by Mattolat)\n\n",
+    "references": [],
+    "submitted_by": "Martin Klein"
+}

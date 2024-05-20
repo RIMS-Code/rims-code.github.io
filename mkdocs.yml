@@ -43,15 +43,89 @@ nav:
 - Schemes:
   - Periodic Table: schemes/schemes.md
   - Elements:
+    - Li:
+      - Overview: schemes/li/index.md
+      - Li-1: schemes/li/li-001.md
+    - Be:
+      - Overview: schemes/be/index.md
+      - Be-1: schemes/be/be-001.md
+      - Be-2: schemes/be/be-002.md
+      - Be-3: schemes/be/be-003.md
+      - Be-4: schemes/be/be-004.md
+    - Mg:
+      - Overview: schemes/mg/index.md
+      - Mg-1: schemes/mg/mg-001.md
+      - Mg-2: schemes/mg/mg-002.md
+      - Mg-3: schemes/mg/mg-003.md
+      - Mg-4: schemes/mg/mg-004.md
+    - Al:
+      - Overview: schemes/al/index.md
+      - Al-1: schemes/al/al-001.md
+      - Al-2: schemes/al/al-002.md
+    - Si:
+      - Overview: schemes/si/index.md
+      - Si-1: schemes/si/si-001.md
+      - Si-2: schemes/si/si-002.md
+    - Ca:
+      - Overview: schemes/ca/index.md
+      - Ca-1: schemes/ca/ca-001.md
+      - Ca-2: schemes/ca/ca-002.md
+      - Ca-3: schemes/ca/ca-003.md
+    - Sc:
+      - Overview: schemes/sc/index.md
+      - Sc-1: schemes/sc/sc-001.md
+      - Sc-2: schemes/sc/sc-002.md
+      - Sc-3: schemes/sc/sc-003.md
+      - Sc-4: schemes/sc/sc-004.md
     - Ti:
       - Overview: schemes/ti/index.md
       - Ti-1: schemes/ti/ti-001.md
+      - Ti-2: schemes/ti/ti-002.md
+      - Ti-3: schemes/ti/ti-003.md
+    - Cr:
+      - Overview: schemes/cr/index.md
+      - Cr-1: schemes/cr/cr-001.md
+    - Mn:
+      - Overview: schemes/mn/index.md
+      - Mn-1: schemes/mn/mn-001.md
+      - Mn-2: schemes/mn/mn-002.md
+      - Mn-3: schemes/mn/mn-003.md
+      - Mn-4: schemes/mn/mn-004.md
+      - Mn-5: schemes/mn/mn-005.md
+      - Mn-6: schemes/mn/mn-006.md
     - Fe:
       - Overview: schemes/fe/index.md
       - Fe-1: schemes/fe/fe-001.md
+      - Fe-2: schemes/fe/fe-002.md
+    - Co:
+      - Overview: schemes/co/index.md
+      - Co-1: schemes/co/co-001.md
+      - Co-2: schemes/co/co-002.md
+      - Co-3: schemes/co/co-003.md
+      - Co-4: schemes/co/co-004.md
     - Ni:
       - Overview: schemes/ni/index.md
       - Ni-1: schemes/ni/ni-001.md
+      - Ni-2: schemes/ni/ni-002.md
+      - Ni-3: schemes/ni/ni-003.md
+      - Ni-4: schemes/ni/ni-004.md
+    - Cu:
+      - Overview: schemes/cu/index.md
+      - Cu-1: schemes/cu/cu-001.md
+      - Cu-2: schemes/cu/cu-002.md
+    - Zn:
+      - Overview: schemes/zn/index.md
+      - Zn-1: schemes/zn/zn-001.md
+    - Ga:
+      - Overview: schemes/ga/index.md
+      - Ga-1: schemes/ga/ga-001.md
+      - Ga-2: schemes/ga/ga-002.md
+      - Ga-3: schemes/ga/ga-003.md
+      - Ga-4: schemes/ga/ga-004.md
+    - Ge:
+      - Overview: schemes/ge/index.md
+      - Ge-1: schemes/ge/ge-001.md
+      - Ge-2: schemes/ge/ge-002.md
     - Sr:
       - Overview: schemes/sr/index.md
       - Sr-1: schemes/sr/sr-001.md

@@ -1,0 +1,36 @@
+{
+    "rims_scheme": {
+        "scheme": {
+            "element": "Ac",
+            "lasers": "Ti:Sa",
+            "gs_level": "0",
+            "gs_term": "6d7s^2 ^2D_{3/2}",
+            "step_level0": "22801.1",
+            "step_level1": "46347",
+            "step_level2": "",
+            "step_level3": "",
+            "step_level4": "",
+            "step_level5": "",
+            "step_term0": "6d7s7p ^4P_{3/2}^o",
+            "step_term1": "AI",
+            "step_term2": "",
+            "step_term3": "",
+            "step_term4": "",
+            "step_term5": "",
+            "trans_strength0": "",
+            "trans_strength1": "",
+            "trans_strength2": "",
+            "trans_strength3": "",
+            "trans_strength4": "",
+            "trans_strength5": "",
+            "unit": "cm^-1",
+            "ip_term": ""
+        },
+        "settings": {
+            "line_breaks": true
+        }
+    },
+    "notes": "Used at: CERN\n\nNotes: Applied on-line for collections of Ac at ISOLDE. This scheme was shown to have the same ionization efficiency as the scheme from [Ac-1](../ac-001)\n\nSame comparison done at MEDICIS. Here, this scheme gave ~factor 2 less signal than the one from [Ac-1](../ac-001)\n\n",
+    "references": ["10.1038/ncomms14520"],
+    "submitted_by": "Reinhard Heinke"
+}

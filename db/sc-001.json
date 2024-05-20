@@ -1,0 +1,31 @@
+{
+    "rims_scheme": {
+        "scheme": {
+            "element": "Sc",
+            "lasers": "Ti:Sa",
+            "gs_level": "0",
+            "gs_term": "",
+            "step_level0": "168.34",
+            "step_level1": "24866.2",
+            "step_level2": "40802.8",
+            "step_level3": "52922",
+            "step_term0": "",
+            "step_term1": "",
+            "step_term2": "",
+            "trans_strength0": "1.6e+8",
+            "trans_strength1": "6.0e+6",
+            "trans_strength2": "",
+            "step_lowlying0": true,
+            "step_lowlying1": false,
+            "step_lowlying2": false,
+            "unit": "cm^-1",
+            "ip_term": ""
+        },
+        "settings": {
+            "line_breaks": true
+        }
+    },
+    "notes": "Used at: Mainz\n\nLasers used: Ti:sapphire, Cr:Forsterite\n\nNotes: Diploma Thesis S.Rothe\n\nFirst transition from ground state: Saturation < 1 mW\n\nFirst transition from excited level: Saturation 5.6 mW\n\nIonizing transition: Saturation 7.3 mW, wavelength < 825.13 nm\n\n",
+    "references": [],
+    "submitted_by": "Martin Klein"
+}

@@ -38,5 +38,129 @@
     "10.1016/j.sab.2017.01.001": {
         "author": "Day Goodacre et al.",
         "year": 2017
+    },
+    "10.25358/openscience-3289": {
+        "author": "Gottwald",
+        "year": 2011
+    },
+    "10.1007/s10751-010-0168-5": {
+        "author": "Marsh et al.",
+        "year": 2010
+    },
+    "10.1016/j.nimb.2005.09.014": {
+        "author": "Liu et al.",
+        "year": 2006
+    },
+    "10.1016/j.nimb.2012.08.023": {
+        "author": "Ferrer et al.",
+        "year": 2012
+    },
+    "10.1016/j.nima.2015.10.066": {
+        "author": "Day Goodacre et al.",
+        "year": 2016
+    },
+    "10.1051/epjap/2022210270": {
+        "author": "Kneip et al.",
+        "year": 2022
+    },
+    "10.1103/PhysRevA.15.1920": {
+        "author": "Esherick",
+        "year": 1977
+    },
+    "10.1016/0022-4073(96)00032-5": {
+        "author": "Dai et al.",
+        "year": 1996
+    },
+    "10.1007/s10751-005-9204-2": {
+        "author": "Fedosseev et al.",
+        "year": 2006
+    },
+    "10.1111/j.1945-5100.2007.tb00563.x": {
+        "author": "Barzyk et al.",
+        "year": 2007
+    },
+    "10.25358/openscience-1713": {
+        "author": "Kron",
+        "year": 2017
+    },
+    "10.1007/BF01297718": {
+        "author": "Fedoseyev et al.",
+        "year": 1995
+    },
+    "10.1007/s10751-017-1398-6": {
+        "author": "Day Goodacre et al.",
+        "year": 2017
+    },
+    "10.1016/S0584-8547(99)00112-3": {
+        "author": "Podshivalov et al.",
+        "year": 1999
+    },
+    "10.1038/s41567-018-0292-8": {
+        "author": "Marsh et al.",
+        "year": 2018
+    },
+    "10.5281/zenodo.4298406": {
+        "author": "Wessolek",
+        "year": 2020
+    },
+    "10.1016/S0168-583X(02)01956-0": {
+        "author": "K\u00f6ster et al.",
+        "year": 2003
+    },
+    "10.17181/CERN.0HNZ.7Z6X": {
+        "author": "Rothe",
+        "year": 2012
+    },
+    "10.1103/PhysRevA.99.062513": {
+        "author": "Studer et al.",
+        "year": 2019
+    },
+    "10.1063/1.3115590": {
+        "author": "Gottwald et al.",
+        "year": 2009
+    },
+    "10.1007/s10751-016-1384-4": {
+        "author": "Studer et al.",
+        "year": 2016
+    },
+    "10.1103/PhysRevA.98.042504": {
+        "author": "Studer et al.",
+        "year": 2018
+    },
+    "10.1016/0168-9002(91)90348-T": {
+        "author": "Alkhazov et al.",
+        "year": 1991
+    },
+    "10.1016/j.nima.2019.162602": {
+        "author": "Kieck et al.",
+        "year": 2019
+    },
+    "10.3389%2Ffmed.2021.712374": {
+        "author": "Heinke et al.",
+        "year": 2021
+    },
+    "10.1038/ncomms14520": {
+        "author": "Ferrer et al.",
+        "year": 2017
+    },
+    "10.1007/s10751-013-0832-7": {
+        "author": "Raeder et al.",
+        "year": 2013
+    },
+    "10.1103/PhysRevA.98.022505": {
+        "author": "Naubereit et al.",
+        "year": 2018
+    },
+    "10.25358/openscience-4788": {
+        "author": "Raeder",
+        "year": 2011
+    },
+    "10.1007/s10751-020-01712-4": {
+        "author": "Kneip et al.",
+        "year": 2020
+    },
+    "10.1021/acs.analchem.8b02656": {
+        "author": "Savina et al.",
+        "year": 2018
     }
 }

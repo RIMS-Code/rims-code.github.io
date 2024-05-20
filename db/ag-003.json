@@ -1,0 +1,36 @@
+{
+    "rims_scheme": {
+        "scheme": {
+            "element": "Ag",
+            "lasers": "Ti:Sa and Dye",
+            "gs_level": "0",
+            "gs_term": "5s ^2S_{1/2}",
+            "step_level0": "30472.66516",
+            "step_level1": "54213.564",
+            "step_level2": "73010.556481203",
+            "step_level3": "",
+            "step_level4": "",
+            "step_level5": "",
+            "step_term0": "5p ^2P_{3/2}",
+            "step_term1": "6d ^2D_{5/2}",
+            "step_term2": "",
+            "step_term3": "",
+            "step_term4": "",
+            "step_term5": "",
+            "trans_strength0": "1.380e+08",
+            "trans_strength1": "1.5e+06",
+            "trans_strength2": "",
+            "trans_strength3": "",
+            "trans_strength4": "",
+            "trans_strength5": "",
+            "unit": "cm^-1",
+            "ip_term": ""
+        },
+        "settings": {
+            "line_breaks": true
+        }
+    },
+    "notes": "Used at: CERN\n\nLasers used: Dye, Ti:sapphire, Nd:Yag\n\nUsed: online\n\nSecond transition strength calculated from relative intensity.\n\n",
+    "references": [],
+    "submitted_by": "Sebastian Rothe"
+}

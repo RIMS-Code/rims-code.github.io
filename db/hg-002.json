@@ -1,0 +1,36 @@
+{
+    "rims_scheme": {
+        "scheme": {
+            "element": "Hg",
+            "lasers": "Ti:Sa and Dye",
+            "gs_level": "0",
+            "gs_term": "6s^{2} ^{1}S_{0}",
+            "step_level0": " 39412.237",
+            "step_level1": "71396.073",
+            "step_level2": "90193.06548120301",
+            "step_level3": "",
+            "step_level4": "",
+            "step_level5": "",
+            "step_term0": "6s 6p ^{3}P_{1}",
+            "step_term1": "6s 6d ^{3}D_{2}",
+            "step_term2": "",
+            "step_term3": "",
+            "step_term4": "",
+            "step_term5": "",
+            "trans_strength0": "1.43e7",
+            "trans_strength1": "6.56e+07",
+            "trans_strength2": "",
+            "trans_strength3": "",
+            "trans_strength4": "",
+            "trans_strength5": "",
+            "unit": "cm^-1",
+            "ip_term": ""
+        },
+        "settings": {
+            "line_breaks": true
+        }
+    },
+    "notes": "Used at: CERN\n\nLasers used: Dye, Ti:sapphire, Nd:YVO4\n\nNotes: Tested in Day Goodacre et al. (2017), replacing AI from Podshivalov et al. (1999) with non-resonant 532nm\r\nIt seems more likely though that the 2nd excited state used was 71333.053cm<sup>-1</sup> (<sup>1</sup>D<sub>2</sub>)\n\nChecked relative efficiency of both possible 2nd steps at ISOLDE in May 2023, essentially same ion current. 15960.41 x2 (leading to 71333.053cm<sup>-1</sup>) maybe 10% better.\n\n",
+    "references": ["10.1007/s10751-017-1398-6","10.1016/S0584-8547(99)00112-3"],
+    "submitted_by": "Reinhard Heinke"
+}

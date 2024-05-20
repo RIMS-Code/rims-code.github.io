@@ -1,0 +1,36 @@
+{
+    "rims_scheme": {
+        "scheme": {
+            "element": "Ge",
+            "lasers": "Dye",
+            "gs_level": "1409.961",
+            "gs_term": "4p^2 ^3P_2",
+            "step_level0": " 37702.305",
+            "step_level1": "55266.095",
+            "step_level2": "74063.08748120301",
+            "step_level3": "",
+            "step_level4": "",
+            "step_level5": "",
+            "step_term0": "4p 5s ^P_1",
+            "step_term1": "",
+            "step_term2": "",
+            "step_term3": "",
+            "step_term4": "",
+            "step_term5": "",
+            "trans_strength0": "9.050e+07",
+            "trans_strength1": "",
+            "trans_strength2": "",
+            "trans_strength3": "",
+            "trans_strength4": "",
+            "trans_strength5": "",
+            "unit": "cm^-1",
+            "ip_term": ""
+        },
+        "settings": {
+            "line_breaks": true
+        }
+    },
+    "notes": "Efficiency: >2%\n\nUsed at: CERN\n\nLasers used: Dye\n\nNotes: Thesis T. Day Goodacre\n\n",
+    "references": ["10.1016/j.nima.2015.10.066"],
+    "submitted_by": "Katerina Chrysalidis"
+}

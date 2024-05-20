@@ -1,0 +1,36 @@
+{
+    "rims_scheme": {
+        "scheme": {
+            "element": "Te",
+            "lasers": "Ti:Sa and Dye",
+            "gs_level": "0",
+            "gs_term": "5s^25p^4 ^3P_2",
+            "step_level0": "46652.72",
+            "step_level1": "64088.997",
+            "step_level2": "75181.467",
+            "step_level3": "",
+            "step_level4": "",
+            "step_level5": "",
+            "step_term0": "5s^25p^3(^3S_1)6s _1",
+            "step_term1": "5p^3 7p_1",
+            "step_term2": "AI",
+            "step_term3": "",
+            "step_term4": "",
+            "step_term5": "",
+            "trans_strength0": "3.11e8",
+            "trans_strength1": "",
+            "trans_strength2": "",
+            "trans_strength3": "",
+            "trans_strength4": "",
+            "trans_strength5": "",
+            "unit": "cm^-1",
+            "ip_term": ""
+        },
+        "settings": {
+            "line_breaks": true
+        }
+    },
+    "notes": "Efficiency: >18%\n\nUsed at: CERN\n\nLasers used: Dye, Ti:sapphire\n\n",
+    "references": ["10.1016/j.nima.2015.10.066"],
+    "submitted_by": "Katerina Chrysalidis"
+}

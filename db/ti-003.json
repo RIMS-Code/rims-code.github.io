@@ -1,0 +1,36 @@
+{
+    "rims_scheme": {
+        "scheme": {
+            "element": "Ti",
+            "lasers": "Ti:Sa",
+            "gs_level": "0.00",
+            "gs_term": "3d^24s^2 a^3F_2",
+            "step_level0": "25317.81",
+            "step_level1": "38476.084",
+            "step_level2": "57273.07648120301",
+            "step_level3": "",
+            "step_level4": "",
+            "step_level5": "",
+            "step_term0": "3d^34p y^3D^o_1",
+            "step_term1": "3d^4 ^3D_2",
+            "step_term2": "",
+            "step_term3": "",
+            "step_term4": "",
+            "step_term5": "",
+            "trans_strength0": "4.9e7",
+            "trans_strength1": "",
+            "trans_strength2": "",
+            "trans_strength3": "",
+            "trans_strength4": "",
+            "trans_strength5": "",
+            "unit": "cm^-1",
+            "ip_term": ""
+        },
+        "settings": {
+            "line_breaks": true
+        }
+    },
+    "notes": "Used at: CERN\n\nLasers used: Ti:sapphire\n\nUsed: online\n\nNotes: tested on-line with UCx target: very low yields on tape station and no radio isotope seen by isoltrap\n\n",
+    "references": [],
+    "submitted_by": "Katerina Chrysalidis"
+}

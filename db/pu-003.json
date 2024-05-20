@@ -1,0 +1,36 @@
+{
+    "rims_scheme": {
+        "scheme": {
+            "element": "Pu",
+            "lasers": "Ti:Sa",
+            "gs_level": "0",
+            "gs_term": "5f^67s^2_{J=0}",
+            "step_level0": "24188.45",
+            "step_level1": "48878.79",
+            "step_level2": "",
+            "step_level3": "",
+            "step_level4": "",
+            "step_level5": "",
+            "step_term0": "5f^56d^27s^o_{J=1}",
+            "step_term1": "AI",
+            "step_term2": "",
+            "step_term3": "",
+            "step_term4": "",
+            "step_term5": "",
+            "trans_strength0": "",
+            "trans_strength1": "",
+            "trans_strength2": "",
+            "trans_strength3": "",
+            "trans_strength4": "",
+            "trans_strength5": "",
+            "unit": "cm^-1",
+            "ip_term": ""
+        },
+        "settings": {
+            "line_breaks": true
+        }
+    },
+    "notes": "Used at: Mainz\n\nLasers used: Ti:sapphire\n\nUsed: offline\n\nNotes: Level configurations from grotrian.nsu.ru\n\n",
+    "references": ["10.1007/s10751-020-01712-4"],
+    "submitted_by": "Katerina Chrysalidis"
+}

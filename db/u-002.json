@@ -1,0 +1,42 @@
+{
+    "rims_scheme": {
+        "scheme": {
+            "element": "U",
+            "lasers": "Ti:Sa",
+            "gs_level": "0",
+            "gs_term": "5L6",
+            "step_level0": "620.323",
+            "step_level1": "25235.750",
+            "step_level2": "50471.5",
+            "step_level3": "",
+            "step_level4": "",
+            "step_level5": "",
+            "step_term0": "5K5",
+            "step_term1": "J=6",
+            "step_term2": "AI",
+            "step_term3": "",
+            "step_term4": "",
+            "step_term5": "",
+            "trans_strength0": "",
+            "trans_strength1": "",
+            "trans_strength2": "",
+            "trans_strength3": "",
+            "trans_strength4": "",
+            "trans_strength5": "",
+            "step_lowlying0": true,
+            "step_lowlying1": false,
+            "step_lowlying2": false,
+            "step_lowlying3": false,
+            "step_lowlying4": false,
+            "step_lowlying5": false,
+            "unit": "cm^-1",
+            "ip_term": ""
+        },
+        "settings": {
+            "line_breaks": true
+        }
+    },
+    "notes": "Used at: LLNL\n\nLasers used: Ti:sapphire\n\n",
+    "references": ["10.1021/acs.analchem.8b02656"],
+    "submitted_by": "Mike Savina"
+}

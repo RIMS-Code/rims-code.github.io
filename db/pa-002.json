@@ -1,0 +1,36 @@
+{
+    "rims_scheme": {
+        "scheme": {
+            "element": "Pa",
+            "lasers": "Ti:Sa",
+            "gs_level": "0",
+            "gs_term": "",
+            "step_level0": "25448.63",
+            "step_level1": "50744",
+            "step_level2": "",
+            "step_level3": "",
+            "step_level4": "",
+            "step_level5": "",
+            "step_term0": "",
+            "step_term1": "AI",
+            "step_term2": "",
+            "step_term3": "",
+            "step_term4": "",
+            "step_term5": "",
+            "trans_strength0": "",
+            "trans_strength1": "",
+            "trans_strength2": "",
+            "trans_strength3": "",
+            "trans_strength4": "",
+            "trans_strength5": "",
+            "unit": "cm^-1",
+            "ip_term": ""
+        },
+        "settings": {
+            "line_breaks": true
+        }
+    },
+    "notes": "Used at: Mainz\n\nNotes: scheme taken from talk by K. Wendt at the virtual workshop &quot;Atomic Structure of Actinides &amp; Related Topics&quot; (26.-28.05.2021)\n\nFirst step from Naubereit et al. (2018)\r\nSecond step not certain and not in range of values scanned in Naubereit et al. (2018), but a large multitude of alternative AIS in SHG Tisa range are reported there.\r\n\r\nIP should be at 49034(10) cm<sup>-1</sup> (http://doi.org/10.25358/openscience-5183), value in overview is automatically generated from NIST value with +/-1000 cm<sup>-1</sup> error bar.\n\n",
+    "references": ["10.1103/PhysRevA.98.022505"],
+    "submitted_by": "Reinhard Heinke"
+}

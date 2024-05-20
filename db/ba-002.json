@@ -1,0 +1,36 @@
+{
+    "rims_scheme": {
+        "scheme": {
+            "element": "Ba",
+            "lasers": "Ti:Sa",
+            "gs_level": "0",
+            "gs_term": "6s^2 ^1S_0",
+            "step_level0": "24192.04",
+            "step_level1": "48790.24",
+            "step_level2": "",
+            "step_level3": "",
+            "step_level4": "",
+            "step_level5": "",
+            "step_term0": "5d6p ^3D_1",
+            "step_term1": "AI",
+            "step_term2": "",
+            "step_term3": "",
+            "step_term4": "",
+            "step_term5": "",
+            "trans_strength0": "1.46E6",
+            "trans_strength1": "",
+            "trans_strength2": "",
+            "trans_strength3": "",
+            "trans_strength4": "",
+            "trans_strength5": "",
+            "unit": "cm^-1",
+            "ip_term": ""
+        },
+        "settings": {
+            "line_breaks": true
+        }
+    },
+    "notes": "Used at: MELISSA\n\nUsed: offline\n\nNotes: 1st step compared with alternative at 25704.12 /cm. The used one seems to be slightly better both in overall signal and saturation behavior if non-resonant ionization is applied on top.\r\n\r\nWith this 1st step, AIs were scanned in a range from 24200 to 26100/cm. Strongest peaks were directly compared afterwards and the chosen one identified as providing highest enhancement.\r\n\r\nThe 1st step was compared to the stronger transition on 350nm as used in the previous scheme, both with 1.4W of non-resonant ionization at 24608 cm-1. A similar performance was indicated and saturation behavior a lot more favorable for 350nm as expected, but comparable ion source conditions could not be ensured. A direct comparison is planned.\r\n\r\nPotentially polarization dependent. J value of AI unknown.\n\nFirst transition: Saturation ~900 mW\n\nSecond transition: Saturation ~1.4 W\n\n",
+    "references": [],
+    "submitted_by": "Reinhard Heinke"
+}

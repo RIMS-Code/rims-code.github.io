@@ -1,0 +1,36 @@
+{
+    "rims_scheme": {
+        "scheme": {
+            "element": "Fe",
+            "lasers": "Ti:Sa",
+            "gs_level": "0",
+            "gs_term": "3d^64s^2_4",
+            "step_level0": "36766.962",
+            "step_level1": "50998.641",
+            "step_level2": "63737.704",
+            "step_level3": "",
+            "step_level4": "",
+            "step_level5": "",
+            "step_term0": "3d^64s4p_3^o",
+            "step_term1": "3d^64s4d_2",
+            "step_term2": "",
+            "step_term3": "",
+            "step_term4": "",
+            "step_term5": "",
+            "trans_strength0": "",
+            "trans_strength1": "",
+            "trans_strength2": "",
+            "trans_strength3": "",
+            "trans_strength4": "",
+            "trans_strength5": "",
+            "unit": "cm^-1",
+            "ip_term": ""
+        },
+        "settings": {
+            "line_breaks": true
+        }
+    },
+    "notes": "Used at: Mainz\n\nLasers used: Ti:sapphire\n\nIonization wavelength: < 785.0 nm",
+    "references": ["10.25358/openscience-3289"],
+    "submitted_by": "Katerina Chrysalidis"
+}

@@ -1,0 +1,37 @@
+{
+    "rims_scheme": {
+        "scheme": {
+            "element": "Pb",
+            "lasers": "Ti:Sa",
+            "gs_level": "0",
+            "gs_term": "6s26p2 _0",
+            "step_level0": "46068.44",
+            "step_level1": "57598.58",
+            "step_level2": "70548.67",
+            "step_level3": "",
+            "step_level4": "",
+            "step_level5": "",
+            "step_term0": "6s^26p6d _1^o",
+            "step_term1": "",
+            "step_term2": "AI",
+            "step_term3": "",
+            "step_term4": "",
+            "step_term5": "",
+            "trans_strength0": "1.47e+08",
+            "trans_strength1": "",
+            "trans_strength2": "",
+            "trans_strength3": "",
+            "trans_strength4": "",
+            "trans_strength5": "",
+            "unit": "cm^-1",
+            "ip_term": ""
+        },
+        "settings": {
+            "line_breaks": true,
+            "ip_label_pos": "Top"
+        }
+    },
+    "notes": "Used at: CERN\n\nLasers used: Ti:sapphire\n\nUsed: offline\n\nNotes: re-pumping from dark state: 21457.7982cm<sup>-1</sup> -> 46068.4385cm<sup>-1</sup>  (406.32 nm; strength is 9.2e+07s<sup>-1</sup>) did NOT enhance the efficiency\n\n",
+    "references": [],
+    "submitted_by": "Katerina Chrysalidis"
+}

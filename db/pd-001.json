@@ -1,0 +1,36 @@
+{
+    "rims_scheme": {
+        "scheme": {
+            "element": "Pd",
+            "lasers": "Ti:Sa",
+            "gs_level": "0",
+            "gs_term": "4d^{10} ^1S_0",
+            "step_level0": "36180.67",
+            "step_level1": "70293.06",
+            "step_level2": "",
+            "step_level3": "",
+            "step_level4": "",
+            "step_level5": "",
+            "step_term0": "4d^9 5p ^2[3/2]^0_1",
+            "step_term1": "AI",
+            "step_term2": "",
+            "step_term3": "",
+            "step_term4": "",
+            "step_term5": "",
+            "trans_strength0": "2.06e7",
+            "trans_strength1": "",
+            "trans_strength2": "",
+            "trans_strength3": "",
+            "trans_strength4": "",
+            "trans_strength5": "",
+            "unit": "cm^-1",
+            "ip_term": ""
+        },
+        "settings": {
+            "line_breaks": true
+        }
+    },
+    "notes": "Used at: Mainz\n\nLasers used: Ti:sapphire\n\nUsed: offline\n\nNotes: AI is part of rydberg series to excited ion state\n\n",
+    "references": [],
+    "submitted_by": "Katerina Chrysalidis"
+}

@@ -1,0 +1,36 @@
+{
+    "rims_scheme": {
+        "scheme": {
+            "element": "Tm",
+            "lasers": "Dye",
+            "gs_level": "0",
+            "gs_term": "4f^{13} 6s^2 ^2F^o_{7/2}",
+            "step_level0": "16957.006",
+            "step_level1": "34457.853",
+            "step_level2": "51829.5",
+            "step_level3": "",
+            "step_level4": "",
+            "step_level5": "",
+            "step_term0": "4f^{12} 5d_{5/2} 6s^2 (6,5/2), J=7/2",
+            "step_term1": "4f^{12} 5d6s6p J=9/2",
+            "step_term2": "AI",
+            "step_term3": "",
+            "step_term4": "",
+            "step_term5": "",
+            "trans_strength0": "",
+            "trans_strength1": "",
+            "trans_strength2": "",
+            "trans_strength3": "",
+            "trans_strength4": "",
+            "trans_strength5": "",
+            "unit": "cm^-1",
+            "ip_term": ""
+        },
+        "settings": {
+            "line_breaks": true
+        }
+    },
+    "notes": "Used at: PNPI, ISRAS\n\nLasers used: Dye\n\nUsed: online\n\nReference: \"A.A. Atakhodjaev, V.N. Fedoseev\", \"Laser photoionization spectroscopy of autoionizing states of thulium atom\", Russian Journal of Applied Spectroscopy 45, pp.386-391, 1986\n\n",
+    "references": [],
+    "submitted_by": "Sebastian Rothe"
+}

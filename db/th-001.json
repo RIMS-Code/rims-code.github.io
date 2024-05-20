@@ -1,0 +1,36 @@
+{
+    "rims_scheme": {
+        "scheme": {
+            "element": "Th",
+            "lasers": "Ti:Sa",
+            "gs_level": "0",
+            "gs_term": "6d^2 7s^2 3F_2",
+            "step_level0": "26878.9",
+            "step_level1": "38700.3",
+            "step_level2": "51762.9",
+            "step_level3": "",
+            "step_level4": "",
+            "step_level5": "",
+            "step_term0": "6d^2 7s 7p 3GÂ^{\\circ}",
+            "step_term1": "J=4",
+            "step_term2": "AI",
+            "step_term3": "",
+            "step_term4": "",
+            "step_term5": "",
+            "trans_strength0": "2.2e7",
+            "trans_strength1": "",
+            "trans_strength2": "",
+            "trans_strength3": "",
+            "trans_strength4": "",
+            "trans_strength5": "",
+            "unit": "cm^-1",
+            "ip_term": ""
+        },
+        "settings": {
+            "line_breaks": true
+        }
+    },
+    "notes": "Efficiency: 0.006\n\nUsed at: Mainz\n\nLasers used: Ti:sapphire\n\n",
+    "references": [],
+    "submitted_by": "Martin Klein"
+}

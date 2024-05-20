@@ -1,0 +1,36 @@
+{
+    "rims_scheme": {
+        "scheme": {
+            "element": "Be",
+            "lasers": "Ti:Sa",
+            "gs_level": "0",
+            "gs_term": "2s^2 ^1S_0",
+            "step_level0": "42565.35",
+            "step_level1": "64428.31",
+            "step_level2": "83225.302481203",
+            "step_level3": "",
+            "step_level4": "",
+            "step_level5": "",
+            "step_term0": "2s 2p ^1P_1",
+            "step_term1": "1s^22s^13d^1 ^1D_2",
+            "step_term2": "",
+            "step_term3": "",
+            "step_term4": "",
+            "step_term5": "",
+            "trans_strength0": "6.8e+08",
+            "trans_strength1": "7.9e+7",
+            "trans_strength2": "",
+            "trans_strength3": "",
+            "trans_strength4": "",
+            "trans_strength5": "",
+            "unit": "cm^-1",
+            "ip_term": ""
+        },
+        "settings": {
+            "line_breaks": true
+        }
+    },
+    "notes": "Efficiency: 3%\n\nUsed at: TRIUMF\n\nLasers used: Ti:sapphire, Nd:Yag, LEE\n\nUsed: online\n\nIonization transition: 6 W",
+    "references": ["10.1007/s10751-006-9493-0"],
+    "submitted_by": "Sebastian Rothe"
+}

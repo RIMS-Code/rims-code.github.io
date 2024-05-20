@@ -1,0 +1,36 @@
+{
+    "rims_scheme": {
+        "scheme": {
+            "element": "Mn",
+            "lasers": "Dye",
+            "gs_level": "0",
+            "gs_term": "",
+            "step_level0": "35725.85",
+            "step_level1": "51638.17",
+            "step_level2": "71222.97219349784",
+            "step_level3": "",
+            "step_level4": "",
+            "step_level5": "",
+            "step_term0": "",
+            "step_term1": "",
+            "step_term2": "",
+            "step_term3": "",
+            "step_term4": "",
+            "step_term5": "",
+            "trans_strength0": "",
+            "trans_strength1": "",
+            "trans_strength2": "",
+            "trans_strength3": "",
+            "trans_strength4": "",
+            "trans_strength5": "",
+            "unit": "cm^-1",
+            "ip_term": ""
+        },
+        "settings": {
+            "line_breaks": true
+        }
+    },
+    "notes": "Efficiency: <19%\n\nLasers used: Dye, CVL\n\nReference: B. Marsh, V. Fedosseev, \"RILIS Database\" (2009)\n\nNotes: old RILIS CVL scheme\n\n",
+    "references": [],
+    "submitted_by": "Sebastian Rothe"
+}
