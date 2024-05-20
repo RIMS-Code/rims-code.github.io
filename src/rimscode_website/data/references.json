@@ -138,5 +138,29 @@
     "10.3389%2Ffmed.2021.712374": {
         "author": "Heinke et al.",
         "year": 2021
+    },
+    "10.1038/ncomms14520": {
+        "author": "Ferrer et al.",
+        "year": 2017
+    },
+    "10.1007/s10751-013-0832-7": {
+        "author": "Raeder et al.",
+        "year": 2013
+    },
+    "10.1103/PhysRevA.98.022505": {
+        "author": "Naubereit et al.",
+        "year": 2018
+    },
+    "10.25358/openscience-4788": {
+        "author": "Raeder",
+        "year": 2011
+    },
+    "10.1007/s10751-020-01712-4": {
+        "author": "Kneip et al.",
+        "year": 2020
+    },
+    "10.1021/acs.analchem.8b02656": {
+        "author": "Savina et al.",
+        "year": 2018
     }
 }
