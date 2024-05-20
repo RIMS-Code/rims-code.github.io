@@ -1,0 +1,33 @@
+{
+    "notes": "Developed at ANL. Wavelength scans and wavelength dependent isotope ratios for first transition are given in Levine et al. (2009).",
+    "references": [
+        "10.1063/1.3115614"
+    ],
+    "rims_scheme": {
+        "scheme": {
+            "element": "Cr",
+            "gs_level": "0",
+            "gs_term": "7S3",
+            "ip_term": "",
+            "lasers": "Ti:Sa",
+            "step_forbidden0": false,
+            "step_forbidden1": false,
+            "step_forbidden2": false,
+            "step_level0": "427.600",
+            "step_level1": "449.295",
+            "step_level2": "1064",
+            "step_lowlying0": false,
+            "step_lowlying1": false,
+            "step_lowlying2": false,
+            "step_term0": "7P3",
+            "step_term1": "7S3",
+            "step_term2": "",
+            "trans_strength0": "",
+            "trans_strength1": "",
+            "trans_strength2": "",
+            "unit": "nm"
+        }
+    },
+    "saturation_curves": [],
+    "submitted_by": "Reto Trappitsch"
+}

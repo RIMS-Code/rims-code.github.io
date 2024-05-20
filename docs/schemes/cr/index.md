@@ -17,3 +17,4 @@
 | ----------------------- | ------------- | ---------------------------------------------------------------------------------------- | -------------------- |
 | [Cr 1](../cr/cr-001.md) | Ti:Sa and Dye | [Day Goodacre et al. (2017)](https://doi.org/10.1016/j.sab.2017.01.001){target="_blank"} | Katerina Chrysalidis |
 | [Cr 2](../cr/cr-002.md) | Ti:Sa         | [Levine et al. (2009)](https://doi.org/10.1063/1.3115614){target="_blank"}               | Reto Trappitsch      |
+| [Cr 3](../cr/cr-003.md) | Ti:Sa         | [Levine et al. (2009)](https://doi.org/10.1063/1.3115614){target="_blank"}               | Reto Trappitsch      |
