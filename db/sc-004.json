@@ -1,0 +1,36 @@
+{
+    "rims_scheme": {
+        "scheme": {
+            "element": "Sc",
+            "lasers": "Ti:Sa and Dye",
+            "gs_level": "168.34",
+            "gs_term": "3d4s^2 ^2D_{5/2}",
+            "step_level0": "24866.2",
+            "step_level1": "40802.8",
+            "step_level2": "53357.3",
+            "step_level3": "",
+            "step_level4": "",
+            "step_level5": "",
+            "step_term0": "3d4s4p ^2D^o_{3/2}",
+            "step_term1": "3d^3 ^2F_{5/2}",
+            "step_term2": "AI",
+            "step_term3": "",
+            "step_term4": "",
+            "step_term5": "",
+            "trans_strength0": "",
+            "trans_strength1": "",
+            "trans_strength2": "",
+            "trans_strength3": "",
+            "trans_strength4": "",
+            "trans_strength5": "",
+            "unit": "cm^-1",
+            "ip_term": ""
+        },
+        "settings": {
+            "line_breaks": true
+        }
+    },
+    "notes": "Used at: CERN\n\nLasers used: Dye, Ti:sapphire, Photonics, DCM\n\nUsed: online\n\nNotes: enhancement over 2 first steps only is ~30 (blaze with 40W gives a factor ~10), saturation reached at RILIS with 1.4W before launch.\n\n",
+    "references": [],
+    "submitted_by": "Katerina Chrysalidis"
+}

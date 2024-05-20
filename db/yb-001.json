@@ -1,0 +1,36 @@
+{
+    "rims_scheme": {
+        "scheme": {
+            "element": "Yb",
+            "lasers": "Dye",
+            "gs_level": "0",
+            "gs_term": "4f^{14} 6s^{2} ^{1}S_{0}",
+            "step_level0": "17992.007",
+            "step_level1": " 35196.98 ",
+            "step_level2": "52405.72204095681",
+            "step_level3": "",
+            "step_level4": "",
+            "step_level5": "",
+            "step_term0": "4f^{14} 6s ^{3}P_{1}",
+            "step_term1": "4f^{13} 6s^{2} 6p (7/2, 3/2)_{2}",
+            "step_term2": "",
+            "step_term3": "",
+            "step_term4": "",
+            "step_term5": "",
+            "trans_strength0": " 1.265e+06",
+            "trans_strength1": "",
+            "trans_strength2": "",
+            "trans_strength3": "",
+            "trans_strength4": "",
+            "trans_strength5": "",
+            "unit": "cm^-1",
+            "ip_term": ""
+        },
+        "settings": {
+            "line_breaks": true
+        }
+    },
+    "notes": "Efficiency: 15%\n\nUsed at: CERN, PNPI\n\nLasers used: Dye\n\nNotes: PNPI RILIS Efficiency 35%\n\n",
+    "references": ["10.1016/0168-9002(91)90348-T"],
+    "submitted_by": "Sebastian Rothe"
+}

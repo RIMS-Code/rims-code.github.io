@@ -1,0 +1,36 @@
+{
+    "rims_scheme": {
+        "scheme": {
+            "element": "Ho",
+            "lasers": "Dye",
+            "gs_level": "0",
+            "gs_term": "4f^{11} 6s^2 ^4I^o J=15/2",
+            "step_level0": "16882.28",
+            "step_level1": "34346",
+            "step_level2": "50293",
+            "step_level3": "",
+            "step_level4": "",
+            "step_level5": "",
+            "step_term0": "4f^{11} 6s6p(^3P^o_2) (15/2,1) J=15/2",
+            "step_term1": "",
+            "step_term2": "AI",
+            "step_term3": "",
+            "step_term4": "",
+            "step_term5": "",
+            "trans_strength0": "",
+            "trans_strength1": "",
+            "trans_strength2": "",
+            "trans_strength3": "",
+            "trans_strength4": "",
+            "trans_strength5": "",
+            "unit": "cm^-1",
+            "ip_term": ""
+        },
+        "settings": {
+            "line_breaks": true
+        }
+    },
+    "notes": "Efficiency: 3-5%\n\nUsed at: PNPI, ISRAS\n\nLasers used: Dye, CVL\n\nUsed: online\n\n",
+    "references": ["10.1016/0168-9002(91)90348-T"],
+    "submitted_by": "Valentin Fedosseev"
+}

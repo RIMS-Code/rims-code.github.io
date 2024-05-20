@@ -45,8 +45,8 @@ please see [here](../schemes_static/submit_scheme.md).
     <td class="tg tg_fcfcfc">He</td>
   </tr>
   <tr>
-    <td class="tg tg_dddddd">Li</td>
-    <td class="tg tg_dddddd">Be</td>
+    <td class="tg tg_c8ffc8"><a href="../../schemes/li/"><span style="color:#000">Li</span></a></td>
+    <td class="tg tg_ffc9c9"><a href="../../schemes/be/"><span style="color:#000">Be</span></a></td>
     <td></td>
     <td></td>
     <td></td>
@@ -66,7 +66,7 @@ please see [here](../schemes_static/submit_scheme.md).
   </tr>
   <tr>
     <td class="tg tg_dddddd">Na</td>
-    <td class="tg tg_dddddd">Mg</td>
+    <td class="tg tg_ffc9c9"><a href="../../schemes/mg/"><span style="color:#000">Mg</span></a></td>
     <td></td>
     <td></td>
     <td></td>
@@ -77,8 +77,8 @@ please see [here](../schemes_static/submit_scheme.md).
     <td></td>
     <td></td>
     <td></td>
-    <td class="tg tg_dddddd">Al</td>
-    <td class="tg tg_dddddd">Si</td>
+    <td class="tg tg_ffc9c9"><a href="../../schemes/al/"><span style="color:#000">Al</span></a></td>
+    <td class="tg tg_ffc9c9"><a href="../../schemes/si/"><span style="color:#000">Si</span></a></td>
     <td class="tg tg_dddddd">P</td>
     <td class="tg tg_fcfcfc">S</td>
     <td class="tg tg_fcfcfc">Cl</td>
@@ -86,41 +86,41 @@ please see [here](../schemes_static/submit_scheme.md).
   </tr>
   <tr>
     <td class="tg tg_dddddd">K</td>
-    <td class="tg tg_dddddd">Ca</td>
-    <td class="tg tg_dddddd">Sc</td>
+    <td class="tg tg_ffc9c9"><a href="../../schemes/ca/"><span style="color:#000">Ca</span></a></td>
+    <td class="tg tg_ffc9c9"><a href="../../schemes/sc/"><span style="color:#000">Sc</span></a></td>
     <td class="tg tg_bbddff"><a href="../../schemes/ti/"><span style="color:#000">Ti</span></a></td>
     <td class="tg tg_dddddd">V</td>
-    <td class="tg tg_dddddd">Cr</td>
-    <td class="tg tg_dddddd">Mn</td>
+    <td class="tg tg_ffc9c9"><a href="../../schemes/cr/"><span style="color:#000">Cr</span></a></td>
+    <td class="tg tg_ffc9c9"><a href="../../schemes/mn/"><span style="color:#000">Mn</span></a></td>
     <td class="tg tg_bbddff"><a href="../../schemes/fe/"><span style="color:#000">Fe</span></a></td>
-    <td class="tg tg_dddddd">Co</td>
-    <td class="tg tg_bbddff"><a href="../../schemes/ni/"><span style="color:#000">Ni</span></a></td>
-    <td class="tg tg_dddddd">Cu</td>
-    <td class="tg tg_dddddd">Zn</td>
-    <td class="tg tg_dddddd">Ga</td>
-    <td class="tg tg_dddddd">Ge</td>
+    <td class="tg tg_ffc9c9"><a href="../../schemes/co/"><span style="color:#000">Co</span></a></td>
+    <td class="tg tg_ffc9c9"><a href="../../schemes/ni/"><span style="color:#000">Ni</span></a></td>
+    <td class="tg tg_ffc9c9"><a href="../../schemes/cu/"><span style="color:#000">Cu</span></a></td>
+    <td class="tg tg_ffc9c9"><a href="../../schemes/zn/"><span style="color:#000">Zn</span></a></td>
+    <td class="tg tg_ffc9c9"><a href="../../schemes/ga/"><span style="color:#000">Ga</span></a></td>
+    <td class="tg tg_ffc9c9"><a href="../../schemes/ge/"><span style="color:#000">Ge</span></a></td>
     <td class="tg tg_dddddd">As</td>
-    <td class="tg tg_fcfcfc">Se</td>
+    <td class="tg tg_bbddff"><a href="../../schemes/se/"><span style="color:#000">Se</span></a></td>
     <td class="tg tg_fcfcfc">Br</td>
     <td class="tg tg_dddddd">Kr</td>
   </tr>
   <tr>
     <td class="tg tg_dddddd">Rb</td>
     <td class="tg tg_bbddff"><a href="../../schemes/sr/"><span style="color:#000">Sr</span></a></td>
-    <td class="tg tg_dddddd">Y</td>
+    <td class="tg tg_ffc9c9"><a href="../../schemes/y/"><span style="color:#000">Y</span></a></td>
     <td class="tg tg_bbddff"><a href="../../schemes/zr/"><span style="color:#000">Zr</span></a></td>
     <td class="tg tg_dddddd">Nb</td>
     <td class="tg tg_bbddff"><a href="../../schemes/mo/"><span style="color:#000">Mo</span></a></td>
-    <td class="tg tg_dddddd">Tc</td>
-    <td class="tg tg_dddddd">Ru</td>
+    <td class="tg tg_bbddff"><a href="../../schemes/tc/"><span style="color:#000">Tc</span></a></td>
+    <td class="tg tg_bbddff"><a href="../../schemes/ru/"><span style="color:#000">Ru</span></a></td>
     <td class="tg tg_dddddd">Rh</td>
-    <td class="tg tg_dddddd">Pd</td>
-    <td class="tg tg_dddddd">Ag</td>
-    <td class="tg tg_dddddd">Cd</td>
-    <td class="tg tg_dddddd">In</td>
-    <td class="tg tg_dddddd">Sn</td>
-    <td class="tg tg_dddddd">Sb</td>
-    <td class="tg tg_dddddd">Te</td>
+    <td class="tg tg_bbddff"><a href="../../schemes/pd/"><span style="color:#000">Pd</span></a></td>
+    <td class="tg tg_ffc9c9"><a href="../../schemes/ag/"><span style="color:#000">Ag</span></a></td>
+    <td class="tg tg_ffc9c9"><a href="../../schemes/cd/"><span style="color:#000">Cd</span></a></td>
+    <td class="tg tg_ffc9c9"><a href="../../schemes/in/"><span style="color:#000">In</span></a></td>
+    <td class="tg tg_ffc9c9"><a href="../../schemes/sn/"><span style="color:#000">Sn</span></a></td>
+    <td class="tg tg_ffc9c9"><a href="../../schemes/sb/"><span style="color:#000">Sb</span></a></td>
+    <td class="tg tg_ffc9c9"><a href="../../schemes/te/"><span style="color:#000">Te</span></a></td>
     <td class="tg tg_dddddd">I</td>
     <td class="tg tg_dddddd">Xe</td>
   </tr>
@@ -135,13 +135,13 @@ please see [here](../schemes_static/submit_scheme.md).
     <td class="tg tg_dddddd">Os</td>
     <td class="tg tg_dddddd">Ir</td>
     <td class="tg tg_dddddd">Pt</td>
-    <td class="tg tg_dddddd">Au</td>
-    <td class="tg tg_dddddd">Hg</td>
-    <td class="tg tg_dddddd">Tl</td>
-    <td class="tg tg_dddddd">Pb</td>
-    <td class="tg tg_dddddd">Bi</td>
-    <td class="tg tg_dddddd">Po</td>
-    <td class="tg tg_dddddd">At</td>
+    <td class="tg tg_ffc9c9"><a href="../../schemes/au/"><span style="color:#000">Au</span></a></td>
+    <td class="tg tg_ffc9c9"><a href="../../schemes/hg/"><span style="color:#000">Hg</span></a></td>
+    <td class="tg tg_ffc9c9"><a href="../../schemes/tl/"><span style="color:#000">Tl</span></a></td>
+    <td class="tg tg_ffc9c9"><a href="../../schemes/pb/"><span style="color:#000">Pb</span></a></td>
+    <td class="tg tg_ffc9c9"><a href="../../schemes/bi/"><span style="color:#000">Bi</span></a></td>
+    <td class="tg tg_ffc9c9"><a href="../../schemes/po/"><span style="color:#000">Po</span></a></td>
+    <td class="tg tg_ffc9c9"><a href="../../schemes/at/"><span style="color:#000">At</span></a></td>
     <td class="tg tg_dddddd">Rn</td>
   </tr>
   <tr>
@@ -190,35 +190,35 @@ please see [here](../schemes_static/submit_scheme.md).
     <td align="center">*</td>
     <td class="tg tg_dddddd">La</td>
     <td class="tg tg_dddddd">Ce</td>
-    <td class="tg tg_dddddd">Pr</td>
-    <td class="tg tg_dddddd">Nd</td>
-    <td class="tg tg_dddddd">Pm</td>
-    <td class="tg tg_dddddd">Sm</td>
+    <td class="tg tg_bbddff"><a href="../../schemes/pr/"><span style="color:#000">Pr</span></a></td>
+    <td class="tg tg_c8ffc8"><a href="../../schemes/nd/"><span style="color:#000">Nd</span></a></td>
+    <td class="tg tg_bbddff"><a href="../../schemes/pm/"><span style="color:#000">Pm</span></a></td>
+    <td class="tg tg_ffc9c9"><a href="../../schemes/sm/"><span style="color:#000">Sm</span></a></td>
     <td class="tg tg_dddddd">Eu</td>
     <td class="tg tg_dddddd">Gd</td>
-    <td class="tg tg_dddddd">Tb</td>
-    <td class="tg tg_dddddd">Dy</td>
-    <td class="tg tg_dddddd">Ho</td>
-    <td class="tg tg_dddddd">Er</td>
-    <td class="tg tg_dddddd">Tm</td>
-    <td class="tg tg_dddddd">Yb</td>
-    <td class="tg tg_dddddd">Lu</td>
+    <td class="tg tg_ffc9c9"><a href="../../schemes/tb/"><span style="color:#000">Tb</span></a></td>
+    <td class="tg tg_bbddff"><a href="../../schemes/dy/"><span style="color:#000">Dy</span></a></td>
+    <td class="tg tg_ffc9c9"><a href="../../schemes/ho/"><span style="color:#000">Ho</span></a></td>
+    <td class="tg tg_bbddff"><a href="../../schemes/er/"><span style="color:#000">Er</span></a></td>
+    <td class="tg tg_ffc9c9"><a href="../../schemes/tm/"><span style="color:#000">Tm</span></a></td>
+    <td class="tg tg_c8ffc8"><a href="../../schemes/yb/"><span style="color:#000">Yb</span></a></td>
+    <td class="tg tg_bbddff"><a href="../../schemes/lu/"><span style="color:#000">Lu</span></a></td>
   </tr>
   <tr>
     <td></td>
     <td></td>
     <td align="center">**</td>
-    <td class="tg tg_dddddd">Ac</td>
-    <td class="tg tg_dddddd">Th</td>
-    <td class="tg tg_dddddd">Pa</td>
-    <td class="tg tg_dddddd">U</td>
-    <td class="tg tg_dddddd">Np</td>
+    <td class="tg tg_bbddff"><a href="../../schemes/ac/"><span style="color:#000">Ac</span></a></td>
+    <td class="tg tg_bbddff"><a href="../../schemes/th/"><span style="color:#000">Th</span></a></td>
+    <td class="tg tg_bbddff"><a href="../../schemes/pa/"><span style="color:#000">Pa</span></a></td>
+    <td class="tg tg_bbddff"><a href="../../schemes/u/"><span style="color:#000">U</span></a></td>
+    <td class="tg tg_bbddff"><a href="../../schemes/np/"><span style="color:#000">Np</span></a></td>
     <td class="tg tg_bbddff"><a href="../../schemes/pu/"><span style="color:#000">Pu</span></a></td>
-    <td class="tg tg_dddddd">Am</td>
-    <td class="tg tg_dddddd">Cm</td>
+    <td class="tg tg_bbddff"><a href="../../schemes/am/"><span style="color:#000">Am</span></a></td>
+    <td class="tg tg_bbddff"><a href="../../schemes/cm/"><span style="color:#000">Cm</span></a></td>
     <td class="tg tg_dddddd">Bk</td>
-    <td class="tg tg_dddddd">Cf</td>
-    <td class="tg tg_dddddd">Es</td>
+    <td class="tg tg_bbddff"><a href="../../schemes/cf/"><span style="color:#000">Cf</span></a></td>
+    <td class="tg tg_bbddff"><a href="../../schemes/es/"><span style="color:#000">Es</span></a></td>
     <td class="tg tg_dddddd">Fm</td>
     <td class="tg tg_dddddd">Md</td>
     <td class="tg tg_dddddd">No</td>

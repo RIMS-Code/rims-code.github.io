@@ -1,0 +1,36 @@
+{
+    "rims_scheme": {
+        "scheme": {
+            "element": "Sc",
+            "lasers": "Dye",
+            "gs_level": "168.34",
+            "gs_term": "3d 4s^{2} ^{2}D_{5/2}",
+            "step_level0": "30706.66",
+            "step_level1": "44594.97",
+            "step_level2": "63391.96248120301",
+            "step_level3": "",
+            "step_level4": "",
+            "step_level5": "",
+            "step_term0": "3d 4s 4p ^{2}P_{3/2}",
+            "step_term1": "3d 4p^2 ^2P_{3/2}",
+            "step_term2": "",
+            "step_term3": "",
+            "step_term4": "",
+            "step_term5": "",
+            "trans_strength0": "2.81e+08",
+            "trans_strength1": "",
+            "trans_strength2": "",
+            "trans_strength3": "",
+            "trans_strength4": "",
+            "trans_strength5": "",
+            "unit": "cm^-1",
+            "ip_term": ""
+        },
+        "settings": {
+            "line_breaks": true
+        }
+    },
+    "notes": "Efficiency: <15%\n\nUsed at: CERN\n\nLasers used: Dye, CVL\n\nUsed: online\n\nReference: B. Marsh, V. Fedosseev, \"RILIS Database\" (2009)\n\n",
+    "references": [],
+    "submitted_by": "Sebastian Rothe"
+}

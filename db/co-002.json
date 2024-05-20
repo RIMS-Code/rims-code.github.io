@@ -1,0 +1,36 @@
+{
+    "rims_scheme": {
+        "scheme": {
+            "element": "Co",
+            "lasers": "Ti:Sa",
+            "gs_level": "0",
+            "gs_term": "3d^{7} 4s^{2} ^{4}F_{9/2}",
+            "step_level0": "41528.455",
+            "step_level1": "53617.983",
+            "step_level2": "65809.08",
+            "step_level3": "",
+            "step_level4": "",
+            "step_level5": "",
+            "step_term0": "3d^{7} 4s4p ^{4}G^{o}_{11/2}",
+            "step_term1": "3d^{7} 4s4d ^{4}H^{o}_{13/2}",
+            "step_term2": "AI",
+            "step_term3": "",
+            "step_term4": "",
+            "step_term5": "",
+            "trans_strength0": "3.6e8",
+            "trans_strength1": "1.2e7",
+            "trans_strength2": "",
+            "trans_strength3": "",
+            "trans_strength4": "",
+            "trans_strength5": "",
+            "unit": "cm^-1",
+            "ip_term": ""
+        },
+        "settings": {
+            "line_breaks": true
+        }
+    },
+    "notes": "Used at: Mainz, GANIL\n\nLasers used: Ti:sapphire\n\nUsed: offline\n\n",
+    "references": ["10.25358/openscience-3289"],
+    "submitted_by": "Tobias Kron"
+}

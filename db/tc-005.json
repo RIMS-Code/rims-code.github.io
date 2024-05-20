@@ -1,0 +1,36 @@
+{
+    "rims_scheme": {
+        "scheme": {
+            "element": "Tc",
+            "lasers": "Ti:Sa",
+            "gs_level": "0",
+            "gs_term": "4d^5 5s^2 ^6S_{5/2}",
+            "step_level0": "23265.3",
+            "step_level1": "48572.1",
+            "step_level2": "60452.32",
+            "step_level3": "",
+            "step_level4": "",
+            "step_level5": "",
+            "step_term0": "4d^5 5s5p ^6P_{7/2}",
+            "step_term1": "4d^5 5d ^6D_{5/2}",
+            "step_term2": "AI",
+            "step_term3": "",
+            "step_term4": "",
+            "step_term5": "",
+            "trans_strength0": "4.2e7",
+            "trans_strength1": "1.1e7",
+            "trans_strength2": "",
+            "trans_strength3": "",
+            "trans_strength4": "",
+            "trans_strength5": "",
+            "unit": "cm^-1",
+            "ip_term": ""
+        },
+        "settings": {
+            "line_breaks": true
+        }
+    },
+    "notes": "Efficiency: 4%\n\nUsed at: Mainz\n\nLasers used: Ti:sapphire\n\nUsed: offline\n\nNotes: Used at KCh Mainz for ultra trace analysis. Comparison of different schemes in dissertation of Tobias Kron.\n\nAlternative AIS at 60501.8cm-1 (838.2nm) yields ~10% less ion rate.\n\n",
+    "references": ["10.25358/openscience-1713"],
+    "submitted_by": "Reinhard Heinke"
+}

@@ -1,0 +1,36 @@
+{
+    "rims_scheme": {
+        "scheme": {
+            "element": "Au",
+            "lasers": "Ti:Sa and Dye",
+            "gs_level": "0",
+            "gs_term": "6s ^2S_{1/2}",
+            "step_level0": " 37358.991",
+            "step_level1": "69971.3",
+            "step_level2": "84806.3",
+            "step_level3": "",
+            "step_level4": "",
+            "step_level5": "",
+            "step_term0": "6p ^2P_{1/2}",
+            "step_term1": "8d ^2D_{3/2} ",
+            "step_term2": "AI",
+            "step_term3": "",
+            "step_term4": "",
+            "step_term5": "",
+            "trans_strength0": "1.652e+08",
+            "trans_strength1": "",
+            "trans_strength2": "",
+            "trans_strength3": "",
+            "trans_strength4": "",
+            "trans_strength5": "",
+            "unit": "cm^-1",
+            "ip_term": ""
+        },
+        "settings": {
+            "line_breaks": true
+        }
+    },
+    "notes": "Efficiency: >3%\n\nUsed at: CERN\n\nLasers used: Dye, Ti:sapphire\n\nUsed: online\n\n",
+    "references": [],
+    "submitted_by": "Sebastian Rothe"
+}

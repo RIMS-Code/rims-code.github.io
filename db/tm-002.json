@@ -1,0 +1,36 @@
+{
+    "rims_scheme": {
+        "scheme": {
+            "element": "Tm",
+            "lasers": "Ti:Sa",
+            "gs_level": "0",
+            "gs_term": "4f^{13} (^2F^o) 6s^2, J = 7/2",
+            "step_level0": "26889.12",
+            "step_level1": "51436.78",
+            "step_level2": "",
+            "step_level3": "",
+            "step_level4": "",
+            "step_level5": "",
+            "step_term0": "4f^{12} (^3H_5) 5d_{5/2} 6s^2, J = 9/2",
+            "step_term1": "AI",
+            "step_term2": "",
+            "step_term3": "",
+            "step_term4": "",
+            "step_term5": "",
+            "trans_strength0": "1.44E8",
+            "trans_strength1": "",
+            "trans_strength2": "",
+            "trans_strength3": "",
+            "trans_strength4": "",
+            "trans_strength5": "",
+            "unit": "cm^-1",
+            "ip_term": ""
+        },
+        "settings": {
+            "line_breaks": true
+        }
+    },
+    "notes": "Efficiency: 65%\n\nUsed at: TRIUMF, MELISSA\n\nLasers used: Ti:sapphire\n\nUsed: online\n\nUsed: offline\n\nNotes: From PhD thesis of Maryam Mostamand (https://mspace.lib.umanitoba.ca/handle/1993/34548)\r\n\r\nEnhancement factor of 50-70 at MELISSA versus surface ionization\r\n\r\nApplication at MEDICIS incl. several efficiency investigations: Heinke et al. (2021)\n\n",
+    "references": ["10.3389%2Ffmed.2021.712374"],
+    "submitted_by": "Reinhard Heinke"
+}

@@ -1,0 +1,36 @@
+{
+    "rims_scheme": {
+        "scheme": {
+            "element": "Y",
+            "lasers": "Dye",
+            "gs_level": "0",
+            "gs_term": "5s^2 ^2D_{3/2}",
+            "step_level0": "24131.250 ",
+            "step_level1": "39224.4",
+            "step_level2": "58021.39248120301",
+            "step_level3": "",
+            "step_level4": "",
+            "step_level5": "",
+            "step_term0": "5s 5p ^2D_{3/2}",
+            "step_term1": "",
+            "step_term2": "",
+            "step_term3": "",
+            "step_term4": "",
+            "step_term5": "",
+            "trans_strength0": "1.575e+08",
+            "trans_strength1": "",
+            "trans_strength2": "",
+            "trans_strength3": "",
+            "trans_strength4": "",
+            "trans_strength5": "",
+            "unit": "cm^-1",
+            "ip_term": ""
+        },
+        "settings": {
+            "line_breaks": true
+        }
+    },
+    "notes": "Used at: CERN\n\nLasers used: Dye, CVL\n\nUsed: offline\n\nNotes: Factor 88.4 laser over surface ion enhancement reported\n\n",
+    "references": ["10.1007/s10751-005-9204-2"],
+"submitted_by": "Katerina Chrysalidis"
+}

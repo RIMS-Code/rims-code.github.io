@@ -1,0 +1,36 @@
+{
+    "rims_scheme": {
+        "scheme": {
+            "element": "At",
+            "lasers": "Ti:Sa and Dye",
+            "gs_level": "0",
+            "gs_term": "6p^5 ^2P^o_{3/2}",
+            "step_level0": "46233.91",
+            "step_level1": "58805.45",
+            "step_level2": "77602.442481203",
+            "step_level3": "",
+            "step_level4": "",
+            "step_level5": "",
+            "step_term0": "6p^4 (^3P) 7s ^4P_{3/2}",
+            "step_term1": "",
+            "step_term2": "",
+            "step_term3": "",
+            "step_term4": "",
+            "step_term5": "",
+            "trans_strength0": "",
+            "trans_strength1": "",
+            "trans_strength2": "",
+            "trans_strength3": "",
+            "trans_strength4": "",
+            "trans_strength5": "",
+            "unit": "cm^-1",
+            "ip_term": ""
+        },
+        "settings": {
+            "line_breaks": true
+        }
+    },
+    "notes": "Efficiency: > 4 %\n\nUsed at: CERN, TRIUMF\n\nLasers used: Dye, Ti:sapphire, Nd:Yag, Edgewave, Photonics, LEE\n\nUsed: online\n\nNotes: Wavenumbers for 205 At.\r\nEfficiency estimated from in target production.\n\n",
+    "references": ["10.17181/CERN.0HNZ.7Z6X"],
+    "submitted_by": "Sebastian Rothe"
+}

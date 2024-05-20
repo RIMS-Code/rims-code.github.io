@@ -1,0 +1,36 @@
+{
+    "rims_scheme": {
+        "scheme": {
+            "element": "Ca",
+            "lasers": "Ti:Sa and Dye",
+            "gs_level": "0",
+            "gs_term": "3p^{6} 4s^{2} ^{1}S_{0}",
+            "step_level0": "23652.304",
+            "step_level1": "40719.847",
+            "step_level2": "56007.506",
+            "step_level3": "",
+            "step_level4": "",
+            "step_level5": "",
+            "step_term0": "3p^{6} 4s 4p ^{1}P_{1}",
+            "step_term1": "3p^{6} 4p^2 ^{1}D_{2}",
+            "step_term2": "",
+            "step_term3": "",
+            "step_term4": "",
+            "step_term5": "",
+            "trans_strength0": "2.18e8",
+            "trans_strength1": "6.6e+07 ",
+            "trans_strength2": "",
+            "trans_strength3": "",
+            "trans_strength4": "",
+            "trans_strength5": "",
+            "unit": "cm^-1",
+            "ip_term": ""
+        },
+        "settings": {
+            "line_breaks": true
+        }
+    },
+    "notes": "Used at: CERN\n\nLasers used: Dye, Ti:sapphire\n\nNotes: CERN scheme\r\nDaniels Thesis\n\n",
+    "references": [],
+    "submitted_by": "Sebastian Rothe"
+}

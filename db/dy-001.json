@@ -1,0 +1,36 @@
+{
+    "rims_scheme": {
+        "scheme": {
+            "element": "Dy",
+            "lasers": "Ti:Sa",
+            "gs_level": "0",
+            "gs_term": "",
+            "step_level0": "23877.739",
+            "step_level1": "42666.239",
+            "step_level2": "61454.755458740416",
+            "step_level3": "",
+            "step_level4": "",
+            "step_level5": "",
+            "step_term0": "",
+            "step_term1": "",
+            "step_term2": "",
+            "step_term3": "",
+            "step_term4": "",
+            "step_term5": "",
+            "trans_strength0": "1.26E8",
+            "trans_strength1": "",
+            "trans_strength2": "",
+            "trans_strength3": "",
+            "trans_strength4": "",
+            "trans_strength5": "",
+            "unit": "cm^-1",
+            "ip_term": ""
+        },
+        "settings": {
+            "line_breaks": true
+        }
+    },
+    "notes": "Used at: CERN\n\nLasers used: Ti:sapphire, Nd:YVO4\n\nUsed: online\n\nNotes: UPDATE July 2023: a slightly tunable Nd:YVO4 in SLM configuration was used to scan over the transition. A resonance was found at 18788.5cm<sup>-1</sup>. Blaze is read out at 18788.34cm<sup>-1</sup> with line width of 31.5GHz -> covering the resonance well enough to efficiently ionise. \r\n\n\n",
+    "references": [],
+    "submitted_by": "Katerina Chrysalidis"
+}

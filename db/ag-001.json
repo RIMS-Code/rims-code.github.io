@@ -1,0 +1,36 @@
+{
+    "rims_scheme": {
+        "scheme": {
+            "element": "Ag",
+            "lasers": "Dye",
+            "gs_level": "0",
+            "gs_term": "5s ^2S_{1/2}",
+            "step_level0": "30472.67",
+            "step_level1": "48764.219",
+            "step_level2": "67561.211481203",
+            "step_level3": "",
+            "step_level4": "",
+            "step_level5": "",
+            "step_term0": "5p ^2P_{3/2} ",
+            "step_term1": "5d ^2D_{5/2}",
+            "step_term2": "",
+            "step_term3": "",
+            "step_term4": "",
+            "step_term5": "",
+            "trans_strength0": "1.4e+08",
+            "trans_strength1": "8.6e+07 ",
+            "trans_strength2": "",
+            "trans_strength3": "",
+            "trans_strength4": "",
+            "trans_strength5": "",
+            "unit": "cm^-1",
+            "ip_term": ""
+        },
+        "settings": {
+            "line_breaks": true
+        }
+    },
+    "notes": "Efficiency: \u2264 14%\n\nUsed at: CERN\n\nLasers used: Dye, CVL\n\n",
+    "references": ["10.1007/BF01297718"],
+    "submitted_by": "Katerina Chrysalidis"
+}

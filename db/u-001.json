@@ -1,0 +1,36 @@
+{
+    "rims_scheme": {
+        "scheme": {
+            "element": "U",
+            "lasers": "Ti:Sa",
+            "gs_level": "0",
+            "gs_term": "5f^{3}6d7s^{2} ^{5}L_{6}",
+            "step_level0": "24066.57",
+            "step_level1": "37096.54",
+            "step_level2": "50443.4",
+            "step_level3": "",
+            "step_level4": "",
+            "step_level5": "",
+            "step_term0": "",
+            "step_term1": "",
+            "step_term2": "AI",
+            "step_term3": "",
+            "step_term4": "",
+            "step_term5": "",
+            "trans_strength0": "",
+            "trans_strength1": "",
+            "trans_strength2": "",
+            "trans_strength3": "",
+            "trans_strength4": "",
+            "trans_strength5": "",
+            "unit": "cm^-1",
+            "ip_term": ""
+        },
+        "settings": {
+            "line_breaks": true
+        }
+    },
+    "notes": "Used at: Mainz\n\nLasers used: Ti:sapphire\n\nUsed: offline\n\nNotes: taken from \n\n",
+    "references": ["10.25358/openscience-4788"],
+    "submitted_by": "Reinhard Heinke"
+}

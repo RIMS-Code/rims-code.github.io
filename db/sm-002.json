@@ -1,0 +1,36 @@
+{
+    "rims_scheme": {
+        "scheme": {
+            "element": "Sm",
+            "lasers": "Ti:Sa",
+            "gs_level": "292.58",
+            "gs_term": "4f^66s^2 ^7F_1",
+            "step_level0": "23243.84",
+            "step_level1": "46195.1",
+            "step_level2": "",
+            "step_level3": "",
+            "step_level4": "",
+            "step_level5": "",
+            "step_term0": "4f^55d6s^2 ^7G^o_1",
+            "step_term1": "AI",
+            "step_term2": "",
+            "step_term3": "",
+            "step_term4": "",
+            "step_term5": "",
+            "trans_strength0": "",
+            "trans_strength1": "",
+            "trans_strength2": "",
+            "trans_strength3": "",
+            "trans_strength4": "",
+            "trans_strength5": "",
+            "unit": "cm^-1",
+            "ip_term": ""
+        },
+        "settings": {
+            "line_breaks": true
+        }
+    },
+    "notes": "Used at: CERN\n\nLasers used: Ti:sapphire\n\nUsed: online\n\nNotes:\n\n- laser to surface about factor 10 with a GdB6 at 1500C  \n- AI scanned with second blue laser, no other state found within ±5cm<sup>-1</sup>  \n- looks saturated with about 1.2W of blue before the launch  \n- yields comparable with previous 3-step dye scheme  \n- 31% efficiency at stable beam test at MEDICIS, including surface-ionized fraction. Enhancement factor ~2 with Re ion source at 2100C\n\n",
+    "references": [],
+    "submitted_by": "Katerina Chrysalidis"
+}

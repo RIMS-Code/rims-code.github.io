@@ -1,0 +1,36 @@
+{
+    "rims_scheme": {
+        "scheme": {
+            "element": "Pb",
+            "lasers": "Dye",
+            "gs_level": "0",
+            "gs_term": "6p^{2} ^{3}P_{0}",
+            "step_level0": "35287.224",
+            "step_level1": "51943.94 ",
+            "step_level2": "70740.93248120301",
+            "step_level3": "",
+            "step_level4": "",
+            "step_level5": "",
+            "step_term0": "6p 7s ^{3}P_{1}",
+            "step_term1": "6p 8p ^{3}D_{2}",
+            "step_term2": "",
+            "step_term3": "",
+            "step_term4": "",
+            "step_term5": "",
+            "trans_strength0": "5.8e+07",
+            "trans_strength1": "",
+            "trans_strength2": "",
+            "trans_strength3": "",
+            "trans_strength4": "",
+            "trans_strength5": "",
+            "unit": "cm^-1",
+            "ip_term": ""
+        },
+        "settings": {
+            "line_breaks": true
+        }
+    },
+    "notes": "Efficiency: >3.1%\n\nUsed at: CERN\n\nLasers used: Dye, Nd:YVO4\n\nUsed: online\n\nNotes: efficiency from Köster et al. (2003)\n\n",
+    "references": ["10.1016/S0168-583X(02)01956-0"],
+    "submitted_by": "Katerina Chrysalidis"
+}

@@ -1,0 +1,36 @@
+{
+    "rims_scheme": {
+        "scheme": {
+            "element": "Ho",
+            "lasers": "Ti:Sa",
+            "gs_level": "0",
+            "gs_term": "4f^{11} 6s^2 4I^o J=15/2",
+            "step_level0": "24660.8",
+            "step_level1": "48566.95",
+            "step_level2": "",
+            "step_level3": "",
+            "step_level4": "",
+            "step_level5": "",
+            "step_term0": "4f^{11} 6s6p(^1P^o_1) (15/2,1) J=15/2",
+            "step_term1": "",
+            "step_term2": "",
+            "step_term3": "",
+            "step_term4": "",
+            "step_term5": "",
+            "trans_strength0": "1.6e8",
+            "trans_strength1": "",
+            "trans_strength2": "",
+            "trans_strength3": "",
+            "trans_strength4": "",
+            "trans_strength5": "",
+            "unit": "cm^-1",
+            "ip_term": ""
+        },
+        "settings": {
+            "line_breaks": true
+        }
+    },
+    "notes": "Efficiency: 69%\n\nUsed at: Mainz\n\nLasers used: Ti:sapphire\n\nUsed: offline\n\nNotes: Used for ECHo project.\n\nFirst transition: Saturation 3.3(3) mW\n\nIonization transition: Saturation 240(80) mW",
+    "references": ["10.1016/j.nima.2019.162602"],
+    "submitted_by": "Reinhard Heinke"
+}

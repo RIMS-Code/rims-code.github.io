@@ -1,0 +1,36 @@
+{
+    "rims_scheme": {
+        "scheme": {
+            "element": "Mn",
+            "lasers": "Ti:Sa",
+            "gs_level": "0",
+            "gs_term": "3d^5 4s^2 ^6S_{5/2}",
+            "step_level0": "24802.25",
+            "step_level1": "47212.06",
+            "step_level2": "60939.02",
+            "step_level3": "",
+            "step_level4": "",
+            "step_level5": "",
+            "step_term0": "3d^5 (^6S) 4s4p (^3P^o) ^6P^o_{7/2}",
+            "step_term1": "3d^5 4s (^7S) 4d ^6D_{7/2}",
+            "step_term2": "AI",
+            "step_term3": "",
+            "step_term4": "",
+            "step_term5": "",
+            "trans_strength0": "1.7e7",
+            "trans_strength1": "1.7e7",
+            "trans_strength2": "",
+            "trans_strength3": "",
+            "trans_strength4": "",
+            "trans_strength5": "",
+            "unit": "cm^-1",
+            "ip_term": ""
+        },
+        "settings": {
+            "line_breaks": true
+        }
+    },
+    "notes": "Efficiency: 23(7)%\n\nUsed at: Mainz\n\nLasers used: Ti:sapphire\n\nDeveloped in MSc thesis of Nina Kneip based on previous work by Tina Gotthard. Saturation values from MSc thesis.\n\n",
+    "references": ["10.1051/epjap/2022210270"],
+    "submitted_by": "Reinhard Heinke"
+}

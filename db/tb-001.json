@@ -1,0 +1,36 @@
+{
+    "rims_scheme": {
+        "scheme": {
+            "element": "Tb",
+            "lasers": "Dye",
+            "gs_level": "0",
+            "gs_term": "4f^{9} 6s^{2} ^{6}H_{15/2}",
+            "step_level0": "17249.57",
+            "step_level1": "35372",
+            "step_level2": "51542",
+            "step_level3": "",
+            "step_level4": "",
+            "step_level5": "",
+            "step_term0": "4f^{9} 6s 6p (15/2,2)",
+            "step_term1": "",
+            "step_term2": "AI",
+            "step_term3": "",
+            "step_term4": "",
+            "step_term5": "",
+            "trans_strength0": "",
+            "trans_strength1": "",
+            "trans_strength2": "",
+            "trans_strength3": "",
+            "trans_strength4": "",
+            "trans_strength5": "",
+            "unit": "cm^-1",
+            "ip_term": ""
+        },
+        "settings": {
+            "line_breaks": true
+        }
+    },
+    "notes": "Used at: CERN, PNPI, ISRAS\n\nLasers used: Dye\n\nReference: B. Marsh, V. Fedosseev, \"RILIS Database\" (2009)\n\nNotes: taken from the RILIS database\n\n",
+    "references": [],
+    "submitted_by": "Sebastian Rothe"
+}
