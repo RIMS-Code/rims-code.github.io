@@ -13,6 +13,9 @@
 
 ##Available Schemes
 
-|       Scheme link       | Lasers |                                      Reference(s)                                      |  Submitted by   |
-| ----------------------- | ------ | -------------------------------------------------------------------------------------- | --------------- |
-| [Ni 1](../ni/ni-001.md) | Ti:Sa  | [Trappitsch et al. (2018)](https://doi.org/10.1016/j.gca.2017.05.031){target="_blank"} | Reto Trappitsch |
+|       Scheme link       |    Lasers     |                                      Reference(s)                                      |     Submitted by     |
+| ----------------------- | ------------- | -------------------------------------------------------------------------------------- | -------------------- |
+| [Ni 1](../ni/ni-001.md) | Ti:Sa         | [Trappitsch et al. (2018)](https://doi.org/10.1016/j.gca.2017.05.031){target="_blank"} | Reto Trappitsch      |
+| [Ni 2](../ni/ni-002.md) | Dye           |                                                                                        | Sebastian Rothe      |
+| [Ni 3](../ni/ni-003.md) | Dye           |                                                                                        | Sebastian Rothe      |
+| [Ni 4](../ni/ni-004.md) | Ti:Sa and Dye |                                                                                        | Katerina Chrysalidis |

@@ -16,3 +16,5 @@
 |       Scheme link       | Lasers |                                   Reference(s)                                   |  Submitted by   |
 | ----------------------- | ------ | -------------------------------------------------------------------------------- | --------------- |
 | [Sr 1](../sr/sr-001.md) | Ti:Sa  | [Liu et al. (2015)](https://doi.org/10.1088/0004-637X/803/1/12){target="_blank"} | Reto Trappitsch |
+| [Sr 2](../sr/sr-002.md) | Ti:Sa  |                                                                                  | Sebastian Rothe |
+| [Sr 3](../sr/sr-003.md) | Ti:Sa  | [Esherick (1977)](https://doi.org/10.1103/PhysRevA.15.1920){target="_blank"}     | Reinhard Heinke |
