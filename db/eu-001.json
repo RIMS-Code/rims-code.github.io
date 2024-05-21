@@ -1,0 +1,26 @@
+{
+    "notes": "Lasers used: Dye, Ti:sapphire, DCM\n\n",
+    "references": [],
+    "rims_scheme": {
+        "scheme": {
+            "element": "Eu",
+            "gs_level": "0.00",
+            "gs_term": "4f^{7}6s^{2}a^{8}S^{o}_{7/2}",
+            "ip_term": "",
+            "lasers": "Ti:Sa and Dye",
+            "step_forbidden0": false,
+            "step_forbidden1": false,
+            "step_level0": "32130.25",
+            "step_level1": "45789.683",
+            "step_lowlying0": false,
+            "step_lowlying1": false,
+            "step_term0": "4f^{6}(^{7}F)5d6s^{2}^{8}P_{9/2}",
+            "step_term1": "",
+            "trans_strength0": "3.2e 7",
+            "trans_strength1": "",
+            "unit": "cm<sup>-1</sup>"
+        }
+    },
+    "saturation_curves": [],
+    "submitted_by": "Katerina Chrysalidis"
+}
