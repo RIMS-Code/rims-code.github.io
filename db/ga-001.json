@@ -3,10 +3,11 @@
         "scheme": {
             "element": "Ga",
             "lasers": "Ti:Sa",
+            "last_step_to_ip": true,
             "gs_level": "0",
             "gs_term": "3d^{10}4s^{2}4p ^{2}P^{o}_{1/2}",
             "step_level0": "34781.66",
-            "step_level1": "48387.634",
+            "step_level1": "",
             "step_level2": "",
             "step_level3": "",
             "step_level4": "",
@@ -30,7 +31,7 @@
             "line_breaks": true
         }
     },
-    "notes": "Used at: Mainz\n\nLasers used: Ti:sapphire\n\nUsed: offline\n\nIonization wavelength: < 734.97 nm\n\n",
+    "notes": "Used at: Mainz\n\nLasers used: Ti:sapphire\n\nUsed: offline",
     "references": [],
     "submitted_by": "Tobias Kron"
 }
