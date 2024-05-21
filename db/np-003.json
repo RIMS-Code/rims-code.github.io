@@ -3,10 +3,11 @@
         "scheme": {
             "element": "Np",
             "lasers": "Ti:Sa",
+            "last_step_to_ip": true,
             "gs_level": "0",
             "gs_term": "",
             "step_level0": "25075.22568  ",
-            "step_level1": "50535.000",
+            "step_level1": "",
             "step_level2": "",
             "step_level3": "",
             "step_level4": "",
@@ -30,7 +31,7 @@
             "line_breaks": true
         }
     },
-    "notes": "Used at: Mainz\n\nLasers used: Ti:sapphire\n\nIonization laser: < 392.7 nm",
+    "notes": "Used at: Mainz\n\nLasers used: Ti:sapphire",
     "references": ["10.1063/1.3115590"],
     "submitted_by": "Sebastian Rothe"
 }

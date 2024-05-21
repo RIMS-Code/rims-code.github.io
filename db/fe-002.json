@@ -3,11 +3,12 @@
         "scheme": {
             "element": "Fe",
             "lasers": "Ti:Sa",
+            "last_step_to_ip": true,
             "gs_level": "0",
             "gs_term": "3d^64s^2_4",
             "step_level0": "36766.962",
             "step_level1": "50998.641",
-            "step_level2": "63737.704",
+            "step_level2": "",
             "step_level3": "",
             "step_level4": "",
             "step_level5": "",
@@ -30,7 +31,7 @@
             "line_breaks": true
         }
     },
-    "notes": "Used at: Mainz\n\nLasers used: Ti:sapphire\n\nIonization wavelength: < 785.0 nm",
+    "notes": "Used at: Mainz\n\nLasers used: Ti:sapphire",
     "references": ["10.25358/openscience-3289"],
     "submitted_by": "Katerina Chrysalidis"
 }

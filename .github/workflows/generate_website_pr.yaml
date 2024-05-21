@@ -27,10 +27,10 @@ jobs:
     - name: Sync rye
       run: rye sync --all-features
     - name: Rebuild website
-      if: steps.changed-front.outputs.changed == 'true'
+      if: steps.changed-front.outputs.changed == 'true' || contains(github.event.pull_request.labels.*.name, 'rebuild')
       run: rye run rebuild
     - name: Build new pages
-      if: steps.changed-front.outputs.changed == 'false'
+      if: steps.changed-front.outputs.changed == 'false' && !contains(github.event.pull_request.labels.*.name, 'rebuild')
       run: rye run build
     - name: Commit files
       run: |

@@ -3,12 +3,13 @@
         "scheme": {
             "element": "Y",
             "lasers": "Ti:Sa",
+            "last_step_to_ip": true,
             "gs_level": "0",
             "gs_term": "4d^5s^2 a^2D_{3/2}",
             "step_level0": "530.36",
             "step_level1": "24518.80",
             "step_level2": "38411.771",
-            "step_level3": "50145.6",
+            "step_level3": "",
             "step_term0": "4d^5s^2 a^2D_{5/2}",
             "step_term1": "4d^5s(1D)5p y^2F^{\\circ}_{5/2}",
             "step_term2": "4d^3 ^2F_{7/2}",
@@ -27,7 +28,7 @@
             "line_breaks": false
         }
     },
-    "notes": "Used at: Mainz\n\nLasers used: Ti:sapphire\n\nNotes: Taken from LARISSA Wiki\n\nIonization wavelength: < 852.2 nm",
+    "notes": "Used at: Mainz\n\nLasers used: Ti:sapphire\n\nNotes: Taken from LARISSA Wiki",
     "references": [],
     "submitted_by": "Tobias Kron"
 }

@@ -3,11 +3,12 @@
         "scheme": {
             "element": "Ni",
             "lasers": "Dye",
+            "last_step_to_ip": true,
             "gs_level": "204.79",
             "gs_term": "",
             "step_level0": "32973.41",
             "step_level1": "49158.53",
-            "step_level2": "61619.770",
+            "step_level2": "",
             "step_level3": "",
             "step_level4": "",
             "step_level5": "",
@@ -30,7 +31,7 @@
             "line_breaks": true
         }
     },
-    "notes": "Used at: Mainz\n\nLasers used: Cr:Forsterite\n\nUsed: offline\n\nNotes: Diploma thesis of S.Rothe.\n\nIonization wavelength: < 802.5 nm",
+    "notes": "Used at: Mainz\n\nLasers used: Cr:Forsterite\n\nUsed: offline\n\nNotes: Diploma thesis of S.Rothe.",
     "references": [],
     "submitted_by": "Sebastian Rothe"
 }

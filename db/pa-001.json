@@ -3,11 +3,12 @@
         "scheme": {
             "element": "Pa",
             "lasers": "Ti:Sa",
+            "last_step_to_ip": true,
             "gs_level": "0",
             "gs_term": "",
             "step_level0": "22702.07",
             "step_level1": "36199.5",
-            "step_level2": "47500",
+            "step_level2": "",
             "step_level3": "",
             "step_level4": "",
             "step_level5": "",
@@ -30,7 +31,7 @@
             "line_breaks": true
         }
     },
-    "notes": "Used at: Mainz\n\nLasers used: Ti:sapphire\n\nIonization step: < 850 nm\n\n",
+    "notes": "Used at: Mainz\n\nLasers used: Ti:sapphire\n\n",
     "references": ["10.25358/openscience-4788"],
     "submitted_by": "Sebastian Rothe"
 }
