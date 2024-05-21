@@ -136,12 +136,12 @@ regex==2024.5.15
 requests==2.32.1
     # via habanero
     # via mkdocs-material
-rimsschemedrawer @ git+https://github.com/RIMS-Code/RIMSSchemeDrawer@0018272ed67018cff7dd4d89ad750ea9f9a9ec08
+rimsschemedrawer @ git+https://github.com/RIMS-Code/RIMSSchemeDrawer@cf39bb57edc35e777c85fa6bfff5e2c1a514a2d2
 rttools @ git+https://github.com/trappitsch/rttools@5bbf5ba3f8dc3591230877491839343885ef6bc0
 ruff==0.4.4
 scipy==1.13.0
     # via rttools
-setuptools==69.5.1
+setuptools==70.0.0
     # via pytablewriter
 six==1.16.0
     # via python-dateutil

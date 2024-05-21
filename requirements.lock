@@ -94,7 +94,7 @@ regex==2024.5.15
 requests==2.32.1
     # via habanero
     # via mkdocs-material
-setuptools==69.5.1
+setuptools==70.0.0
     # via pytablewriter
 six==1.16.0
     # via python-dateutil

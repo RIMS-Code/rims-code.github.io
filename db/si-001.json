@@ -3,11 +3,12 @@
         "scheme": {
             "element": "Si",
             "lasers": "Ti:Sa and Dye",
+            "last_step_to_ip": true,
             "gs_level": "223.16",
             "gs_term": "",
             "step_level0": "45321.85",
             "step_level1": "61563.95",
-            "step_level2": "65747.76",
+            "step_level2": "",
             "step_level3": "",
             "step_level4": "",
             "step_level5": "",
@@ -30,7 +31,7 @@
             "line_breaks": true
         }
     },
-    "notes": "Efficiency: 0.1 %\n\nUsed at: Mainz, CERN\n\nLasers used: Dye, Ti:sapphire, Cr:Forsterite, ORC\n\nNotes: Diploma Thesis S.Rothe\r\nEfficiency in MABU : 0.1 %\n\nIonization step: < 2390.1 nm\n\n",
+    "notes": "Efficiency: 0.1 %\n\nUsed at: Mainz, CERN\n\nLasers used: Dye, Ti:sapphire, Cr:Forsterite, ORC\n\nNotes: Diploma Thesis S.Rothe\r\nEfficiency in MABU : 0.1 %\n\n",
     "references": [],
     "submitted_by": "Sebastian Rothe"
 }

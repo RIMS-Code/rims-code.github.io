@@ -3,11 +3,12 @@
         "scheme": {
             "element": "Si",
             "lasers": "Ti:Sa",
+            "last_step_to_ip": true,
             "gs_level": "223.16",
             "gs_term": "",
             "step_level0": "45321.85",
             "step_level1": "61306.71",
-            "step_level2": "65747.76",
+            "step_level2": "",
             "step_level3": "",
             "step_level4": "",
             "step_level5": "",
@@ -30,7 +31,7 @@
             "line_breaks": true
         }
     },
-    "notes": "Used at: Mainz\n\nLasers used: Ti:sapphire, Cr:Forsterite, ORC\n\nNotes: Diploma Thesis S.Rothe\n\nIonization step: < 2251.6 nm",
+    "notes": "Used at: Mainz\n\nLasers used: Ti:sapphire, Cr:Forsterite, ORC\n\nNotes: Diploma Thesis S.Rothe\n\n",
     "references": [],
     "submitted_by": "Sebastian Rothe"
 }
