@@ -146,7 +146,7 @@ please see [here](../schemes_static/submit_scheme.md).
   </tr>
   <tr>
     <td class="tg tg_dddddd">Fr</td>
-    <td class="tg tg_dddddd">Ra</td>
+    <td class="tg tg_ffc9c9"><a href="../../schemes/ra/"><span style="color:#000">Ra</span></a></td>
     <td align="center">**</td>
     <td class="tg tg_dddddd">Rf</td>
     <td class="tg tg_dddddd">Db</td>
