@@ -3,11 +3,12 @@
         "scheme": {
             "element": "Tb",
             "lasers": "Ti:Sa",
+            "last_step_to_ip": true,
             "gs_level": "0",
             "gs_term": "",
             "step_level0": "23148.14",
             "step_level1": "35720.27",
-            "step_level2": "47295.000",
+            "step_level2": "",
             "step_level3": "",
             "step_level4": "",
             "step_level5": "",
@@ -30,7 +31,7 @@
             "line_breaks": true
         }
     },
-    "notes": "Used at: Mainz\n\nLasers used: Ti:sapphire\n\nUsed: offline\n\nIonization wavelength: < 863.97 nm\n\n",
+    "notes": "Used at: Mainz\n\nLasers used: Ti:sapphire\n\nUsed: offline\n\n",
     "references": ["10.1063/1.3115590"],
     "submitted_by": "Katerina Chrysalidis"
 }

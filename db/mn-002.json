@@ -3,11 +3,12 @@
         "scheme": {
             "element": "Mn",
             "lasers": "Ti:Sa",
+            "last_step_to_ip": true,
             "gs_level": "0",
             "gs_term": "3d^5 4s^2 ^6S_{5/2}",
             "step_level0": "35769.97",
             "step_level1": "49415.35",
-            "step_level2": "59959.56",
+            "step_level2": "",
             "step_level3": "",
             "step_level4": "",
             "step_level5": "",
@@ -30,7 +31,7 @@
             "line_breaks": true
         }
     },
-    "notes": "Used at: Mainz\n\nLasers used: Ti:sapphire\n\nNotes: Autoionizing states observed at 61996.0 cm-1 (last step: 12580.65cm-1) and 62003.7 cm-1 (last step: 12588.35cm-1). See annex D of reference stating that these were the \"most interesting\" ones.\n\nIonization wavelength: < 948.4 nm",
+    "notes": "Used at: Mainz\n\nLasers used: Ti:sapphire\n\nNotes: Autoionizing states observed at 61996.0 cm-1 (last step: 12580.65cm-1) and 62003.7 cm-1 (last step: 12588.35cm-1). See annex D of reference stating that these were the \"most interesting\" ones.",
     "references": ["10.25358/openscience-3289"],
     "submitted_by": "Reinhard Heinke"
 }

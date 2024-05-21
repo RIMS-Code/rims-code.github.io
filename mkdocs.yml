@@ -216,6 +216,9 @@ nav:
     - At:
       - Overview: schemes/at/index.md
       - At-1: schemes/at/at-001.md
+    - Ra:
+      - Overview: schemes/ra/index.md
+      - Ra-1: schemes/ra/ra-001.md
     - Pr:
       - Overview: schemes/pr/index.md
       - Pr-1: schemes/pr/pr-001.md
