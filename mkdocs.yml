@@ -233,6 +233,9 @@ nav:
       - Overview: schemes/sm/index.md
       - Sm-1: schemes/sm/sm-001.md
       - Sm-2: schemes/sm/sm-002.md
+    - Eu:
+      - Overview: schemes/eu/index.md
+      - Eu-1: schemes/eu/eu-001.md
     - Tb:
       - Overview: schemes/tb/index.md
       - Tb-1: schemes/tb/tb-001.md

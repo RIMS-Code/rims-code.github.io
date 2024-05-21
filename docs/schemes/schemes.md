@@ -194,7 +194,7 @@ please see [here](../schemes_static/submit_scheme.md).
     <td class="tg tg_c8ffc8"><a href="../../schemes/nd/"><span style="color:#000">Nd</span></a></td>
     <td class="tg tg_bbddff"><a href="../../schemes/pm/"><span style="color:#000">Pm</span></a></td>
     <td class="tg tg_ffc9c9"><a href="../../schemes/sm/"><span style="color:#000">Sm</span></a></td>
-    <td class="tg tg_dddddd">Eu</td>
+    <td class="tg tg_ffc9c9"><a href="../../schemes/eu/"><span style="color:#000">Eu</span></a></td>
     <td class="tg tg_dddddd">Gd</td>
     <td class="tg tg_ffc9c9"><a href="../../schemes/tb/"><span style="color:#000">Tb</span></a></td>
     <td class="tg tg_bbddff"><a href="../../schemes/dy/"><span style="color:#000">Dy</span></a></td>
