@@ -6,10 +6,10 @@
 #   features: []
 #   all-features: true
 #   with-sources: false
+#   generate-hashes: false
 
 -e file:.
-    # via file:///-
-babel==2.14.0
+babel==2.15.0
     # via mkdocs-material
 certifi==2024.2.2
     # via requests
@@ -40,7 +40,7 @@ iniabu==1.1.2
     # via rttools
 iniconfig==2.0.0
     # via pytest
-jinja2==3.1.3
+jinja2==3.1.4
     # via mkdocs
     # via mkdocs-material
 kiwisolver==1.4.5
@@ -52,7 +52,7 @@ markdown==3.6
 markupsafe==2.1.5
     # via jinja2
     # via mkdocs
-matplotlib==3.8.4
+matplotlib==3.9.0
     # via rimsschemedrawer
     # via rttools
 mbstrdecoder==1.1.3
@@ -67,7 +67,7 @@ mkdocs==1.6.0
     # via rimscode-website
 mkdocs-get-deps==0.2.0
     # via mkdocs
-mkdocs-material==9.5.20
+mkdocs-material==9.5.24
     # via rimscode-website
 mkdocs-material-extensions==1.3.1
     # via mkdocs-material
@@ -99,13 +99,13 @@ pillow==10.3.0
 pint==0.23
     # via rimscode-website
     # via rttools
-platformdirs==4.2.1
+platformdirs==4.2.2
     # via mkdocs-get-deps
 pluggy==1.5.0
     # via pytest
-pyarrow==16.0.0
+pyarrow==16.1.0
     # via rttools
-pygments==2.17.2
+pygments==2.18.0
     # via mkdocs-material
 pymdown-extensions==10.8.1
     # via mkdocs-material
@@ -113,7 +113,7 @@ pyparsing==3.1.2
     # via matplotlib
 pytablewriter==1.2.0
     # via rimscode-website
-pytest==8.2.0
+pytest==8.2.1
     # via pytest-mock
 pytest-mock==3.14.0
 python-dateutil==2.9.0.post0
@@ -131,29 +131,30 @@ pyyaml==6.0.1
     # via pyyaml-env-tag
 pyyaml-env-tag==0.1
     # via mkdocs
-regex==2024.4.28
+regex==2024.5.15
     # via mkdocs-material
-requests==2.31.0
+requests==2.32.1
     # via habanero
     # via mkdocs-material
-rimsschemedrawer @ git+https://github.com/RIMS-Code/RIMSSchemeDrawer
-rttools @ git+https://github.com/trappitsch/rttools
-ruff==0.4.2
+rimsschemedrawer @ git+https://github.com/RIMS-Code/RIMSSchemeDrawer@0018272ed67018cff7dd4d89ad750ea9f9a9ec08
+rttools @ git+https://github.com/trappitsch/rttools@5bbf5ba3f8dc3591230877491839343885ef6bc0
+ruff==0.4.4
 scipy==1.13.0
     # via rttools
+setuptools==69.5.1
+    # via pytablewriter
 six==1.16.0
     # via python-dateutil
 tabledata==1.3.3
     # via pytablewriter
 tcolorpy==0.1.6
     # via pytablewriter
-tqdm==4.66.2
+tqdm==4.66.4
     # via habanero
 typepy==1.3.2
     # via dataproperty
     # via pytablewriter
     # via tabledata
-    # via typepy
 typing-extensions==4.11.0
     # via pint
 tzdata==2024.1
@@ -162,5 +163,3 @@ urllib3==2.2.1
     # via requests
 watchdog==4.0.0
     # via mkdocs
-setuptools==69.5.1
-    # via pytablewriter
