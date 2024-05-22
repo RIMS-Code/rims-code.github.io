@@ -31,7 +31,7 @@
             "line_breaks": true
         }
     },
-    "notes": "Used at: Mainz\n\nLasers used: Ti:sapphire\n\nNotes: Many Rydberg levels in Phd thesis Mattolat.",
-    "references": [],
+    "notes": "Used at: Mainz\n\nLasers used: Ti:sapphire\n\nNotes: Many Rydberg levels in Phd thesis by Mattolat (2010).",
+    "references": ["10.25358/openscience-1003"],
     "submitted_by": "Martin Klein"
 }
