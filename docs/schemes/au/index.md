@@ -13,7 +13,7 @@
 
 ##Available Schemes
 
-|       Scheme link       |    Lasers     | Reference(s) |  Submitted by   |
-| ----------------------- | ------------- | ------------ | --------------- |
-| [Au 1](../au/au-001.md) | Ti:Sa         |              | Martin Klein    |
-| [Au 2](../au/au-002.md) | Ti:Sa and Dye |              | Sebastian Rothe |
+|       Scheme link       |    Lasers     |                                 Reference(s)                                  |  Submitted by   |
+| ----------------------- | ------------- | ----------------------------------------------------------------------------- | --------------- |
+| [Au 1](../au/au-001.md) | Ti:Sa         | [Mattolat (2018)](https://doi.org/10.25358/openscience-1003){target="_blank"} | Martin Klein    |
+| [Au 2](../au/au-002.md) | Ti:Sa and Dye |                                                                               | Sebastian Rothe |
