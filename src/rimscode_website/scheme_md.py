@@ -11,7 +11,7 @@ import rttools.rims.saturation_curve as sc
 
 from rimscode_website import SCHEMES_PATH
 from rimscode_website.reference_mngr import ReferenceDOI
-from rimscode_website.utils import parse_db_filename
+from rimscode_website.utils import ip_reference_md, parse_db_filename
 
 
 class SchemeContentMD:
@@ -215,7 +215,7 @@ class SchemeContentMD:
         self._content_md += "\n\n## Scheme\n\n"
 
         # label scheme IP:
-        self._content_md += f"**Ionization Potential**: {rimsschemedrawer.utils.get_ip(self.ele):.3f} cm⁻¹  \n"
+        self._content_md += f"**Ionization Potential**: {rimsschemedrawer.utils.get_ip(self.ele):.3f} cm⁻¹ {ip_reference_md(self.ele)}  \n"
 
         # label scheme lasers:
         key = "lasers"
