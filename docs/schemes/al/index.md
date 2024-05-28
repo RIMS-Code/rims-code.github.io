@@ -6,7 +6,7 @@
 - **Series:** PoorMetal
 - **Atomic number:** 13
 - **Atomic weight:** 26.982 u
-- **Ionization potential:** 48278.480 1/cm
+- **Ionization potential:**  48278.480 cm⁻¹ ([NIST ASD, 2024](https://www.nist.gov/pml/atomic-spectra-database))
 - **Melting point:** 933.5 K
 - **Boiling point:** 2792.2 K
 - [**Wikipedia**](https://en.wikipedia.org/wiki/Aluminum)

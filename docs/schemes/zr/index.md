@@ -6,7 +6,7 @@
 - **Series:** TransitionMetal
 - **Atomic number:** 40
 - **Atomic weight:** 91.224 u
-- **Ionization potential:** 53507.832 1/cm
+- **Ionization potential:**  53507.832 cm⁻¹ ([NIST ASD, 2024](https://www.nist.gov/pml/atomic-spectra-database))
 - **Melting point:** 2128.2 K
 - **Boiling point:** 4682.1 K
 - [**Wikipedia**](https://en.wikipedia.org/wiki/Zirconium)

@@ -6,7 +6,7 @@
 - **Series:** Lanthanide
 - **Atomic number:** 70
 - **Atomic weight:** 173.040 u
-- **Ionization potential:** 50443.200 1/cm
+- **Ionization potential:**  50443.200 cm⁻¹ ([NIST ASD, 2024](https://www.nist.gov/pml/atomic-spectra-database))
 - **Melting point:** 1092.2 K
 - **Boiling point:** 1469.2 K
 - [**Wikipedia**](https://en.wikipedia.org/wiki/Ytterbium)

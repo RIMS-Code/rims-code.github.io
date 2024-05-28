@@ -6,7 +6,7 @@
 - **Series:** Chalcogen
 - **Atomic number:** 34
 - **Atomic weight:** 78.960 u
-- **Ionization potential:** 78658.150 1/cm
+- **Ionization potential:**  78658.150 cm⁻¹ ([NIST ASD, 2024](https://www.nist.gov/pml/atomic-spectra-database))
 - **Melting point:** 494.1 K
 - **Boiling point:** 958.1 K
 - [**Wikipedia**](https://en.wikipedia.org/wiki/Selenium)

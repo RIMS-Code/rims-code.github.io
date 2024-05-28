@@ -6,7 +6,7 @@
 - **Series:** Lanthanide
 - **Atomic number:** 63
 - **Atomic weight:** 151.964 u
-- **Ionization potential:** 45734.740 1/cm
+- **Ionization potential:**  45734.740 cm⁻¹ ([NIST ASD, 2024](https://www.nist.gov/pml/atomic-spectra-database))
 - **Melting point:** 1095.2 K
 - **Boiling point:** 1800.2 K
 - [**Wikipedia**](https://en.wikipedia.org/wiki/Europium)

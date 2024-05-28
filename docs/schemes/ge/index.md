@@ -6,7 +6,7 @@
 - **Series:** Metalloid
 - **Atomic number:** 32
 - **Atomic weight:** 72.640 u
-- **Ionization potential:** 63713.240 1/cm
+- **Ionization potential:**  63713.240 cm⁻¹ ([NIST ASD, 2024](https://www.nist.gov/pml/atomic-spectra-database))
 - **Melting point:** 1211.4 K
 - **Boiling point:** 3093.2 K
 - [**Wikipedia**](https://en.wikipedia.org/wiki/Germanium)

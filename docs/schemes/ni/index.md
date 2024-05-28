@@ -6,7 +6,7 @@
 - **Series:** TransitionMetal
 - **Atomic number:** 28
 - **Atomic weight:** 58.693 u
-- **Ionization potential:** 61619.770 1/cm
+- **Ionization potential:**  61619.770 cm⁻¹ ([NIST ASD, 2024](https://www.nist.gov/pml/atomic-spectra-database))
 - **Melting point:** 1728.2 K
 - **Boiling point:** 3186.2 K
 - [**Wikipedia**](https://en.wikipedia.org/wiki/Nickel)

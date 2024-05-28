@@ -6,7 +6,7 @@
 - **Series:** Actinide
 - **Atomic number:** 89
 - **Atomic weight:** 227.000 u
-- **Ionization potential:** 43394.520 1/cm
+- **Ionization potential:**  43394.520 cm⁻¹ ([NIST ASD, 2024](https://www.nist.gov/pml/atomic-spectra-database))
 - **Melting point:** 1323.2 K
 - **Boiling point:** 3473.2 K
 - [**Wikipedia**](https://en.wikipedia.org/wiki/Actinium)

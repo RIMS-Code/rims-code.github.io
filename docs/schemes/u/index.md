@@ -6,7 +6,7 @@
 - **Series:** Actinide
 - **Atomic number:** 92
 - **Atomic weight:** 238.029 u
-- **Ionization potential:** 49958.400 1/cm
+- **Ionization potential:**  49958.400 cm⁻¹ ([NIST ASD, 2024](https://www.nist.gov/pml/atomic-spectra-database))
 - **Melting point:** 1408.2 K
 - **Boiling point:** 4200.1 K
 - [**Wikipedia**](https://en.wikipedia.org/wiki/Uranium)

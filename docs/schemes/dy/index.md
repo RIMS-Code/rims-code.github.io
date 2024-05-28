@@ -6,7 +6,7 @@
 - **Series:** Lanthanide
 - **Atomic number:** 66
 - **Atomic weight:** 162.500 u
-- **Ionization potential:** 47901.760 1/cm
+- **Ionization potential:**  47901.760 cm⁻¹ ([NIST ASD, 2024](https://www.nist.gov/pml/atomic-spectra-database))
 - **Melting point:** 1685.2 K
 - **Boiling point:** 2840.2 K
 - [**Wikipedia**](https://en.wikipedia.org/wiki/Dysprosium)

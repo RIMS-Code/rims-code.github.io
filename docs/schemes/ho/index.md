@@ -6,7 +6,7 @@
 - **Series:** Lanthanide
 - **Atomic number:** 67
 - **Atomic weight:** 164.930 u
-- **Ionization potential:** 48567.000 1/cm
+- **Ionization potential:**  48567.000 cm⁻¹ ([NIST ASD, 2024](https://www.nist.gov/pml/atomic-spectra-database))
 - **Melting point:** 1747.2 K
 - **Boiling point:** 2973.2 K
 - [**Wikipedia**](https://en.wikipedia.org/wiki/Holmium)

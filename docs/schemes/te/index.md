@@ -6,7 +6,7 @@
 - **Series:** Chalcogen
 - **Atomic number:** 52
 - **Atomic weight:** 127.600 u
-- **Ionization potential:** 72669.006 1/cm
+- **Ionization potential:**  72669.006 cm⁻¹ ([NIST ASD, 2024](https://www.nist.gov/pml/atomic-spectra-database))
 - **Melting point:** 722.7 K
 - **Boiling point:** 1261.2 K
 - [**Wikipedia**](https://en.wikipedia.org/wiki/Tellurium)

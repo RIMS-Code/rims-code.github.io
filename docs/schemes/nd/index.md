@@ -6,7 +6,7 @@
 - **Series:** Lanthanide
 - **Atomic number:** 60
 - **Atomic weight:** 144.240 u
-- **Ionization potential:** 44562.000 1/cm
+- **Ionization potential:**  44562.000 cm⁻¹ ([NIST ASD, 2024](https://www.nist.gov/pml/atomic-spectra-database))
 - **Melting point:** 1294.2 K
 - [**Wikipedia**](https://en.wikipedia.org/wiki/Neodymium)
 

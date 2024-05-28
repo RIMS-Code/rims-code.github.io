@@ -6,7 +6,7 @@
 - **Series:** TransitionMetal
 - **Atomic number:** 22
 - **Atomic weight:** 47.867 u
-- **Ionization potential:** 55072.500 1/cm
+- **Ionization potential:**  55072.500 cm⁻¹ ([NIST ASD, 2024](https://www.nist.gov/pml/atomic-spectra-database))
 - **Melting point:** 1941.2 K
 - **Boiling point:** 3560.2 K
 - [**Wikipedia**](https://en.wikipedia.org/wiki/Titanium)

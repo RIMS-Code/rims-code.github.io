@@ -6,7 +6,7 @@
 - **Series:** Halogen
 - **Atomic number:** 85
 - **Atomic weight:** 210.000 u
-- **Ionization potential:** 75150.800 1/cm
+- **Ionization potential:**  75150.800 cm⁻¹ ([NIST ASD, 2024](https://www.nist.gov/pml/atomic-spectra-database))
 - **Melting point:** 575.1 K
 - [**Wikipedia**](https://en.wikipedia.org/wiki/Astatine)
 

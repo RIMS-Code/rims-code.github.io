@@ -6,7 +6,7 @@
 - **Series:** TransitionMetal
 - **Atomic number:** 80
 - **Atomic weight:** 200.590 u
-- **Ionization potential:** 84184.150 1/cm
+- **Ionization potential:**  84184.150 cm⁻¹ ([NIST ASD, 2024](https://www.nist.gov/pml/atomic-spectra-database))
 - **Melting point:** 234.3 K
 - **Boiling point:** 629.9 K
 - [**Wikipedia**](https://en.wikipedia.org/wiki/Mercury)

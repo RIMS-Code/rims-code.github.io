@@ -6,7 +6,7 @@
 - **Series:** TransitionMetal
 - **Atomic number:** 42
 - **Atomic weight:** 95.940 u
-- **Ionization potential:** 57204.300 1/cm
+- **Ionization potential:**  57204.300 cm⁻¹ ([NIST ASD, 2024](https://www.nist.gov/pml/atomic-spectra-database))
 - **Melting point:** 2896.2 K
 - **Boiling point:** 4912.1 K
 - [**Wikipedia**](https://en.wikipedia.org/wiki/Molybdenum)

@@ -6,7 +6,7 @@
 - **Series:** TransitionMetal
 - **Atomic number:** 24
 - **Atomic weight:** 51.996 u
-- **Ionization potential:** 54575.600 1/cm
+- **Ionization potential:**  54575.600 cm⁻¹ ([NIST ASD, 2024](https://www.nist.gov/pml/atomic-spectra-database))
 - **Melting point:** 2180.2 K
 - **Boiling point:** 2944.2 K
 - [**Wikipedia**](https://en.wikipedia.org/wiki/Chromium)

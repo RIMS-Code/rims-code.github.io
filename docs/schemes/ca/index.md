@@ -6,7 +6,7 @@
 - **Series:** AlkalineEarthMetal
 - **Atomic number:** 20
 - **Atomic weight:** 40.078 u
-- **Ionization potential:** 49305.924 1/cm
+- **Ionization potential:**  49305.924 cm⁻¹ ([NIST ASD, 2024](https://www.nist.gov/pml/atomic-spectra-database))
 - **Melting point:** 1115.2 K
 - **Boiling point:** 1757.2 K
 - [**Wikipedia**](https://en.wikipedia.org/wiki/Calcium)

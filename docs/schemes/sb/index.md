@@ -6,7 +6,7 @@
 - **Series:** Metalloid
 - **Atomic number:** 51
 - **Atomic weight:** 121.760 u
-- **Ionization potential:** 69431.340 1/cm
+- **Ionization potential:**  69431.340 cm⁻¹ ([NIST ASD, 2024](https://www.nist.gov/pml/atomic-spectra-database))
 - **Melting point:** 903.8 K
 - **Boiling point:** 1860.2 K
 - [**Wikipedia**](https://en.wikipedia.org/wiki/Antimony)

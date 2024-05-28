@@ -6,7 +6,7 @@
 - **Series:** AlkalineEarthMetal
 - **Atomic number:** 56
 - **Atomic weight:** 137.327 u
-- **Ionization potential:** 42034.910 1/cm
+- **Ionization potential:**  42034.910 cm⁻¹ ([NIST ASD, 2024](https://www.nist.gov/pml/atomic-spectra-database))
 - **Melting point:** 1000.1 K
 - **Boiling point:** 2143.2 K
 - [**Wikipedia**](https://en.wikipedia.org/wiki/Barium)

@@ -6,7 +6,7 @@
 - **Series:** PoorMetal
 - **Atomic number:** 31
 - **Atomic weight:** 69.723 u
-- **Ionization potential:** 48387.634 1/cm
+- **Ionization potential:**  48387.634 cm⁻¹ ([NIST ASD, 2024](https://www.nist.gov/pml/atomic-spectra-database))
 - **Melting point:** 302.9 K
 - **Boiling point:** 2477.2 K
 - [**Wikipedia**](https://en.wikipedia.org/wiki/Gallium)

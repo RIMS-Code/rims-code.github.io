@@ -6,7 +6,7 @@
 - **Series:** TransitionMetal
 - **Atomic number:** 43
 - **Atomic weight:** 98.000 u
-- **Ionization potential:** 57421.680 1/cm
+- **Ionization potential:**  57421.680 cm⁻¹ ([NIST ASD, 2024](https://www.nist.gov/pml/atomic-spectra-database))
 - **Melting point:** 2430.2 K
 - **Boiling point:** 4538.1 K
 - [**Wikipedia**](https://en.wikipedia.org/wiki/Technetium)

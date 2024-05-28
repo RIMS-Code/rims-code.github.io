@@ -6,7 +6,7 @@
 - **Series:** TransitionMetal
 - **Atomic number:** 79
 - **Atomic weight:** 196.967 u
-- **Ionization potential:** 74409.110 1/cm
+- **Ionization potential:**  74409.110 cm⁻¹ ([NIST ASD, 2024](https://www.nist.gov/pml/atomic-spectra-database))
 - **Melting point:** 1337.3 K
 - **Boiling point:** 3129.2 K
 - [**Wikipedia**](https://en.wikipedia.org/wiki/Gold)

@@ -6,7 +6,7 @@
 - **Series:** Lanthanide
 - **Atomic number:** 59
 - **Atomic weight:** 140.908 u
-- **Ionization potential:** 44120.000 1/cm
+- **Ionization potential:**  44120.000 cm⁻¹ ([NIST ASD, 2024](https://www.nist.gov/pml/atomic-spectra-database))
 - **Melting point:** 1204.2 K
 - **Boiling point:** 3563.2 K
 - [**Wikipedia**](https://en.wikipedia.org/wiki/Praseodymium)

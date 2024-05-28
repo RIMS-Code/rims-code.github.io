@@ -6,7 +6,7 @@
 - **Series:** Actinide
 - **Atomic number:** 91
 - **Atomic weight:** 231.036 u
-- **Ionization potential:** 47500.000 1/cm
+- **Ionization potential:**  49034.000 cm⁻¹ ([Naubereit, 2020](http://doi.org/10.25358/openscience-5183))
 - **Melting point:** 1845.2 K
 - **Boiling point:** 4273.1 K
 - [**Wikipedia**](https://en.wikipedia.org/wiki/Protactinium)
