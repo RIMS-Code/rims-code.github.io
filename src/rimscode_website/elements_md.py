@@ -8,7 +8,7 @@ from rimscode_website import DB_PATH, SCHEMES_PATH
 from rimscode_website.db_reader import DataFileReader
 from rimscode_website.element import Element
 from rimscode_website.scheme_md import SchemeContentMD
-from rimscode_website.utils import parse_db_filename
+from rimscode_website.utils import ip_reference_md, parse_db_filename
 
 
 class ElementMD:
@@ -180,7 +180,7 @@ class ElementMD:
         ret += f"- **Series:** {element.type}\n"
         ret += f"- **Atomic number:** {element.atomic_number}\n"
         ret += f"- **Atomic weight:** {element.atomic_weight: .3f~P}\n"
-        ret += f"- **Ionization potential:** {element.ionization_potential: .3f~P}\n"
+        ret += f"- **Ionization potential:** {element.ionization_potential.magnitude: .3f} cm⁻¹ {ip_reference_md(element.symbol)}\n"
         if element.melting_point is not None:
             ret += f"- **Melting point:** {element.melting_point: .1f~P}\n"
         if element.boiling_point is not None:
