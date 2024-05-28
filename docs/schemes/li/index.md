@@ -6,7 +6,7 @@
 - **Series:** AlkaliMetal
 - **Atomic number:** 3
 - **Atomic weight:** 6.941 u
-- **Ionization potential:** 43487.114 1/cm
+- **Ionization potential:**  43487.114 cm⁻¹ ([NIST ASD, 2024](https://www.nist.gov/pml/atomic-spectra-database))
 - **Melting point:** 453.7 K
 - **Boiling point:** 1615.2 K
 - [**Wikipedia**](https://en.wikipedia.org/wiki/Lithium)

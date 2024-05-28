@@ -6,7 +6,7 @@
 - **Series:** AlkalineEarthMetal
 - **Atomic number:** 4
 - **Atomic weight:** 9.012 u
-- **Ionization potential:** 75192.640 1/cm
+- **Ionization potential:**  75192.640 cm⁻¹ ([NIST ASD, 2024](https://www.nist.gov/pml/atomic-spectra-database))
 - **Melting point:** 1560.2 K
 - **Boiling point:** 2743.2 K
 - [**Wikipedia**](https://en.wikipedia.org/wiki/Beryllium)

@@ -6,7 +6,7 @@
 - **Series:** TransitionMetal
 - **Atomic number:** 39
 - **Atomic weight:** 88.906 u
-- **Ionization potential:** 50145.600 1/cm
+- **Ionization potential:**  50145.600 cm⁻¹ ([NIST ASD, 2024](https://www.nist.gov/pml/atomic-spectra-database))
 - **Melting point:** 1799.2 K
 - **Boiling point:** 3618.2 K
 - [**Wikipedia**](https://en.wikipedia.org/wiki/Yttrium)

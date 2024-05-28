@@ -6,7 +6,7 @@
 - **Series:** TransitionMetal
 - **Atomic number:** 46
 - **Atomic weight:** 106.420 u
-- **Ionization potential:** 67241.140 1/cm
+- **Ionization potential:**  67241.140 cm⁻¹ ([NIST ASD, 2024](https://www.nist.gov/pml/atomic-spectra-database))
 - **Melting point:** 1828.1 K
 - **Boiling point:** 3236.2 K
 - [**Wikipedia**](https://en.wikipedia.org/wiki/Palladium)

@@ -6,7 +6,7 @@
 - **Series:** Actinide
 - **Atomic number:** 94
 - **Atomic weight:** 244.000 u
-- **Ionization potential:** 48601.000 1/cm
+- **Ionization potential:**  48601.000 cm⁻¹ ([NIST ASD, 2024](https://www.nist.gov/pml/atomic-spectra-database))
 - **Melting point:** 913.1 K
 - **Boiling point:** 3503.2 K
 - [**Wikipedia**](https://en.wikipedia.org/wiki/Plutonium)

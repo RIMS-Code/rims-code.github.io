@@ -6,7 +6,7 @@
 - **Series:** TransitionMetal
 - **Atomic number:** 25
 - **Atomic weight:** 54.938 u
-- **Ionization potential:** 59959.560 1/cm
+- **Ionization potential:**  59959.560 cm⁻¹ ([NIST ASD, 2024](https://www.nist.gov/pml/atomic-spectra-database))
 - **Melting point:** 1519.2 K
 - **Boiling point:** 2334.2 K
 - [**Wikipedia**](https://en.wikipedia.org/wiki/Manganese)

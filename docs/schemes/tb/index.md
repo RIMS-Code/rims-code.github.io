@@ -6,7 +6,7 @@
 - **Series:** Lanthanide
 - **Atomic number:** 65
 - **Atomic weight:** 158.925 u
-- **Ionization potential:** 47295.000 1/cm
+- **Ionization potential:**  47295.000 cm⁻¹ ([NIST ASD, 2024](https://www.nist.gov/pml/atomic-spectra-database))
 - **Melting point:** 1629.2 K
 - **Boiling point:** 3503.2 K
 - [**Wikipedia**](https://en.wikipedia.org/wiki/Terbium)

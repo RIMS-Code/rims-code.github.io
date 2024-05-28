@@ -6,7 +6,7 @@
 - **Series:** TransitionMetal
 - **Atomic number:** 47
 - **Atomic weight:** 107.868 u
-- **Ionization potential:** 61106.450 1/cm
+- **Ionization potential:**  61106.450 cm⁻¹ ([NIST ASD, 2024](https://www.nist.gov/pml/atomic-spectra-database))
 - **Melting point:** 1234.9 K
 - **Boiling point:** 2435.2 K
 - [**Wikipedia**](https://en.wikipedia.org/wiki/Silver)

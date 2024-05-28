@@ -6,7 +6,7 @@
 - **Series:** Lanthanide
 - **Atomic number:** 69
 - **Atomic weight:** 168.934 u
-- **Ionization potential:** 49880.570 1/cm
+- **Ionization potential:**  49880.570 cm⁻¹ ([NIST ASD, 2024](https://www.nist.gov/pml/atomic-spectra-database))
 - **Melting point:** 1818.2 K
 - **Boiling point:** 2223.2 K
 - [**Wikipedia**](https://en.wikipedia.org/wiki/Thulium)

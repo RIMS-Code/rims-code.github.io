@@ -6,7 +6,7 @@
 - **Series:** TransitionMetal
 - **Atomic number:** 74
 - **Atomic weight:** 183.840 u
-- **Ionization potential:** 63427.700 1/cm
+- **Ionization potential:**  63427.700 cm⁻¹ ([NIST ASD, 2024](https://www.nist.gov/pml/atomic-spectra-database))
 - **Melting point:** 3695.2 K
 - **Boiling point:** 5828.1 K
 - [**Wikipedia**](https://en.wikipedia.org/wiki/Tungsten)

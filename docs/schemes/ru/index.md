@@ -6,7 +6,7 @@
 - **Series:** TransitionMetal
 - **Atomic number:** 44
 - **Atomic weight:** 101.070 u
-- **Ionization potential:** 59366.400 1/cm
+- **Ionization potential:**  59366.400 cm⁻¹ ([NIST ASD, 2024](https://www.nist.gov/pml/atomic-spectra-database))
 - **Melting point:** 2607.2 K
 - **Boiling point:** 4423.1 K
 - [**Wikipedia**](https://en.wikipedia.org/wiki/Ruthenium)

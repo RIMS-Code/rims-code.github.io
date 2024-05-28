@@ -6,7 +6,7 @@
 - **Series:** Actinide
 - **Atomic number:** 93
 - **Atomic weight:** 237.000 u
-- **Ionization potential:** 50535.000 1/cm
+- **Ionization potential:**  50535.000 cm⁻¹ ([NIST ASD, 2024](https://www.nist.gov/pml/atomic-spectra-database))
 - **Melting point:** 917.1 K
 - [**Wikipedia**](https://en.wikipedia.org/wiki/Neptunium)
 

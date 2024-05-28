@@ -6,7 +6,7 @@
 - **Series:** TransitionMetal
 - **Atomic number:** 27
 - **Atomic weight:** 58.933 u
-- **Ionization potential:** 63564.600 1/cm
+- **Ionization potential:**  63564.600 cm⁻¹ ([NIST ASD, 2024](https://www.nist.gov/pml/atomic-spectra-database))
 - **Melting point:** 1768.2 K
 - **Boiling point:** 3200.2 K
 - [**Wikipedia**](https://en.wikipedia.org/wiki/Cobalt)

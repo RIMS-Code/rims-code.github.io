@@ -6,7 +6,7 @@
 - **Series:** PoorMetal
 - **Atomic number:** 82
 - **Atomic weight:** 207.200 u
-- **Ionization potential:** 59819.558 1/cm
+- **Ionization potential:**  59819.558 cm⁻¹ ([NIST ASD, 2024](https://www.nist.gov/pml/atomic-spectra-database))
 - **Melting point:** 600.6 K
 - **Boiling point:** 2022.2 K
 - [**Wikipedia**](https://en.wikipedia.org/wiki/Lead)

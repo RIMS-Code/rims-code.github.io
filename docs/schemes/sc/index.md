@@ -6,7 +6,7 @@
 - **Series:** TransitionMetal
 - **Atomic number:** 21
 - **Atomic weight:** 44.956 u
-- **Ionization potential:** 52922.000 1/cm
+- **Ionization potential:**  52922.000 cm⁻¹ ([NIST ASD, 2024](https://www.nist.gov/pml/atomic-spectra-database))
 - **Melting point:** 1814.2 K
 - **Boiling point:** 3103.2 K
 - [**Wikipedia**](https://en.wikipedia.org/wiki/Scandium)

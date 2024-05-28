@@ -6,7 +6,7 @@
 - **Series:** TransitionMetal
 - **Atomic number:** 29
 - **Atomic weight:** 63.546 u
-- **Ionization potential:** 62317.460 1/cm
+- **Ionization potential:**  62317.460 cm⁻¹ ([NIST ASD, 2024](https://www.nist.gov/pml/atomic-spectra-database))
 - **Melting point:** 1357.8 K
 - **Boiling point:** 3200.2 K
 - [**Wikipedia**](https://en.wikipedia.org/wiki/Copper)

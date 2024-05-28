@@ -6,7 +6,7 @@
 - **Series:** Lanthanide
 - **Atomic number:** 61
 - **Atomic weight:** 145.000 u
-- **Ionization potential:** 45020.800 1/cm
+- **Ionization potential:**  45020.800 cm⁻¹ ([NIST ASD, 2024](https://www.nist.gov/pml/atomic-spectra-database))
 - [**Wikipedia**](https://en.wikipedia.org/wiki/Promethium)
 
 ##Available Schemes

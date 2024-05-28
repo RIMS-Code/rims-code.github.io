@@ -6,7 +6,7 @@
 - **Series:** AlkalineEarthMetal
 - **Atomic number:** 38
 - **Atomic weight:** 87.620 u
-- **Ionization potential:** 45932.204 1/cm
+- **Ionization potential:**  45932.204 cm⁻¹ ([NIST ASD, 2024](https://www.nist.gov/pml/atomic-spectra-database))
 - **Melting point:** 1050.2 K
 - **Boiling point:** 1655.2 K
 - [**Wikipedia**](https://en.wikipedia.org/wiki/Strontium)

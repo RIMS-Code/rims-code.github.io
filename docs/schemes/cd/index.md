@@ -6,7 +6,7 @@
 - **Series:** TransitionMetal
 - **Atomic number:** 48
 - **Atomic weight:** 112.411 u
-- **Ionization potential:** 72540.050 1/cm
+- **Ionization potential:**  72540.050 cm⁻¹ ([NIST ASD, 2024](https://www.nist.gov/pml/atomic-spectra-database))
 - **Melting point:** 594.2 K
 - **Boiling point:** 1040.2 K
 - [**Wikipedia**](https://en.wikipedia.org/wiki/Cadmium)

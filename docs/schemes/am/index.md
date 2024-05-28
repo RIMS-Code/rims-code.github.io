@@ -6,7 +6,7 @@
 - **Series:** Actinide
 - **Atomic number:** 95
 - **Atomic weight:** 243.000 u
-- **Ionization potential:** 48182.000 1/cm
+- **Ionization potential:**  48182.000 cm⁻¹ ([NIST ASD, 2024](https://www.nist.gov/pml/atomic-spectra-database))
 - **Melting point:** 1449.2 K
 - **Boiling point:** 2284.2 K
 - [**Wikipedia**](https://en.wikipedia.org/wiki/Americium)

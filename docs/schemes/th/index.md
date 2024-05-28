@@ -6,7 +6,7 @@
 - **Series:** Actinide
 - **Atomic number:** 90
 - **Atomic weight:** 232.038 u
-- **Ionization potential:** 50867.000 1/cm
+- **Ionization potential:**  50867.000 cm⁻¹ ([NIST ASD, 2024](https://www.nist.gov/pml/atomic-spectra-database))
 - **Melting point:** 2023.2 K
 - **Boiling point:** 5093.1 K
 - [**Wikipedia**](https://en.wikipedia.org/wiki/Thorium)

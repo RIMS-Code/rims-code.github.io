@@ -3,7 +3,23 @@ import warnings
 from pathlib import Path
 from typing import Union, Tuple
 
+from rimsschemedrawer.utils import get_ip_reference
+
 from rimscode_website.constants import ELEMENTS_BY_NAME
+
+
+def ip_reference_md(ele: str) -> str:
+    """Return a markdown formatted reference to IP.
+
+    :return: If a URL is given, return the a ([Author, Year](URL)) string, otherwise a
+    (Author, Year) string.
+    """
+    ref_dict = get_ip_reference(ele)
+    url = ref_dict.get("url", None)
+    if url:
+        return f"([{ref_dict['author']}, {ref_dict['year']}]({url}))"
+    else:
+        return f"({ref_dict['author']}, {ref_dict['year']})"
 
 
 def parse_db_filename(fname: Path) -> Union[Tuple[str, int], None]:

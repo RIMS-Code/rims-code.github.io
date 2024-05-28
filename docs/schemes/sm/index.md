@@ -6,7 +6,7 @@
 - **Series:** Lanthanide
 - **Atomic number:** 62
 - **Atomic weight:** 150.360 u
-- **Ionization potential:** 45519.690 1/cm
+- **Ionization potential:**  45519.690 cm⁻¹ ([NIST ASD, 2024](https://www.nist.gov/pml/atomic-spectra-database))
 - **Melting point:** 1345.2 K
 - **Boiling point:** 2076.2 K
 - [**Wikipedia**](https://en.wikipedia.org/wiki/Samarium)

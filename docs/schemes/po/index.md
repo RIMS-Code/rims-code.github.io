@@ -6,7 +6,7 @@
 - **Series:** Chalcogen
 - **Atomic number:** 84
 - **Atomic weight:** 209.000 u
-- **Ionization potential:** 67896.310 1/cm
+- **Ionization potential:**  67896.310 cm⁻¹ ([NIST ASD, 2024](https://www.nist.gov/pml/atomic-spectra-database))
 - **Melting point:** 527.1 K
 - **Boiling point:** 1235.2 K
 - [**Wikipedia**](https://en.wikipedia.org/wiki/Polonium)

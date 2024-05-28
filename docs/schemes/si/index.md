@@ -6,7 +6,7 @@
 - **Series:** Metalloid
 - **Atomic number:** 14
 - **Atomic weight:** 28.085 u
-- **Ionization potential:** 65747.760 1/cm
+- **Ionization potential:**  65747.760 cm⁻¹ ([NIST ASD, 2024](https://www.nist.gov/pml/atomic-spectra-database))
 - **Melting point:** 1687.2 K
 - [**Wikipedia**](https://en.wikipedia.org/wiki/Silicon)
 
