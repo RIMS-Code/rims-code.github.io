@@ -57,7 +57,7 @@ class SchemeContentMD:
         # Add the saturation curves section
         self._saturation_curves()
 
-        # Add the references section
+        # Add the references section and download link for config file
         self._reference()
 
         # Add submitted by
@@ -86,22 +86,28 @@ class SchemeContentMD:
 
         If multiple references are given, they are all added.
         """
+        self._content_md += "\n\n## References\n\n"
+
         key = "references"
         if key in self.db_content.keys():
             dois = self.db_content[key]
-            if len(dois) < 1:
-                return
-
-            self._content_md += "\n\n## References\n\n"
-
             for doi in dois:
                 md_text_link = ReferenceDOI(doi).md_url_t
                 self._content_md += f"  - {md_text_link}\n\n"
+
+        # download link for config file
+        cf_url = (
+            f"https://github.com/RIMS-Code/rims-code.github.io/blob/main/db/"
+            f"{self.db_file.name}"
+        )
+        self._content_md += f"  - [Get config file]({cf_url})\n\n"
 
     def _saturation_curves(self):
         """Add the saturation curves to the content if available."""
         key = "saturation_curves"
         if key not in self.db_content.keys():
+            return
+        elif not self.db_content[key]:
             return
 
         self._content_md += "\n\n## Saturation curves\n\n"
