@@ -1,6 +1,6 @@
 site_name: RIMS-Code
 site_url: https://rims-code.github.io
-repo_url: https://github.com/RIMS-Code
+repo_url: https://github.com/RIMS-Code/rims-code.github.io
 site_author: RIMS-Code team
 theme:
   name: material
