@@ -136,8 +136,8 @@ regex==2024.5.15
 requests==2.32.2
     # via habanero
     # via mkdocs-material
-rimsschemedrawer @ git+https://github.com/RIMS-Code/RIMSSchemeDrawer@de77be5393c4b4b0e0a0be049c9b7a64837f2c33
-rttools @ git+https://github.com/trappitsch/rttools@5bbf5ba3f8dc3591230877491839343885ef6bc0
+rimsschemedrawer @ git+https://github.com/RIMS-Code/RIMSSchemeDrawer@31d00c9d70700a65888467ba9b857d526270a9bf
+rttools @ git+https://github.com/trappitsch/rttools@b01d4af6f767190a22e22a953e9d4ce18c7b5d9f
 ruff==0.4.5
 scipy==1.13.1
     # via rttools
