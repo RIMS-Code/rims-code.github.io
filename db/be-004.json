@@ -31,6 +31,12 @@
         }
     },
     "notes": "Efficiency: 3%\n\nUsed at: TRIUMF\n\nLasers used: Ti:sapphire, Nd:Yag, LEE\n\nUsed: online\n\nIonization transition: 6 W",
-    "references": ["10.1007/s10751-006-9493-0"],
+    "references": [
+        {
+            "id": "10.1007/s10751-006-9493-0",
+            "author": "",
+            "year": 0
+        }
+    ],
     "submitted_by": "Sebastian Rothe"
 }

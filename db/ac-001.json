@@ -31,6 +31,12 @@
         }
     },
     "notes": "Efficiency: 13%\n\nUsed at: CERN, TRIUMF\n\nLasers used: Ti:sapphire\n\nUsed: online\n\nNotes: Applied on-line for collections of Ac at ISOLDE. This scheme was shown to have the same ionization efficiency as the scheme from [Ac-2](../ac-002).\n\nSame comparison done at MEDICIS. Here, this scheme gave ~factor 2 more signal than the one from [Ac-2](../ac-002)\n\nEfficiency taken from two Ac collections at MEDICIS in Nov/Dec 2020\n\n",
-    "references": ["10.1007/s10751-013-0832-7"],
+    "references": [
+        {
+            "id": "10.1007/s10751-013-0832-7",
+            "author": "",
+            "year": 0
+        }
+    ],
     "submitted_by": "Reinhard Heinke"
 }

@@ -30,7 +30,13 @@
             "line_breaks": true
         }
     },
-    "notes": "Efficiency: >3.1%\n\nUsed at: CERN\n\nLasers used: Dye, Nd:YVO4\n\nUsed: online\n\nNotes: efficiency from Köster et al. (2003)\n\n",
-    "references": ["10.1016/S0168-583X(02)01956-0"],
+    "notes": "Efficiency: >3.1%\n\nUsed at: CERN\n\nLasers used: Dye, Nd:YVO4\n\nUsed: online\n\nNotes: efficiency from K\u00f6ster et al. (2003)\n\n",
+    "references": [
+        {
+            "id": "10.1016/S0168-583X(02)01956-0",
+            "author": "",
+            "year": 0
+        }
+    ],
     "submitted_by": "Katerina Chrysalidis"
 }

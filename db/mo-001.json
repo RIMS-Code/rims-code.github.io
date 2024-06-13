@@ -1,7 +1,11 @@
 {
     "notes": "Wavelengths taken from Barzyk et al. (2006). Saturation curves measured on the CHILI instrument in 2016 by Reto Trappitsch.",
     "references": [
-        "10.1016/j.newar.2006.06.055"
+        {
+            "id": "10.1016/j.newar.2006.06.055",
+            "author": "",
+            "year": 0
+        }
     ],
     "rims_scheme": {
         "scheme": {

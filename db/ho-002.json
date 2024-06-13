@@ -31,6 +31,12 @@
         }
     },
     "notes": "Efficiency: 3-5%\n\nUsed at: PNPI, ISRAS\n\nLasers used: Dye, CVL\n\nUsed: online\n\n",
-    "references": ["10.1016/0168-9002(91)90348-T"],
+    "references": [
+        {
+            "id": "10.1016/0168-9002(91)90348-T",
+            "author": "",
+            "year": 0
+        }
+    ],
     "submitted_by": "Valentin Fedosseev"
 }

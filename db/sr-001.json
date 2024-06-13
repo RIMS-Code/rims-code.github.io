@@ -1,7 +1,11 @@
 {
     "notes": "Wavelengths taken from Liu et al. (2015). Saturation curves measured on the CHILI instrument independently by Reto Trappitsch.",
     "references": [
-        "10.1088/0004-637X/803/1/12"
+        {
+            "id": "10.1088/0004-637X/803/1/12",
+            "author": "",
+            "year": 0
+        }
     ],
     "rims_scheme": {
         "scheme": {

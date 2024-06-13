@@ -31,6 +31,12 @@
         }
     },
     "notes": "Used at: Mainz\n\nLasers used: Ti:sapphire\n\nUsed: offline\n\nNotes: Level configurations from grotrian.nsu.ru\n\n",
-    "references": ["10.1007/s10751-020-01712-4"],
+    "references": [
+        {
+            "id": "10.1007/s10751-020-01712-4",
+            "author": "",
+            "year": 0
+        }
+    ],
     "submitted_by": "Katerina Chrysalidis"
 }

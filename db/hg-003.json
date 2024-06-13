@@ -31,6 +31,17 @@
         }
     },
     "notes": "Efficiency: 6%\n\nUsed at: CERN\n\nLasers used: Dye, Ti:sapphire, Nd:YVO4\n\nNotes: Efficiency measured in Day Goodacre et al. (2017)\n\nUsed for spectroscopy in Marsh et al. (2018)\n\nNIST gives 1st step A = 8.4E6\n\n",
-    "references": ["10.1007/s10751-017-1398-6", "10.1038/s41567-018-0292-8"],
+    "references": [
+        {
+            "id": "10.1007/s10751-017-1398-6",
+            "author": "",
+            "year": 0
+        },
+        {
+            "id": "10.1038/s41567-018-0292-8",
+            "author": "",
+            "year": 0
+        }
+    ],
     "submitted_by": ""
 }

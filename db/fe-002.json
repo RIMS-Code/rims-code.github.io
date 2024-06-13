@@ -32,6 +32,12 @@
         }
     },
     "notes": "Used at: Mainz\n\nLasers used: Ti:sapphire",
-    "references": ["10.25358/openscience-3289"],
+    "references": [
+        {
+            "id": "10.25358/openscience-3289",
+            "author": "",
+            "year": 0
+        }
+    ],
     "submitted_by": "Katerina Chrysalidis"
 }

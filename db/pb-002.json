@@ -32,6 +32,12 @@
         }
     },
     "notes": "Used at: TRIUMF\n\nLasers used: Ti:sapphire\n\nUsed: offline\n\nNotes: Scheme development from Master thesis by Wessolek (2020)\n\n",
-    "references": ["10.5281/zenodo.4298406"],
+    "references": [
+        {
+            "id": "10.5281/zenodo.4298406",
+            "author": "",
+            "year": 0
+        }
+    ],
     "submitted_by": "Katerina Chrysalidis"
 }

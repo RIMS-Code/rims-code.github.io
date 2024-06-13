@@ -31,6 +31,12 @@
         }
     },
     "notes": "Efficiency: 28.7 %\n\nUsed at: Mainz\n\nLasers used: Ti:sapphire\n\nUsed: offline\n\nNotes: Data taken from Mainz database\r\n\r\nEfficiency at Oak Ridge: 40 %\r\nEfficiency measured at Mainz with ISOLDE ionizer: 28.7%\n\nFirst transition: SHG (810.104 nm)\n\n",
-    "references": ["10.1063/1.3115590"],
+    "references": [
+        {
+            "id": "10.1063/1.3115590",
+            "author": "",
+            "year": 0
+        }
+    ],
     "submitted_by": "Valentin Fedosseev"
 }

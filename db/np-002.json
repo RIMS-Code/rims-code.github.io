@@ -31,6 +31,12 @@
         }
     },
     "notes": "Efficiency: 0.3%\n\nUsed at: Mainz\n\nLasers used: Ti:sapphire\n\nNotes: Efficiency measured with QMF in MABU\n\n",
-    "references": ["10.25358/openscience-4788"],
+    "references": [
+        {
+            "id": "10.25358/openscience-4788",
+            "author": "",
+            "year": 0
+        }
+    ],
     "submitted_by": "Sebastian Rothe"
 }
