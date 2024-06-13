@@ -31,6 +31,12 @@
         }
     },
     "notes": "Efficiency: 23(7)%\n\nUsed at: Mainz\n\nLasers used: Ti:sapphire\n\nDeveloped in MSc thesis of Nina Kneip based on previous work by Tina Gotthard. Saturation values from MSc thesis.\n\n",
-    "references": ["10.1051/epjap/2022210270"],
+    "references": [
+        {
+            "id": "10.1051/epjap/2022210270",
+            "author": "",
+            "year": 0
+        }
+    ],
     "submitted_by": "Reinhard Heinke"
 }

@@ -1,126 +1,130 @@
 {
-  "notes": "Developed by Trappitsch et al. at Lawrence Livermore National Laboratory using the LION instrument.",
-  "references": [
-    "10.1007/s10967-022-08581-x"
-  ],
-  "rims_scheme": {
-    "scheme": {
-      "element": "Zr",
-      "gs_level": "0",
-      "gs_term": "3F2",
-      "ip_term": "",
-      "lasers": "Ti:Sa",
-      "step_forbidden0": false,
-      "step_forbidden1": false,
-      "step_level0": "31326.81",
-      "step_level1": "57034.5439",
-      "step_lowlying0": false,
-      "step_lowlying1": false,
-      "step_term0": "3G3",
-      "step_term1": "$\\Delta$J=0",
-      "trans_strength0": "",
-      "trans_strength1": "",
-      "unit": "cm<sup>-1</sup>"
-    }
-  },
-  "saturation_curves": [
-    {
-      "data": {
-        "x": [
-          27821.0,
-          22257.0,
-          13911.0,
-          6955.0,
-          2782.0,
-          31994.0,
-          25039.0,
-          18084.0,
-          0.0
-        ],
-        "y": [
-          1.0,
-          0.8535,
-          0.5161,
-          0.4816,
-          0.3486,
-          1.0358,
-          0.9622,
-          0.7882,
-          0.0001
-        ],
-        "y_err": [
-          0.007,
-          0.0066,
-          0.0054,
-          0.0054,
-          0.0047,
-          0.0083,
-          0.0082,
-          0.0076,
-          0.0003
-        ]
-      },
-      "fit": true,
-      "notes": "",
-      "title": "First Transition, 319.215 nm",
-      "unit": "W * cm^-2"
+    "notes": "Developed by Trappitsch et al. at Lawrence Livermore National Laboratory using the LION instrument.",
+    "references": [
+        {
+            "id": "10.1007/s10967-022-08581-x",
+            "author": "",
+            "year": 0
+        }
+    ],
+    "rims_scheme": {
+        "scheme": {
+            "element": "Zr",
+            "gs_level": "0",
+            "gs_term": "3F2",
+            "ip_term": "",
+            "lasers": "Ti:Sa",
+            "step_forbidden0": false,
+            "step_forbidden1": false,
+            "step_level0": "31326.81",
+            "step_level1": "57034.5439",
+            "step_lowlying0": false,
+            "step_lowlying1": false,
+            "step_term0": "3G3",
+            "step_term1": "$\\Delta$J=0",
+            "trans_strength0": "",
+            "trans_strength1": "",
+            "unit": "cm<sup>-1</sup>"
+        }
     },
-    {
-      "data": {
-        "x": [
-          3870333.0,
-          3176342.0,
-          26692.0,
-          2048607.0,
-          887507.0,
-          1654901.0,
-          2609138.0,
-          360341.0,
-          3630106.0,
-          3276437.0,
-          2722579.0,
-          3036210.0,
-          3850314.0,
-          3850314.0
-        ],
-        "y": [
-          1.0,
-          0.8389,
-          0.0516,
-          0.8373,
-          0.5886,
-          0.7733,
-          0.9369,
-          0.3277,
-          1.1001,
-          1.1522,
-          1.0316,
-          1.0201,
-          0.8918,
-          1.1171
-        ],
-        "y_err": [
-          0.0072,
-          0.0066,
-          0.0017,
-          0.0068,
-          0.0057,
-          0.0066,
-          0.0073,
-          0.0044,
-          0.0081,
-          0.0085,
-          0.0082,
-          0.0082,
-          0.0078,
-          0.009
-        ]
-      },
-      "fit": true,
-      "notes": "",
-      "title": "Second Transition, 388.988 nm",
-      "unit": "W * cm^-2"
-    }
-  ],
-  "submitted_by": "Reto Trappitsch"
+    "saturation_curves": [
+        {
+            "data": {
+                "x": [
+                    27821.0,
+                    22257.0,
+                    13911.0,
+                    6955.0,
+                    2782.0,
+                    31994.0,
+                    25039.0,
+                    18084.0,
+                    0.0
+                ],
+                "y": [
+                    1.0,
+                    0.8535,
+                    0.5161,
+                    0.4816,
+                    0.3486,
+                    1.0358,
+                    0.9622,
+                    0.7882,
+                    0.0001
+                ],
+                "y_err": [
+                    0.007,
+                    0.0066,
+                    0.0054,
+                    0.0054,
+                    0.0047,
+                    0.0083,
+                    0.0082,
+                    0.0076,
+                    0.0003
+                ]
+            },
+            "fit": true,
+            "notes": "",
+            "title": "First Transition, 319.215 nm",
+            "unit": "W * cm^-2"
+        },
+        {
+            "data": {
+                "x": [
+                    3870333.0,
+                    3176342.0,
+                    26692.0,
+                    2048607.0,
+                    887507.0,
+                    1654901.0,
+                    2609138.0,
+                    360341.0,
+                    3630106.0,
+                    3276437.0,
+                    2722579.0,
+                    3036210.0,
+                    3850314.0,
+                    3850314.0
+                ],
+                "y": [
+                    1.0,
+                    0.8389,
+                    0.0516,
+                    0.8373,
+                    0.5886,
+                    0.7733,
+                    0.9369,
+                    0.3277,
+                    1.1001,
+                    1.1522,
+                    1.0316,
+                    1.0201,
+                    0.8918,
+                    1.1171
+                ],
+                "y_err": [
+                    0.0072,
+                    0.0066,
+                    0.0017,
+                    0.0068,
+                    0.0057,
+                    0.0066,
+                    0.0073,
+                    0.0044,
+                    0.0081,
+                    0.0085,
+                    0.0082,
+                    0.0082,
+                    0.0078,
+                    0.009
+                ]
+            },
+            "fit": true,
+            "notes": "",
+            "title": "Second Transition, 388.988 nm",
+            "unit": "W * cm^-2"
+        }
+    ],
+    "submitted_by": "Reto Trappitsch"
 }

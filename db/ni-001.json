@@ -1,7 +1,11 @@
 {
     "notes": "Ionization scheme developed by Trappitsch et al. using the CHILI instrument. Saturation curve were published in PhD thesis.\n\nAI state for ionizing transition determined after Page and Gudemann (1990) J Opt Soc Am B 7:1761.",
     "references": [
-        "10.1016/j.gca.2017.05.031"
+        {
+            "id": "10.1016/j.gca.2017.05.031",
+            "author": "",
+            "year": 0
+        }
     ],
     "rims_scheme": {
         "scheme": {

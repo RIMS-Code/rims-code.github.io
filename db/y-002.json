@@ -31,6 +31,12 @@
         }
     },
     "notes": "Used at: CERN\n\nLasers used: Dye, CVL\n\nUsed: offline\n\nNotes: Factor 88.4 laser over surface ion enhancement reported\n\n",
-    "references": ["10.1007/s10751-005-9204-2"],
-"submitted_by": "Katerina Chrysalidis"
+    "references": [
+        {
+            "id": "10.1007/s10751-005-9204-2",
+            "author": "",
+            "year": 0
+        }
+    ],
+    "submitted_by": "Katerina Chrysalidis"
 }

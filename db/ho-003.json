@@ -31,6 +31,12 @@
         }
     },
     "notes": "Efficiency: 69%\n\nUsed at: Mainz\n\nLasers used: Ti:sapphire\n\nUsed: offline\n\nNotes: Used for ECHo project.\n\nFirst transition: Saturation 3.3(3) mW\n\nIonization transition: Saturation 240(80) mW",
-    "references": ["10.1016/j.nima.2019.162602"],
+    "references": [
+        {
+            "id": "10.1016/j.nima.2019.162602",
+            "author": "",
+            "year": 0
+        }
+    ],
     "submitted_by": "Reinhard Heinke"
 }

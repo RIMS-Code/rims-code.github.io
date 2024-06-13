@@ -31,6 +31,12 @@
         }
     },
     "notes": "Efficiency: 15%\n\nUsed at: CERN, PNPI\n\nLasers used: Dye\n\nNotes: PNPI RILIS Efficiency 35%\n\n",
-    "references": ["10.1016/0168-9002(91)90348-T"],
+    "references": [
+        {
+            "id": "10.1016/0168-9002(91)90348-T",
+            "author": "",
+            "year": 0
+        }
+    ],
     "submitted_by": "Sebastian Rothe"
 }

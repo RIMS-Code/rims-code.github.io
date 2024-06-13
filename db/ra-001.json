@@ -31,7 +31,13 @@
             "line_breaks": true
         }
     },
-    "notes": "Used at: CERN\n\nLasers used: Dye, Ti:sapphire, Nd:Yag\n\nUsed: online\n\nNotes: \"The optimal ionization scheme of {714 nm|784 nm|993 nm(decay)|615 nm|615 nm} was found to provide an enhancement factor of 3.8 with respect to surface ionization in a tantalum hot cavity heated to 2060⁰C. This ionization scheme includes five atomic transitions in the process of exciting to 49 193.7 cm<sup>-1</sup>. It is the first time that optical pumping has been employed in a hot cavity RILIS ionization scheme.\"",
-    "references": ["10.1016/j.sab.2018.10.002"],
+    "notes": "Used at: CERN\n\nLasers used: Dye, Ti:sapphire, Nd:Yag\n\nUsed: online\n\nNotes: \"The optimal ionization scheme of {714 nm|784 nm|993 nm(decay)|615 nm|615 nm} was found to provide an enhancement factor of 3.8 with respect to surface ionization in a tantalum hot cavity heated to 2060\u2070C. This ionization scheme includes five atomic transitions in the process of exciting to 49 193.7 cm<sup>-1</sup>. It is the first time that optical pumping has been employed in a hot cavity RILIS ionization scheme.\"",
+    "references": [
+        {
+            "id": "10.1016/j.sab.2018.10.002",
+            "author": "",
+            "year": 0
+        }
+    ],
     "submitted_by": "Reinhard Heinke"
 }

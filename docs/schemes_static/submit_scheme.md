@@ -137,9 +137,13 @@ On the right side of the list, there are buttons that allow you to do the follow
 ![References section in the submission mask](assets/sub_refs_dark.png#only-dark)
 
 Please add any papers that you'd like to reference here. 
-Only enter the DOI and nothing else!
-Then click `Add`. 
-This will add the reference to a list (below) as for the saturation curves.
+
+There are two ways you can reference a paper:
+
+  - By DOI only - preferred method: Simply add a DOI number into the top field, leave the other fields empty, and press `Add or Update`. Author, year will automatically be retrieved based on the DOI.
+  - By URL, Author(s), year: If a paper does not have a DOI, please enter a URL where the paper can be found in the top field, then add author(s) and year manually. Authors should be in the format that it will be displayed later, e.g., "Rothe et al.". 
+
+All added reference will show up in a list underneath. You can check if a URL is working by pressing the "Open URL" button and making sure the right website loads. The "Move up"/"Move down" buttons allow you to sort the list. "Edit" and "Delete" allow you to modify or remove a reference.
 
 !!! note
 

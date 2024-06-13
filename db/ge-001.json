@@ -31,6 +31,12 @@
         }
     },
     "notes": "Efficiency: 3.3%\n\nUsed at: ORNL\n\nLasers used: Ti:sapphire\n\nUsed: offline\n\nNotes: For efficiency see Liu et al.\n\n",
-    "references": ["10.1016/j.nimb.2005.09.014"],
+    "references": [
+        {
+            "id": "10.1016/j.nimb.2005.09.014",
+            "author": "",
+            "year": 0
+        }
+    ],
     "submitted_by": "Sebastian Rothe"
 }

@@ -31,6 +31,12 @@
         }
     },
     "notes": "Used at: Mainz\n\nLasers used: Ti:sapphire\n\nUsed: offline\n\nNotes: taken from \n\n",
-    "references": ["10.25358/openscience-4788"],
+    "references": [
+        {
+            "id": "10.25358/openscience-4788",
+            "author": "",
+            "year": 0
+        }
+    ],
     "submitted_by": "Reinhard Heinke"
 }

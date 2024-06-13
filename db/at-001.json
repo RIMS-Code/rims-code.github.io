@@ -31,6 +31,12 @@
         }
     },
     "notes": "Efficiency: > 4 %\n\nUsed at: CERN, TRIUMF\n\nLasers used: Dye, Ti:sapphire, Nd:Yag, Edgewave, Photonics, LEE\n\nUsed: online\n\nNotes: Wavenumbers for 205 At.\r\nEfficiency estimated from in target production.\n\n",
-    "references": ["10.17181/CERN.0HNZ.7Z6X"],
+    "references": [
+        {
+            "id": "10.17181/CERN.0HNZ.7Z6X",
+            "author": "",
+            "year": 0
+        }
+    ],
     "submitted_by": "Sebastian Rothe"
 }
