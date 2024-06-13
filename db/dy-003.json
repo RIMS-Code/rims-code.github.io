@@ -31,6 +31,12 @@
         }
     },
     "notes": "Used at: Mainz\n\nLasers used: Ti:sapphire\n\nUsed: offline\n\nFirst transition: Low strength",
-    "references": ["10.1103/PhysRevA.98.042504"],
+    "references": [
+        {
+            "id": "10.1103/PhysRevA.98.042504",
+            "author": "",
+            "year": 0
+        }
+    ],
     "submitted_by": "LARISSA JGU Mainz"
 }

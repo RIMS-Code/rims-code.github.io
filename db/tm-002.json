@@ -31,6 +31,12 @@
         }
     },
     "notes": "Efficiency: 65%\n\nUsed at: TRIUMF, MELISSA\n\nLasers used: Ti:sapphire\n\nUsed: online\n\nUsed: offline\n\nNotes: From PhD thesis of Maryam Mostamand (https://mspace.lib.umanitoba.ca/handle/1993/34548)\r\n\r\nEnhancement factor of 50-70 at MELISSA versus surface ionization\r\n\r\nApplication at MEDICIS incl. several efficiency investigations: Heinke et al. (2021)\n\n",
-    "references": ["10.3389%2Ffmed.2021.712374"],
+    "references": [
+        {
+            "id": "10.3389%2Ffmed.2021.712374",
+            "author": "",
+            "year": 0
+        }
+    ],
     "submitted_by": "Reinhard Heinke"
 }

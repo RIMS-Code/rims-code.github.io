@@ -31,6 +31,12 @@
         }
     },
     "notes": "Used at: Mainz\n\nLasers used: Ti:sapphire\n\nGottwald et al. (2009) state that the ionizing transition is to an AI state, however, this transition is to a state below the IP. There could either be an issue with the exact IP level, or the transition is in fact to a Rydberg state. The state description for the ionizing transition is for now left out of the ionization scheme.",
-    "references": ["10.1063/1.3115590"],
+    "references": [
+        {
+            "id": "10.1063/1.3115590",
+            "author": "",
+            "year": 0
+        }
+    ],
     "submitted_by": "Sebastian Rothe"
 }

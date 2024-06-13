@@ -90,9 +90,9 @@ class SchemeContentMD:
 
         key = "references"
         if key in self.db_content.keys():
-            dois = self.db_content[key]
-            for doi in dois:
-                md_text_link = ReferenceDOI(doi).md_url_t
+            all_ids = self.db_content[key]
+            for one_id in all_ids:
+                md_text_link = ReferenceDOI(one_id).md_url_t
                 self._content_md += f"  - {md_text_link}\n\n"
 
         # download link for config file

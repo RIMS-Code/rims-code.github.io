@@ -31,6 +31,17 @@
         }
     },
     "notes": "Used at: TRIUMF\n\nLasers used: Ti:sapphire\n\nUsed: online\n\nNotes: AI reported in Esherik (1977) and later in Dai et al. (1996). The width of the AI is reported as ~60cm<sup>-1</sup>, so probably a broad laser is advisable for this (e.g. TiSa with 0.2 or 0.1mm etalon)\n\nInvestigation on Sr schemes, yielding this one as most efficient, also in M.Sc. thesis of Hauke Bosco (https://www.irs.uni-hannover.de/fileadmin/irs/Arbeiten/Master/mastbosc.pdf, in German)\n\n",
-    "references": ["10.1103/PhysRevA.15.1920", "10.1016/0022-4073(96)00032-5"],
+    "references": [
+        {
+            "id": "10.1103/PhysRevA.15.1920",
+            "author": "",
+            "year": 0
+        },
+        {
+            "id": "10.1016/0022-4073(96)00032-5",
+            "author": "",
+            "year": 0
+        }
+    ],
     "submitted_by": "Reinhard Heinke"
 }

@@ -31,6 +31,12 @@
         }
     },
     "notes": "Efficiency: >2%\n\nUsed at: CERN\n\nLasers used: Dye\n\nNotes: Thesis T. Day Goodacre\n\n",
-    "references": ["10.1016/j.nima.2015.10.066"],
+    "references": [
+        {
+            "id": "10.1016/j.nima.2015.10.066",
+            "author": "",
+            "year": 0
+        }
+    ],
     "submitted_by": "Katerina Chrysalidis"
 }

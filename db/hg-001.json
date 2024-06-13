@@ -31,6 +31,12 @@
         }
     },
     "notes": "Efficiency: 0.1%\n\nUsed at: CERN\n\nLasers used: Dye\n\nReference: B. Marsh, V. Fedosseev, \"RILIS Database\" (2009)\n\nNotes: From literature review it seems more likely the used 2nd excited state was 71333.053cm<sup>-1</sup> (<sup>1</sup>D<sub>2</sub>). In Podshivalov et al. (1999), this is given as the most intense.\n\n",
-    "references": ["10.1016/S0584-8547(99)00112-3"],
+    "references": [
+        {
+            "id": "10.1016/S0584-8547(99)00112-3",
+            "author": "",
+            "year": 0
+        }
+    ],
     "submitted_by": "Reinhard Heinke"
 }

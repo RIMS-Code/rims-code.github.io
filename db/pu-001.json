@@ -1,7 +1,11 @@
 {
     "notes": "Wavelengths taken from Gr\u00fcning et al. (2004). Saturation curves measured on the LION instrument independently.",
     "references": [
-        "10.1016/j.ijms.2004.04.013"
+        {
+            "id": "10.1016/j.ijms.2004.04.013",
+            "author": "",
+            "year": 0
+        }
     ],
     "rims_scheme": {
         "scheme": {

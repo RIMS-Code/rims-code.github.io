@@ -31,6 +31,12 @@
         }
     },
     "notes": "Efficiency: 3.8%\n\nUsed at: Mainz\n\nLasers used: Ti:sapphire\n\nNotes: Many Rydberg levels in Phd thesis by Mattolat (2010).\n\n",
-    "references": ["10.25358/openscience-1003"],
+    "references": [
+        {
+            "id": "10.25358/openscience-1003",
+            "author": "",
+            "year": 0
+        }
+    ],
     "submitted_by": "Martin Klein"
 }

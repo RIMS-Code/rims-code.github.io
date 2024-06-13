@@ -32,6 +32,12 @@
         }
     },
     "notes": "Used at: Mainz\n\nLasers used: Ti:sapphire\n\nUsed: offline\n\n",
-    "references": ["10.1063/1.3115590"],
+    "references": [
+        {
+            "id": "10.1063/1.3115590",
+            "author": "",
+            "year": 0
+        }
+    ],
     "submitted_by": "Katerina Chrysalidis"
 }

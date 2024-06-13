@@ -31,6 +31,12 @@
         }
     },
     "notes": "Efficiency: \u2264 14%\n\nUsed at: CERN\n\nLasers used: Dye, CVL\n\n",
-    "references": ["10.1007/BF01297718"],
+    "references": [
+        {
+            "id": "10.1007/BF01297718",
+            "author": "",
+            "year": 0
+        }
+    ],
     "submitted_by": "Katerina Chrysalidis"
 }

@@ -31,6 +31,12 @@
         }
     },
     "notes": "Used at: Mainz\n\nLasers used: Ti:sapphire\n\nUsed: offline\n\n",
-    "references": ["10.1103/PhysRevA.99.062513"],
+    "references": [
+        {
+            "id": "10.1103/PhysRevA.99.062513",
+            "author": "",
+            "year": 0
+        }
+    ],
     "submitted_by": "LARISSA JGU Mainz"
 }

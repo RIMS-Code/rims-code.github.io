@@ -1,7 +1,11 @@
 {
     "notes": "Developed at ANL. Wavelength scans and wavelength dependent isotope ratios for first transition are given in Levine et al. (2009).",
     "references": [
-        "10.1063/1.3115614"
+        {
+            "id": "10.1063/1.3115614",
+            "author": "",
+            "year": 0
+        }
     ],
     "rims_scheme": {
         "scheme": {

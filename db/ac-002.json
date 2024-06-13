@@ -31,6 +31,12 @@
         }
     },
     "notes": "Used at: CERN\n\nNotes: Applied on-line for collections of Ac at ISOLDE. This scheme was shown to have the same ionization efficiency as the scheme from [Ac-1](../ac-001)\n\nSame comparison done at MEDICIS. Here, this scheme gave ~factor 2 less signal than the one from [Ac-1](../ac-001)\n\n",
-    "references": ["10.1038/ncomms14520"],
+    "references": [
+        {
+            "id": "10.1038/ncomms14520",
+            "author": "",
+            "year": 0
+        }
+    ],
     "submitted_by": "Reinhard Heinke"
 }
