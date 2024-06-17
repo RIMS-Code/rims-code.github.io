@@ -137,7 +137,7 @@ requests==2.32.2
     # via habanero
     # via mkdocs-material
 rimsschemedrawer @ git+https://github.com/RIMS-Code/RIMSSchemeDrawer@9052a255f72286411ab48292f9568402bda5529c
-rttools @ git+https://github.com/trappitsch/rttools@b01d4af6f767190a22e22a953e9d4ce18c7b5d9f
+rttools @ git+https://github.com/trappitsch/rttools@9f004e00751a2f576447bf47a393a314a02f626c
 ruff==0.4.5
 scipy==1.13.1
     # via rttools
