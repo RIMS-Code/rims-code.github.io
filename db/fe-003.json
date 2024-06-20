@@ -1,0 +1,116 @@
+{
+    "notes": "- First step taken from NIST.  \n- Second step investigated but further properties still unknown.  \n- Efficiency at RISIKO mass separator facility: 10(1)%",
+    "references": [],
+    "rims_scheme": {
+        "scheme": {
+            "element": "Fe",
+            "gs_level": "0",
+            "gs_term": "",
+            "ip_term": "",
+            "lasers": "Ti:Sa",
+            "last_step_to_ip": false,
+            "step_forbidden0": false,
+            "step_forbidden1": false,
+            "step_level0": "39625.804",
+            "step_level1": "63746.0",
+            "step_lowlying0": false,
+            "step_lowlying1": false,
+            "step_term0": "^5D_4^o",
+            "step_term1": "",
+            "trans_strength0": "",
+            "trans_strength1": "",
+            "unit": "cm<sup>-1</sup>"
+        }
+    },
+    "saturation_curves": [
+        {
+            "data": {
+                "x": [
+                    0.0187,
+                    0.0147,
+                    0.0115,
+                    0.0084,
+                    0.0051,
+                    0.0032,
+                    0.002,
+                    0.0011,
+                    0.0007
+                ],
+                "x_err": [
+                    0.0004,
+                    0.0004,
+                    0.0004,
+                    0.0004,
+                    0.0002,
+                    0.0002,
+                    0.0003,
+                    0.0003,
+                    0.0003
+                ],
+                "y": [
+                    1.00337975,
+                    0.990144419,
+                    0.904251042,
+                    0.788805475,
+                    0.721091138,
+                    0.54635816,
+                    0.350013145,
+                    0.211514221,
+                    0.06962729
+                ],
+                "y_err": [
+                    0.003431138,
+                    0.064561681,
+                    0.026052324,
+                    0.038131917,
+                    0.045769121,
+                    0.017309219,
+                    0.021067169,
+                    0.005202848,
+                    0.005628735
+                ]
+            },
+            "fit": true,
+            "notes": "Saturation curve taken at RISIKO mass separator facility Mainz. Power measured before window to RISIKO and reflection from window subtracted.",
+            "title": "Saturation curve FES",
+            "unit": "W"
+        },
+        {
+            "data": {
+                "x": [
+                    0.57,
+                    0.35,
+                    0.21,
+                    0.11,
+                    0.05
+                ],
+                "x_err": [
+                    0.01,
+                    0.01,
+                    0.005,
+                    0.01,
+                    0.005
+                ],
+                "y": [
+                    0.482060733,
+                    0.5118,
+                    0.362342558,
+                    0.171448348,
+                    0.0999217484
+                ],
+                "y_err": [
+                    0.0180678,
+                    0.049645,
+                    0.01906,
+                    0.015966,
+                    0.007171982
+                ]
+            },
+            "fit": true,
+            "notes": "Power measured before window to RISIKO. Reflection from window insignificant at this wavelength.",
+            "title": "Saturation curve SES",
+            "unit": "W"
+        }
+    ],
+    "submitted_by": "Thorben Niemeyer"
+}
