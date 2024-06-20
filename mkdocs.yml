@@ -99,6 +99,7 @@ nav:
       - Overview: schemes/fe/index.md
       - Fe-1: schemes/fe/fe-001.md
       - Fe-2: schemes/fe/fe-002.md
+      - Fe-3: schemes/fe/fe-003.md
     - Co:
       - Overview: schemes/co/index.md
       - Co-1: schemes/co/co-001.md
