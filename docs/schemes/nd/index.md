@@ -12,6 +12,7 @@
 
 ##Available Schemes
 
-|       Scheme link       | Lasers | Reference(s) |  Submitted by   |
-| ----------------------- | ------ | ------------ | --------------- |
-| [Nd 1](../nd/nd-001.md) | Dye    |              | Sebastian Rothe |
+|       Scheme link       | Lasers |                                             Reference(s)                                             |  Submitted by   |
+| ----------------------- | ------ | ---------------------------------------------------------------------------------------------------- | --------------- |
+| [Nd 1](../nd/nd-001.md) | Dye    |                                                                                                      | Sebastian Rothe |
+| [Nd 2](../nd/nd-002.md) | Ti:Sa  | [Liu et al. (2012)](https://ui.adsabs.harvard.edu/abs/2012LPI....43.2401L/abstract){target="_blank"} | Manuel Raiwa    |
