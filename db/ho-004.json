@@ -1,0 +1,38 @@
+{
+    "notes": "Used for high-resolution spectroscopt offline at RISIKO (Mainz University) with PI-LIST. Alternative to high-efficiency 405.5nm first step scheme. This here has a longer 1st excited state lifetime (measured as tau = 197ns).  \n  \nInfo on HFS and isotope shifts for 163,165,166mHo in linked publication.",
+    "references": [
+        {
+            "author": "",
+            "id": "10.25358/openscience-2346",
+            "year": 0
+        }
+    ],
+    "rims_scheme": {
+        "scheme": {
+            "element": "Ho",
+            "gs_level": "0",
+            "gs_term": "4f^{11} 6s^2 ^4I^o, J = 15/2",
+            "ip_term": "",
+            "lasers": "Ti:Sa",
+            "last_step_to_ip": false,
+            "step_forbidden0": false,
+            "step_forbidden1": false,
+            "step_forbidden2": false,
+            "step_level0": "24376.93",
+            "step_level1": "36873.76",
+            "step_level2": "48809.2",
+            "step_lowlying0": false,
+            "step_lowlying1": false,
+            "step_lowlying2": false,
+            "step_term0": "4f^{10} 5d^2 (^3F) (^7H) 6s, J = 15/2",
+            "step_term1": "4f^{11} (^4I^o_{13/2}) 6s 7s (^3S_1), J = 13/2",
+            "step_term2": "",
+            "trans_strength0": "",
+            "trans_strength1": "",
+            "trans_strength2": "",
+            "unit": "cm<sup>-1</sup>"
+        }
+    },
+    "saturation_curves": [],
+    "submitted_by": "Reinhard Heinke"
+}
