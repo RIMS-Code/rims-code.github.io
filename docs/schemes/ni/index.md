@@ -19,3 +19,4 @@
 | [Ni 2](../ni/ni-002.md) | Dye           |                                                                                        | Sebastian Rothe      |
 | [Ni 3](../ni/ni-003.md) | Dye           |                                                                                        | Sebastian Rothe      |
 | [Ni 4](../ni/ni-004.md) | Ti:Sa and Dye |                                                                                        | Katerina Chrysalidis |
+| [Ni 5](../ni/ni-005.md) | Ti:Sa         |                                                                                        | Jordan Reilly        |
