@@ -268,6 +268,7 @@ nav:
     - Yb:
       - Overview: schemes/yb/index.md
       - Yb-1: schemes/yb/yb-001.md
+      - Yb-2: schemes/yb/yb-002.md
     - Lu:
       - Overview: schemes/lu/index.md
       - Lu-1: schemes/lu/lu-001.md
