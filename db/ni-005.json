@@ -1,0 +1,37 @@
+{
+    "notes": "",
+    "references": [],
+    "rims_scheme": {
+        "scheme": {
+            "element": "Ni",
+            "gs_level": "0",
+            "gs_term": "",
+            "ip_term": "",
+            "lasers": "Ti:Sa",
+            "last_step_to_ip": false,
+            "step_forbidden0": false,
+            "step_forbidden1": false,
+            "step_forbidden2": false,
+            "step_forbidden3": false,
+            "step_level0": "204.787",
+            "step_level1": "28569.20",
+            "step_level2": "49271.540",
+            "step_level3": "62521.54",
+            "step_lowlying0": true,
+            "step_lowlying1": false,
+            "step_lowlying2": false,
+            "step_lowlying3": false,
+            "step_term0": "3D3",
+            "step_term1": "3P2",
+            "step_term2": "",
+            "step_term3": "",
+            "trans_strength0": "",
+            "trans_strength1": "1.0E+08",
+            "trans_strength2": "1.9E+07",
+            "trans_strength3": "",
+            "unit": "cm<sup>-1</sup>"
+        }
+    },
+    "saturation_curves": [],
+    "submitted_by": "Jordan Reilly"
+}
