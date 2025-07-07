@@ -1,0 +1,27 @@
+{
+    "notes": "This scheme was devloped in Mainz by F. Weber for his master thesis, submitted in 2018",
+    "references": [],
+    "rims_scheme": {
+        "scheme": {
+            "element": "Yb",
+            "gs_level": "0",
+            "gs_term": "",
+            "ip_term": "",
+            "lasers": "Ti:Sa",
+            "last_step_to_ip": false,
+            "step_forbidden0": false,
+            "step_forbidden1": false,
+            "step_level0": "25068.22",
+            "step_level1": "25923.257",
+            "step_lowlying0": false,
+            "step_lowlying1": false,
+            "step_term0": "",
+            "step_term1": "",
+            "trans_strength0": "",
+            "trans_strength1": "",
+            "unit": "cm<sup>-1</sup>"
+        }
+    },
+    "saturation_curves": [],
+    "submitted_by": "Katerina Chrysalidis"
+}
