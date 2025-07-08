@@ -13,6 +13,7 @@
 
 ##Available Schemes
 
-|       Scheme link       | Lasers |                                      Reference(s)                                       |  Submitted by   |
-| ----------------------- | ------ | --------------------------------------------------------------------------------------- | --------------- |
-| [Yb 1](../yb/yb-001.md) | Dye    | [Alkhazov et al. (1991)](https://doi.org/10.1016/0168-9002(91)90348-T){target="_blank"} | Sebastian Rothe |
+|       Scheme link       | Lasers |                                      Reference(s)                                       |     Submitted by     |
+| ----------------------- | ------ | --------------------------------------------------------------------------------------- | -------------------- |
+| [Yb 1](../yb/yb-001.md) | Dye    | [Alkhazov et al. (1991)](https://doi.org/10.1016/0168-9002(91)90348-T){target="_blank"} | Sebastian Rothe      |
+| [Yb 2](../yb/yb-002.md) | Ti:Sa  |                                                                                         | Katerina Chrysalidis |
