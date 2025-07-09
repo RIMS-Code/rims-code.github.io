@@ -201,7 +201,7 @@ please see [here](../schemes_static/submit_scheme.md).
     <td class="tg tg_ffc9c9"><a href="../../schemes/ho/"><span style="color:#000">Ho</span></a></td>
     <td class="tg tg_bbddff"><a href="../../schemes/er/"><span style="color:#000">Er</span></a></td>
     <td class="tg tg_ffc9c9"><a href="../../schemes/tm/"><span style="color:#000">Tm</span></a></td>
-    <td class="tg tg_c8ffc8"><a href="../../schemes/yb/"><span style="color:#000">Yb</span></a></td>
+    <td class="tg tg_ffc9c9"><a href="../../schemes/yb/"><span style="color:#000">Yb</span></a></td>
     <td class="tg tg_bbddff"><a href="../../schemes/lu/"><span style="color:#000">Lu</span></a></td>
   </tr>
   <tr>
