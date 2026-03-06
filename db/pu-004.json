@@ -1,0 +1,43 @@
+{
+    "notes": "Three step excitation scheme for Pu-242 by Galindo-Uribarri et al. Berg et al. measured the isotope shifts for Pu-238, 239, 240, 244 for this scheme.",
+    "references": [
+        {
+            "author": "Galindo-Uribarri et al. ",
+            "id": "https://doi.org/10.1038/s41598-021-01886-z",
+            "year": 2021
+        },
+        {
+            "author": "Berg et al.",
+            "id": "https://doi.org/10.1007/s00216-025-06062-0",
+            "year": 2025
+        }
+    ],
+    "rims_scheme": {
+        "scheme": {
+            "element": "Pu",
+            "gs_level": "0",
+            "gs_term": "^7F_0",
+            "ip_term": "",
+            "lasers": "Ti:Sa",
+            "last_step_to_ip": false,
+            "step_forbidden0": false,
+            "step_forbidden1": false,
+            "step_forbidden2": false,
+            "step_level0": "23765.98",
+            "step_level1": "35977.28",
+            "step_level2": "48590.9",
+            "step_lowlying0": false,
+            "step_lowlying1": false,
+            "step_lowlying2": false,
+            "step_term0": "^7D_1",
+            "step_term1": "",
+            "step_term2": "",
+            "trans_strength0": "",
+            "trans_strength1": "",
+            "trans_strength2": "",
+            "unit": "cm<sup>-1</sup>"
+        }
+    },
+    "saturation_curves": [],
+    "submitted_by": "Felix Berg"
+}
